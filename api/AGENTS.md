@@ -14,7 +14,7 @@
 - `?theme=<name>` overrides selection on both endpoints; an unknown value falls back to the window.
 - Reads `assets/<name>-<theme>.svg` and `gifs/<theme>.gif` from the project root; no runtime external fetches (badges/stats/skyline are baked at build time).
 - Responses: `image/svg+xml; charset=utf-8` / `image/gif`, `Cache-Control: no-store, max-age=0`, `CDN-Cache-Control: no-store`, `X-Banner-Theme: <theme>`, `X-Robots-Tag: noindex`; `HEAD` returns headers only.
-- `vercel.json` (`functions["api/**/*.js"].includeFiles = ["assets/*.svg", "gifs/*.gif"]`) bundles both asset sets into the functions.
+- `vercel.json` (`functions["api/**/*.js"].includeFiles = "{assets/*.svg,gifs/*.gif}"`) bundles both asset sets into the functions.
 
 ## Work Guidance
 - Change the theme set or window: edit `_theme.js` / the `THEME_WINDOW_MS` env.

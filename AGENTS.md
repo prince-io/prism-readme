@@ -97,7 +97,7 @@ Record durable user requests here or in the relevant child AGENTS.md.
 - `themes/` — 12 palette presets. See `themes/AGENTS.md`.
 - `gifs/` — per-theme README GIFs (`<theme>.gif`). See `gifs/AGENTS.md`.
 - `api/` — Vercel endpoints that serve the SVGs and the theme GIF. See `api/AGENTS.md`.
-- `vercel.json` — function config (`functions["api/**/*.js"].includeFiles = "assets/*.svg"`).
+- `vercel.json` — function config (`functions["api/**/*.js"].includeFiles = "{assets/*.svg,gifs/*.gif}"`).
 
 ## Local Contracts
 
