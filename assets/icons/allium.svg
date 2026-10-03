@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="42" height="84" viewBox="0 0 21 42"
+     shape-rendering="crispEdges"
+     style="--pf-allium-1: #cfa4f3;--pf-allium-2: #b677ea;--pf-allium-3: #a45dde;--pf-allium-4: #e5cdfb;--pf-allium-5: #7a4d9e;--pf-allium-6: #498d27;--pf-allium-7: #51982d;--pf-allium-8: #54a92c;--pf-allium-9: #177b04;">
+  <style>
+    :root { --pf-allium-1: #cfa4f3; --pf-allium-2: #b677ea; --pf-allium-3: #a45dde; --pf-allium-4: #e5cdfb; --pf-allium-5: #7a4d9e; --pf-allium-6: #498d27; --pf-allium-7: #51982d; --pf-allium-8: #54a92c; --pf-allium-9: #177b04; }
+    .pf-allium-1 { fill: var(--pf-allium-1); }
+    .pf-allium-2 { fill: var(--pf-allium-2); }
+    .pf-allium-3 { fill: var(--pf-allium-3); }
+    .pf-allium-4 { fill: var(--pf-allium-4); }
+    .pf-allium-5 { fill: var(--pf-allium-5); }
+    .pf-allium-6 { fill: var(--pf-allium-6); }
+    .pf-allium-7 { fill: var(--pf-allium-7); }
+    .pf-allium-8 { fill: var(--pf-allium-8); }
+    .pf-allium-9 { fill: var(--pf-allium-9); }
+  </style>
+
+  <!-- allium: 7x14 cells of 3px. Copy the <g id="i-allium"> below into a banner <defs>. -->
+  <g id="i-allium">
+    <rect x="6" y="0" width="3" height="3" class="pf-allium-1"/>
+    <rect x="9" y="0" width="3" height="3" class="pf-allium-2"/>
+    <rect x="12" y="0" width="3" height="3" class="pf-allium-3"/>
+    <rect x="3" y="3" width="3" height="3" class="pf-allium-1"/>
+    <rect x="6" y="3" width="3" height="3" class="pf-allium-4"/>
+    <rect x="9" y="3" width="3" height="3" class="pf-allium-1"/>
+    <rect x="12" y="3" width="3" height="3" class="pf-allium-2"/>
+    <rect x="15" y="3" width="3" height="3" class="pf-allium-5"/>
+    <rect x="0" y="6" width="3" height="3" class="pf-allium-1"/>
+    <rect x="3" y="6" width="3" height="3" class="pf-allium-4"/>
+    <rect x="6" y="6" width="3" height="3" class="pf-allium-1"/>
+    <rect x="9" y="6" width="3" height="3" class="pf-allium-4"/>
+    <rect x="12" y="6" width="3" height="3" class="pf-allium-3"/>
+    <rect x="15" y="6" width="3" height="3" class="pf-allium-1"/>
+    <rect x="18" y="6" width="3" height="3" class="pf-allium-5"/>
+    <rect x="0" y="9" width="3" height="3" class="pf-allium-2"/>
+    <rect x="3" y="9" width="3" height="3" class="pf-allium-1"/>
+    <rect x="6" y="9" width="3" height="3" class="pf-allium-2"/>
+    <rect x="9" y="9" width="3" height="3" class="pf-allium-1"/>
+    <rect x="12" y="9" width="3" height="3" class="pf-allium-2"/>
+    <rect x="15" y="9" width="3" height="3" class="pf-allium-3"/>
+    <rect x="18" y="9" width="3" height="3" class="pf-allium-5"/>
+    <rect x="3" y="12" width="3" height="3" class="pf-allium-3"/>
+    <rect x="6" y="12" width="3" height="3" class="pf-allium-1"/>
+    <rect x="9" y="12" width="3" height="3" class="pf-allium-2"/>
+    <rect x="12" y="12" width="3" height="3" class="pf-allium-3"/>
+    <rect x="15" y="12" width="3" height="3" class="pf-allium-2"/>
+    <rect x="6" y="15" width="3" height="3" class="pf-allium-5"/>
+    <rect x="9" y="15" width="3" height="3" class="pf-allium-6"/>
+    <rect x="12" y="15" width="3" height="3" class="pf-allium-2"/>
+    <rect x="9" y="18" width="3" height="3" class="pf-allium-6"/>
+    <rect x="9" y="21" width="3" height="3" class="pf-allium-7"/>
+    <rect x="9" y="24" width="3" height="3" class="pf-allium-8"/>
+    <rect x="9" y="27" width="3" height="3" class="pf-allium-8"/>
+    <rect x="9" y="30" width="3" height="3" class="pf-allium-7"/>
+    <rect x="9" y="33" width="3" height="3" class="pf-allium-7"/>
+    <rect x="9" y="36" width="3" height="3" class="pf-allium-6"/>
+    <rect x="9" y="39" width="3" height="3" class="pf-allium-9"/>
+  </g>
+</svg>

@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="42" height="72" viewBox="0 0 21 36"
+     shape-rendering="crispEdges"
+     style="--pf-cornflower-1: #718dee;--pf-cornflower-2: #4569e8;--pf-cornflower-3: #617fe5;--pf-cornflower-4: #294bc5;--pf-cornflower-5: #422d97;--pf-cornflower-6: #2d6824;--pf-cornflower-7: #8c6bc1;--pf-cornflower-8: #568a4c;--pf-cornflower-9: #5a9a50;--pf-cornflower-a: #3e7834;">
+  <style>
+    :root { --pf-cornflower-1: #718dee; --pf-cornflower-2: #4569e8; --pf-cornflower-3: #617fe5; --pf-cornflower-4: #294bc5; --pf-cornflower-5: #422d97; --pf-cornflower-6: #2d6824; --pf-cornflower-7: #8c6bc1; --pf-cornflower-8: #568a4c; --pf-cornflower-9: #5a9a50; --pf-cornflower-a: #3e7834; }
+    .pf-cornflower-1 { fill: var(--pf-cornflower-1); }
+    .pf-cornflower-2 { fill: var(--pf-cornflower-2); }
+    .pf-cornflower-3 { fill: var(--pf-cornflower-3); }
+    .pf-cornflower-4 { fill: var(--pf-cornflower-4); }
+    .pf-cornflower-5 { fill: var(--pf-cornflower-5); }
+    .pf-cornflower-6 { fill: var(--pf-cornflower-6); }
+    .pf-cornflower-7 { fill: var(--pf-cornflower-7); }
+    .pf-cornflower-8 { fill: var(--pf-cornflower-8); }
+    .pf-cornflower-9 { fill: var(--pf-cornflower-9); }
+    .pf-cornflower-a { fill: var(--pf-cornflower-a); }
+  </style>
+
+  <!-- cornflower: 7x12 cells of 3px. Copy the <g id="i-cornflower"> below into a banner <defs>. -->
+  <g id="i-cornflower">
+    <rect x="3" y="0" width="3" height="3" class="pf-cornflower-1"/>
+    <rect x="9" y="0" width="3" height="3" class="pf-cornflower-1"/>
+    <rect x="12" y="0" width="3" height="3" class="pf-cornflower-2"/>
+    <rect x="15" y="0" width="3" height="3" class="pf-cornflower-3"/>
+    <rect x="0" y="3" width="3" height="3" class="pf-cornflower-2"/>
+    <rect x="3" y="3" width="3" height="3" class="pf-cornflower-1"/>
+    <rect x="6" y="3" width="3" height="3" class="pf-cornflower-1"/>
+    <rect x="9" y="3" width="3" height="3" class="pf-cornflower-2"/>
+    <rect x="12" y="3" width="3" height="3" class="pf-cornflower-3"/>
+    <rect x="15" y="3" width="3" height="3" class="pf-cornflower-2"/>
+    <rect x="18" y="3" width="3" height="3" class="pf-cornflower-2"/>
+    <rect x="3" y="6" width="3" height="3" class="pf-cornflower-3"/>
+    <rect x="6" y="6" width="3" height="3" class="pf-cornflower-4"/>
+    <rect x="9" y="6" width="3" height="3" class="pf-cornflower-4"/>
+    <rect x="12" y="6" width="3" height="3" class="pf-cornflower-5"/>
+    <rect x="15" y="6" width="3" height="3" class="pf-cornflower-2"/>
+    <rect x="18" y="6" width="3" height="3" class="pf-cornflower-4"/>
+    <rect x="9" y="9" width="3" height="3" class="pf-cornflower-6"/>
+    <rect x="12" y="9" width="3" height="3" class="pf-cornflower-7"/>
+    <rect x="9" y="12" width="3" height="3" class="pf-cornflower-8"/>
+    <rect x="12" y="12" width="3" height="3" class="pf-cornflower-8"/>
+    <rect x="12" y="15" width="3" height="3" class="pf-cornflower-6"/>
+    <rect x="0" y="18" width="3" height="3" class="pf-cornflower-8"/>
+    <rect x="12" y="18" width="3" height="3" class="pf-cornflower-8"/>
+    <rect x="3" y="21" width="3" height="3" class="pf-cornflower-8"/>
+    <rect x="12" y="21" width="3" height="3" class="pf-cornflower-9"/>
+    <rect x="3" y="24" width="3" height="3" class="pf-cornflower-a"/>
+    <rect x="6" y="24" width="3" height="3" class="pf-cornflower-8"/>
+    <rect x="12" y="24" width="3" height="3" class="pf-cornflower-9"/>
+    <rect x="6" y="27" width="3" height="3" class="pf-cornflower-a"/>
+    <rect x="9" y="27" width="3" height="3" class="pf-cornflower-8"/>
+    <rect x="12" y="27" width="3" height="3" class="pf-cornflower-9"/>
+    <rect x="9" y="30" width="3" height="3" class="pf-cornflower-6"/>
+    <rect x="12" y="30" width="3" height="3" class="pf-cornflower-9"/>
+    <rect x="12" y="33" width="3" height="3" class="pf-cornflower-6"/>
+  </g>
+</svg>

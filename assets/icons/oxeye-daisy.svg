@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="42" height="84" viewBox="0 0 21 42"
+     shape-rendering="crispEdges"
+     style="--pf-oxeye-daisy-1: #99bbbb;--pf-oxeye-daisy-2: #f4f4f4;--pf-oxeye-daisy-3: #d3e5e5;--pf-oxeye-daisy-4: #f2b827;--pf-oxeye-daisy-5: #fbd338;--pf-oxeye-daisy-6: #fce94e;--pf-oxeye-daisy-7: #ee9b25;--pf-oxeye-daisy-8: #51982d;--pf-oxeye-daisy-9: #177b04;--pf-oxeye-daisy-a: #54a92c;">
+  <style>
+    :root { --pf-oxeye-daisy-1: #99bbbb; --pf-oxeye-daisy-2: #f4f4f4; --pf-oxeye-daisy-3: #d3e5e5; --pf-oxeye-daisy-4: #f2b827; --pf-oxeye-daisy-5: #fbd338; --pf-oxeye-daisy-6: #fce94e; --pf-oxeye-daisy-7: #ee9b25; --pf-oxeye-daisy-8: #51982d; --pf-oxeye-daisy-9: #177b04; --pf-oxeye-daisy-a: #54a92c; }
+    .pf-oxeye-daisy-1 { fill: var(--pf-oxeye-daisy-1); }
+    .pf-oxeye-daisy-2 { fill: var(--pf-oxeye-daisy-2); }
+    .pf-oxeye-daisy-3 { fill: var(--pf-oxeye-daisy-3); }
+    .pf-oxeye-daisy-4 { fill: var(--pf-oxeye-daisy-4); }
+    .pf-oxeye-daisy-5 { fill: var(--pf-oxeye-daisy-5); }
+    .pf-oxeye-daisy-6 { fill: var(--pf-oxeye-daisy-6); }
+    .pf-oxeye-daisy-7 { fill: var(--pf-oxeye-daisy-7); }
+    .pf-oxeye-daisy-8 { fill: var(--pf-oxeye-daisy-8); }
+    .pf-oxeye-daisy-9 { fill: var(--pf-oxeye-daisy-9); }
+    .pf-oxeye-daisy-a { fill: var(--pf-oxeye-daisy-a); }
+  </style>
+
+  <!-- oxeye-daisy: 7x14 cells of 3px. Copy the <g id="i-oxeye-daisy"> below into a banner <defs>. -->
+  <g id="i-oxeye-daisy">
+    <rect x="6" y="0" width="3" height="3" class="pf-oxeye-daisy-1"/>
+    <rect x="9" y="0" width="3" height="3" class="pf-oxeye-daisy-2"/>
+    <rect x="12" y="0" width="3" height="3" class="pf-oxeye-daisy-3"/>
+    <rect x="3" y="3" width="3" height="3" class="pf-oxeye-daisy-3"/>
+    <rect x="6" y="3" width="3" height="3" class="pf-oxeye-daisy-3"/>
+    <rect x="9" y="3" width="3" height="3" class="pf-oxeye-daisy-2"/>
+    <rect x="12" y="3" width="3" height="3" class="pf-oxeye-daisy-2"/>
+    <rect x="15" y="3" width="3" height="3" class="pf-oxeye-daisy-3"/>
+    <rect x="0" y="6" width="3" height="3" class="pf-oxeye-daisy-3"/>
+    <rect x="3" y="6" width="3" height="3" class="pf-oxeye-daisy-2"/>
+    <rect x="6" y="6" width="3" height="3" class="pf-oxeye-daisy-4"/>
+    <rect x="9" y="6" width="3" height="3" class="pf-oxeye-daisy-5"/>
+    <rect x="12" y="6" width="3" height="3" class="pf-oxeye-daisy-5"/>
+    <rect x="15" y="6" width="3" height="3" class="pf-oxeye-daisy-3"/>
+    <rect x="18" y="6" width="3" height="3" class="pf-oxeye-daisy-1"/>
+    <rect x="0" y="9" width="3" height="3" class="pf-oxeye-daisy-2"/>
+    <rect x="3" y="9" width="3" height="3" class="pf-oxeye-daisy-2"/>
+    <rect x="6" y="9" width="3" height="3" class="pf-oxeye-daisy-5"/>
+    <rect x="9" y="9" width="3" height="3" class="pf-oxeye-daisy-6"/>
+    <rect x="12" y="9" width="3" height="3" class="pf-oxeye-daisy-4"/>
+    <rect x="15" y="9" width="3" height="3" class="pf-oxeye-daisy-2"/>
+    <rect x="18" y="9" width="3" height="3" class="pf-oxeye-daisy-2"/>
+    <rect x="0" y="12" width="3" height="3" class="pf-oxeye-daisy-1"/>
+    <rect x="3" y="12" width="3" height="3" class="pf-oxeye-daisy-3"/>
+    <rect x="6" y="12" width="3" height="3" class="pf-oxeye-daisy-4"/>
+    <rect x="9" y="12" width="3" height="3" class="pf-oxeye-daisy-5"/>
+    <rect x="12" y="12" width="3" height="3" class="pf-oxeye-daisy-7"/>
+    <rect x="15" y="12" width="3" height="3" class="pf-oxeye-daisy-2"/>
+    <rect x="18" y="12" width="3" height="3" class="pf-oxeye-daisy-3"/>
+    <rect x="3" y="15" width="3" height="3" class="pf-oxeye-daisy-3"/>
+    <rect x="6" y="15" width="3" height="3" class="pf-oxeye-daisy-2"/>
+    <rect x="9" y="15" width="3" height="3" class="pf-oxeye-daisy-2"/>
+    <rect x="12" y="15" width="3" height="3" class="pf-oxeye-daisy-3"/>
+    <rect x="15" y="15" width="3" height="3" class="pf-oxeye-daisy-3"/>
+    <rect x="6" y="18" width="3" height="3" class="pf-oxeye-daisy-3"/>
+    <rect x="9" y="18" width="3" height="3" class="pf-oxeye-daisy-2"/>
+    <rect x="12" y="18" width="3" height="3" class="pf-oxeye-daisy-1"/>
+    <rect x="9" y="21" width="3" height="3" class="pf-oxeye-daisy-8"/>
+    <rect x="12" y="21" width="3" height="3" class="pf-oxeye-daisy-9"/>
+    <rect x="9" y="24" width="3" height="3" class="pf-oxeye-daisy-a"/>
+    <rect x="3" y="27" width="3" height="3" class="pf-oxeye-daisy-9"/>
+    <rect x="6" y="27" width="3" height="3" class="pf-oxeye-daisy-8"/>
+    <rect x="9" y="27" width="3" height="3" class="pf-oxeye-daisy-a"/>
+    <rect x="6" y="30" width="3" height="3" class="pf-oxeye-daisy-9"/>
+    <rect x="9" y="30" width="3" height="3" class="pf-oxeye-daisy-a"/>
+    <rect x="15" y="30" width="3" height="3" class="pf-oxeye-daisy-9"/>
+    <rect x="9" y="33" width="3" height="3" class="pf-oxeye-daisy-a"/>
+    <rect x="12" y="33" width="3" height="3" class="pf-oxeye-daisy-9"/>
+    <rect x="9" y="36" width="3" height="3" class="pf-oxeye-daisy-8"/>
+    <rect x="12" y="36" width="3" height="3" class="pf-oxeye-daisy-9"/>
+    <rect x="9" y="39" width="3" height="3" class="pf-oxeye-daisy-9"/>
+  </g>
+</svg>

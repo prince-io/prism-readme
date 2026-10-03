@@ -1,0 +1,183 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="96" height="84" viewBox="0 0 48 42"
+     shape-rendering="crispEdges"
+     style="--pf-enchanted-book-1: #312104;--pf-enchanted-book-2: #522e10;--pf-enchanted-book-3: #654b17;--pf-enchanted-book-4: #6c1717;--pf-enchanted-book-5: #a42c2b;--pf-enchanted-book-6: #c51339;--pf-enchanted-book-7: #443310;--pf-enchanted-book-8: #543e13;--pf-enchanted-book-9: #9d1b37;--pf-enchanted-book-a: #44250a;--pf-enchanted-book-b: #5b5b5b;--pf-enchanted-book-c: #b7b7b7;--pf-enchanted-book-d: #d3a216;--pf-enchanted-book-e: #999999;--pf-enchanted-book-f: #161005;--pf-enchanted-book-g: #d6d6d6;--pf-enchanted-book-h: #d4961a;--pf-enchanted-book-i: #892120;--pf-enchanted-book-j: #611414;">
+  <style>
+    :root { --pf-enchanted-book-1: #312104; --pf-enchanted-book-2: #522e10; --pf-enchanted-book-3: #654b17; --pf-enchanted-book-4: #6c1717; --pf-enchanted-book-5: #a42c2b; --pf-enchanted-book-6: #c51339; --pf-enchanted-book-7: #443310; --pf-enchanted-book-8: #543e13; --pf-enchanted-book-9: #9d1b37; --pf-enchanted-book-a: #44250a; --pf-enchanted-book-b: #5b5b5b; --pf-enchanted-book-c: #b7b7b7; --pf-enchanted-book-d: #d3a216; --pf-enchanted-book-e: #999999; --pf-enchanted-book-f: #161005; --pf-enchanted-book-g: #d6d6d6; --pf-enchanted-book-h: #d4961a; --pf-enchanted-book-i: #892120; --pf-enchanted-book-j: #611414; }
+    .pf-enchanted-book-1 { fill: var(--pf-enchanted-book-1); }
+    .pf-enchanted-book-2 { fill: var(--pf-enchanted-book-2); }
+    .pf-enchanted-book-3 { fill: var(--pf-enchanted-book-3); }
+    .pf-enchanted-book-4 { fill: var(--pf-enchanted-book-4); }
+    .pf-enchanted-book-5 { fill: var(--pf-enchanted-book-5); }
+    .pf-enchanted-book-6 { fill: var(--pf-enchanted-book-6); }
+    .pf-enchanted-book-7 { fill: var(--pf-enchanted-book-7); }
+    .pf-enchanted-book-8 { fill: var(--pf-enchanted-book-8); }
+    .pf-enchanted-book-9 { fill: var(--pf-enchanted-book-9); }
+    .pf-enchanted-book-a { fill: var(--pf-enchanted-book-a); }
+    .pf-enchanted-book-b { fill: var(--pf-enchanted-book-b); }
+    .pf-enchanted-book-c { fill: var(--pf-enchanted-book-c); }
+    .pf-enchanted-book-d { fill: var(--pf-enchanted-book-d); }
+    .pf-enchanted-book-e { fill: var(--pf-enchanted-book-e); }
+    .pf-enchanted-book-f { fill: var(--pf-enchanted-book-f); }
+    .pf-enchanted-book-g { fill: var(--pf-enchanted-book-g); }
+    .pf-enchanted-book-h { fill: var(--pf-enchanted-book-h); }
+    .pf-enchanted-book-i { fill: var(--pf-enchanted-book-i); }
+    .pf-enchanted-book-j { fill: var(--pf-enchanted-book-j); }
+  </style>
+
+  <!-- enchanted-book: 16x14 cells of 3px. Copy the <g id="i-enchanted-book"> below into a banner <defs>. -->
+  <g id="i-enchanted-book">
+    <rect x="24" y="0" width="3" height="3" class="pf-enchanted-book-1"/>
+    <rect x="27" y="0" width="3" height="3" class="pf-enchanted-book-1"/>
+    <rect x="30" y="0" width="3" height="3" class="pf-enchanted-book-1"/>
+    <rect x="18" y="3" width="3" height="3" class="pf-enchanted-book-1"/>
+    <rect x="21" y="3" width="3" height="3" class="pf-enchanted-book-1"/>
+    <rect x="24" y="3" width="3" height="3" class="pf-enchanted-book-2"/>
+    <rect x="27" y="3" width="3" height="3" class="pf-enchanted-book-3"/>
+    <rect x="30" y="3" width="3" height="3" class="pf-enchanted-book-3"/>
+    <rect x="33" y="3" width="3" height="3" class="pf-enchanted-book-1"/>
+    <rect x="12" y="6" width="3" height="3" class="pf-enchanted-book-4"/>
+    <rect x="15" y="6" width="3" height="3" class="pf-enchanted-book-4"/>
+    <rect x="18" y="6" width="3" height="3" class="pf-enchanted-book-2"/>
+    <rect x="21" y="6" width="3" height="3" class="pf-enchanted-book-3"/>
+    <rect x="24" y="6" width="3" height="3" class="pf-enchanted-book-3"/>
+    <rect x="27" y="6" width="3" height="3" class="pf-enchanted-book-3"/>
+    <rect x="30" y="6" width="3" height="3" class="pf-enchanted-book-3"/>
+    <rect x="33" y="6" width="3" height="3" class="pf-enchanted-book-3"/>
+    <rect x="36" y="6" width="3" height="3" class="pf-enchanted-book-1"/>
+    <rect x="6" y="9" width="3" height="3" class="pf-enchanted-book-1"/>
+    <rect x="9" y="9" width="3" height="3" class="pf-enchanted-book-1"/>
+    <rect x="12" y="9" width="3" height="3" class="pf-enchanted-book-5"/>
+    <rect x="15" y="9" width="3" height="3" class="pf-enchanted-book-5"/>
+    <rect x="18" y="9" width="3" height="3" class="pf-enchanted-book-6"/>
+    <rect x="21" y="9" width="3" height="3" class="pf-enchanted-book-3"/>
+    <rect x="24" y="9" width="3" height="3" class="pf-enchanted-book-7"/>
+    <rect x="27" y="9" width="3" height="3" class="pf-enchanted-book-7"/>
+    <rect x="30" y="9" width="3" height="3" class="pf-enchanted-book-3"/>
+    <rect x="33" y="9" width="3" height="3" class="pf-enchanted-book-3"/>
+    <rect x="36" y="9" width="3" height="3" class="pf-enchanted-book-3"/>
+    <rect x="39" y="9" width="3" height="3" class="pf-enchanted-book-1"/>
+    <rect x="0" y="12" width="3" height="3" class="pf-enchanted-book-1"/>
+    <rect x="3" y="12" width="3" height="3" class="pf-enchanted-book-1"/>
+    <rect x="6" y="12" width="3" height="3" class="pf-enchanted-book-2"/>
+    <rect x="9" y="12" width="3" height="3" class="pf-enchanted-book-3"/>
+    <rect x="12" y="12" width="3" height="3" class="pf-enchanted-book-8"/>
+    <rect x="15" y="12" width="3" height="3" class="pf-enchanted-book-9"/>
+    <rect x="18" y="12" width="3" height="3" class="pf-enchanted-book-6"/>
+    <rect x="21" y="12" width="3" height="3" class="pf-enchanted-book-6"/>
+    <rect x="24" y="12" width="3" height="3" class="pf-enchanted-book-3"/>
+    <rect x="27" y="12" width="3" height="3" class="pf-enchanted-book-7"/>
+    <rect x="30" y="12" width="3" height="3" class="pf-enchanted-book-7"/>
+    <rect x="33" y="12" width="3" height="3" class="pf-enchanted-book-3"/>
+    <rect x="36" y="12" width="3" height="3" class="pf-enchanted-book-3"/>
+    <rect x="39" y="12" width="3" height="3" class="pf-enchanted-book-3"/>
+    <rect x="42" y="12" width="3" height="3" class="pf-enchanted-book-1"/>
+    <rect x="0" y="15" width="3" height="3" class="pf-enchanted-book-1"/>
+    <rect x="3" y="15" width="3" height="3" class="pf-enchanted-book-2"/>
+    <rect x="6" y="15" width="3" height="3" class="pf-enchanted-book-3"/>
+    <rect x="9" y="15" width="3" height="3" class="pf-enchanted-book-3"/>
+    <rect x="12" y="15" width="3" height="3" class="pf-enchanted-book-3"/>
+    <rect x="15" y="15" width="3" height="3" class="pf-enchanted-book-8"/>
+    <rect x="18" y="15" width="3" height="3" class="pf-enchanted-book-9"/>
+    <rect x="21" y="15" width="3" height="3" class="pf-enchanted-book-6"/>
+    <rect x="24" y="15" width="3" height="3" class="pf-enchanted-book-6"/>
+    <rect x="27" y="15" width="3" height="3" class="pf-enchanted-book-3"/>
+    <rect x="30" y="15" width="3" height="3" class="pf-enchanted-book-7"/>
+    <rect x="33" y="15" width="3" height="3" class="pf-enchanted-book-3"/>
+    <rect x="36" y="15" width="3" height="3" class="pf-enchanted-book-3"/>
+    <rect x="39" y="15" width="3" height="3" class="pf-enchanted-book-3"/>
+    <rect x="42" y="15" width="3" height="3" class="pf-enchanted-book-a"/>
+    <rect x="45" y="15" width="3" height="3" class="pf-enchanted-book-1"/>
+    <rect x="0" y="18" width="3" height="3" class="pf-enchanted-book-1"/>
+    <rect x="3" y="18" width="3" height="3" class="pf-enchanted-book-1"/>
+    <rect x="6" y="18" width="3" height="3" class="pf-enchanted-book-2"/>
+    <rect x="9" y="18" width="3" height="3" class="pf-enchanted-book-3"/>
+    <rect x="12" y="18" width="3" height="3" class="pf-enchanted-book-7"/>
+    <rect x="15" y="18" width="3" height="3" class="pf-enchanted-book-3"/>
+    <rect x="18" y="18" width="3" height="3" class="pf-enchanted-book-8"/>
+    <rect x="21" y="18" width="3" height="3" class="pf-enchanted-book-9"/>
+    <rect x="24" y="18" width="3" height="3" class="pf-enchanted-book-6"/>
+    <rect x="27" y="18" width="3" height="3" class="pf-enchanted-book-5"/>
+    <rect x="30" y="18" width="3" height="3" class="pf-enchanted-book-3"/>
+    <rect x="33" y="18" width="3" height="3" class="pf-enchanted-book-3"/>
+    <rect x="36" y="18" width="3" height="3" class="pf-enchanted-book-a"/>
+    <rect x="39" y="18" width="3" height="3" class="pf-enchanted-book-a"/>
+    <rect x="42" y="18" width="3" height="3" class="pf-enchanted-book-b"/>
+    <rect x="0" y="21" width="3" height="3" class="pf-enchanted-book-1"/>
+    <rect x="3" y="21" width="3" height="3" class="pf-enchanted-book-1"/>
+    <rect x="6" y="21" width="3" height="3" class="pf-enchanted-book-c"/>
+    <rect x="9" y="21" width="3" height="3" class="pf-enchanted-book-2"/>
+    <rect x="12" y="21" width="3" height="3" class="pf-enchanted-book-3"/>
+    <rect x="15" y="21" width="3" height="3" class="pf-enchanted-book-7"/>
+    <rect x="18" y="21" width="3" height="3" class="pf-enchanted-book-3"/>
+    <rect x="21" y="21" width="3" height="3" class="pf-enchanted-book-8"/>
+    <rect x="24" y="21" width="3" height="3" class="pf-enchanted-book-5"/>
+    <rect x="27" y="21" width="3" height="3" class="pf-enchanted-book-d"/>
+    <rect x="30" y="21" width="3" height="3" class="pf-enchanted-book-d"/>
+    <rect x="33" y="21" width="3" height="3" class="pf-enchanted-book-a"/>
+    <rect x="36" y="21" width="3" height="3" class="pf-enchanted-book-e"/>
+    <rect x="39" y="21" width="3" height="3" class="pf-enchanted-book-c"/>
+    <rect x="42" y="21" width="3" height="3" class="pf-enchanted-book-e"/>
+    <rect x="0" y="24" width="3" height="3" class="pf-enchanted-book-f"/>
+    <rect x="3" y="24" width="3" height="3" class="pf-enchanted-book-2"/>
+    <rect x="6" y="24" width="3" height="3" class="pf-enchanted-book-g"/>
+    <rect x="9" y="24" width="3" height="3" class="pf-enchanted-book-c"/>
+    <rect x="12" y="24" width="3" height="3" class="pf-enchanted-book-2"/>
+    <rect x="15" y="24" width="3" height="3" class="pf-enchanted-book-3"/>
+    <rect x="18" y="24" width="3" height="3" class="pf-enchanted-book-3"/>
+    <rect x="21" y="24" width="3" height="3" class="pf-enchanted-book-3"/>
+    <rect x="24" y="24" width="3" height="3" class="pf-enchanted-book-a"/>
+    <rect x="27" y="24" width="3" height="3" class="pf-enchanted-book-d"/>
+    <rect x="30" y="24" width="3" height="3" class="pf-enchanted-book-h"/>
+    <rect x="33" y="24" width="3" height="3" class="pf-enchanted-book-c"/>
+    <rect x="36" y="24" width="3" height="3" class="pf-enchanted-book-c"/>
+    <rect x="39" y="24" width="3" height="3" class="pf-enchanted-book-e"/>
+    <rect x="42" y="24" width="3" height="3" class="pf-enchanted-book-1"/>
+    <rect x="45" y="24" width="3" height="3" class="pf-enchanted-book-a"/>
+    <rect x="3" y="27" width="3" height="3" class="pf-enchanted-book-f"/>
+    <rect x="6" y="27" width="3" height="3" class="pf-enchanted-book-2"/>
+    <rect x="9" y="27" width="3" height="3" class="pf-enchanted-book-g"/>
+    <rect x="12" y="27" width="3" height="3" class="pf-enchanted-book-c"/>
+    <rect x="15" y="27" width="3" height="3" class="pf-enchanted-book-2"/>
+    <rect x="18" y="27" width="3" height="3" class="pf-enchanted-book-a"/>
+    <rect x="21" y="27" width="3" height="3" class="pf-enchanted-book-a"/>
+    <rect x="24" y="27" width="3" height="3" class="pf-enchanted-book-e"/>
+    <rect x="27" y="27" width="3" height="3" class="pf-enchanted-book-5"/>
+    <rect x="30" y="27" width="3" height="3" class="pf-enchanted-book-i"/>
+    <rect x="33" y="27" width="3" height="3" class="pf-enchanted-book-e"/>
+    <rect x="36" y="27" width="3" height="3" class="pf-enchanted-book-1"/>
+    <rect x="39" y="27" width="3" height="3" class="pf-enchanted-book-a"/>
+    <rect x="42" y="27" width="3" height="3" class="pf-enchanted-book-f"/>
+    <rect x="45" y="27" width="3" height="3" class="pf-enchanted-book-f"/>
+    <rect x="6" y="30" width="3" height="3" class="pf-enchanted-book-f"/>
+    <rect x="9" y="30" width="3" height="3" class="pf-enchanted-book-2"/>
+    <rect x="12" y="30" width="3" height="3" class="pf-enchanted-book-g"/>
+    <rect x="15" y="30" width="3" height="3" class="pf-enchanted-book-c"/>
+    <rect x="18" y="30" width="3" height="3" class="pf-enchanted-book-e"/>
+    <rect x="21" y="30" width="3" height="3" class="pf-enchanted-book-c"/>
+    <rect x="24" y="30" width="3" height="3" class="pf-enchanted-book-c"/>
+    <rect x="27" y="30" width="3" height="3" class="pf-enchanted-book-i"/>
+    <rect x="30" y="30" width="3" height="3" class="pf-enchanted-book-i"/>
+    <rect x="33" y="30" width="3" height="3" class="pf-enchanted-book-a"/>
+    <rect x="36" y="30" width="3" height="3" class="pf-enchanted-book-f"/>
+    <rect x="39" y="30" width="3" height="3" class="pf-enchanted-book-f"/>
+    <rect x="9" y="33" width="3" height="3" class="pf-enchanted-book-f"/>
+    <rect x="12" y="33" width="3" height="3" class="pf-enchanted-book-2"/>
+    <rect x="15" y="33" width="3" height="3" class="pf-enchanted-book-g"/>
+    <rect x="18" y="33" width="3" height="3" class="pf-enchanted-book-c"/>
+    <rect x="21" y="33" width="3" height="3" class="pf-enchanted-book-e"/>
+    <rect x="24" y="33" width="3" height="3" class="pf-enchanted-book-a"/>
+    <rect x="27" y="33" width="3" height="3" class="pf-enchanted-book-i"/>
+    <rect x="30" y="33" width="3" height="3" class="pf-enchanted-book-j"/>
+    <rect x="33" y="33" width="3" height="3" class="pf-enchanted-book-f"/>
+    <rect x="12" y="36" width="3" height="3" class="pf-enchanted-book-f"/>
+    <rect x="15" y="36" width="3" height="3" class="pf-enchanted-book-2"/>
+    <rect x="18" y="36" width="3" height="3" class="pf-enchanted-book-a"/>
+    <rect x="21" y="36" width="3" height="3" class="pf-enchanted-book-a"/>
+    <rect x="24" y="36" width="3" height="3" class="pf-enchanted-book-f"/>
+    <rect x="27" y="36" width="3" height="3" class="pf-enchanted-book-j"/>
+    <rect x="15" y="39" width="3" height="3" class="pf-enchanted-book-f"/>
+    <rect x="18" y="39" width="3" height="3" class="pf-enchanted-book-f"/>
+    <rect x="21" y="39" width="3" height="3" class="pf-enchanted-book-f"/>
+  </g>
+</svg>

@@ -1,0 +1,7 @@
+{
+  "name": "dracula",
+  "mode": "dark",
+  "primary":   { "light": "#EDE9FE", "main": "#8B5CF6", "dark": "#5B21B6" },
+  "secondary": { "light": "#DCFCE7", "main": "#22C55E", "dark": "#166534" },
+  "tertiary":  { "light": "#FCE7F3", "main": "#EC4899", "dark": "#9D174D" }
+}

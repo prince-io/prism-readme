@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="54" height="60" viewBox="0 0 27 30"
+     shape-rendering="crispEdges"
+     style="--pf-azure-bluet-1: #d3e5e5;--pf-azure-bluet-2: #fce94e;--pf-azure-bluet-3: #f4f4f4;--pf-azure-bluet-4: #51982d;--pf-azure-bluet-5: #54a92c;--pf-azure-bluet-6: #498d27;">
+  <style>
+    :root { --pf-azure-bluet-1: #d3e5e5; --pf-azure-bluet-2: #fce94e; --pf-azure-bluet-3: #f4f4f4; --pf-azure-bluet-4: #51982d; --pf-azure-bluet-5: #54a92c; --pf-azure-bluet-6: #498d27; }
+    .pf-azure-bluet-1 { fill: var(--pf-azure-bluet-1); }
+    .pf-azure-bluet-2 { fill: var(--pf-azure-bluet-2); }
+    .pf-azure-bluet-3 { fill: var(--pf-azure-bluet-3); }
+    .pf-azure-bluet-4 { fill: var(--pf-azure-bluet-4); }
+    .pf-azure-bluet-5 { fill: var(--pf-azure-bluet-5); }
+    .pf-azure-bluet-6 { fill: var(--pf-azure-bluet-6); }
+  </style>
+
+  <!-- azure-bluet: 9x10 cells of 3px. Copy the <g id="i-azure-bluet"> below into a banner <defs>. -->
+  <g id="i-azure-bluet">
+    <rect x="12" y="0" width="3" height="3" class="pf-azure-bluet-1"/>
+    <rect x="6" y="3" width="3" height="3" class="pf-azure-bluet-2"/>
+    <rect x="9" y="3" width="3" height="3" class="pf-azure-bluet-3"/>
+    <rect x="12" y="3" width="3" height="3" class="pf-azure-bluet-2"/>
+    <rect x="15" y="3" width="3" height="3" class="pf-azure-bluet-1"/>
+    <rect x="6" y="6" width="3" height="3" class="pf-azure-bluet-1"/>
+    <rect x="9" y="6" width="3" height="3" class="pf-azure-bluet-4"/>
+    <rect x="12" y="6" width="3" height="3" class="pf-azure-bluet-5"/>
+    <rect x="18" y="6" width="3" height="3" class="pf-azure-bluet-3"/>
+    <rect x="21" y="6" width="3" height="3" class="pf-azure-bluet-2"/>
+    <rect x="0" y="9" width="3" height="3" class="pf-azure-bluet-2"/>
+    <rect x="3" y="9" width="3" height="3" class="pf-azure-bluet-3"/>
+    <rect x="9" y="9" width="3" height="3" class="pf-azure-bluet-1"/>
+    <rect x="12" y="9" width="3" height="3" class="pf-azure-bluet-3"/>
+    <rect x="15" y="9" width="3" height="3" class="pf-azure-bluet-3"/>
+    <rect x="18" y="9" width="3" height="3" class="pf-azure-bluet-5"/>
+    <rect x="21" y="9" width="3" height="3" class="pf-azure-bluet-1"/>
+    <rect x="0" y="12" width="3" height="3" class="pf-azure-bluet-3"/>
+    <rect x="3" y="12" width="3" height="3" class="pf-azure-bluet-5"/>
+    <rect x="9" y="12" width="3" height="3" class="pf-azure-bluet-6"/>
+    <rect x="12" y="12" width="3" height="3" class="pf-azure-bluet-1"/>
+    <rect x="15" y="12" width="3" height="3" class="pf-azure-bluet-2"/>
+    <rect x="18" y="12" width="3" height="3" class="pf-azure-bluet-4"/>
+    <rect x="3" y="15" width="3" height="3" class="pf-azure-bluet-6"/>
+    <rect x="6" y="15" width="3" height="3" class="pf-azure-bluet-5"/>
+    <rect x="9" y="15" width="3" height="3" class="pf-azure-bluet-4"/>
+    <rect x="15" y="15" width="3" height="3" class="pf-azure-bluet-4"/>
+    <rect x="21" y="15" width="3" height="3" class="pf-azure-bluet-3"/>
+    <rect x="24" y="15" width="3" height="3" class="pf-azure-bluet-2"/>
+    <rect x="6" y="18" width="3" height="3" class="pf-azure-bluet-3"/>
+    <rect x="9" y="18" width="3" height="3" class="pf-azure-bluet-2"/>
+    <rect x="12" y="18" width="3" height="3" class="pf-azure-bluet-4"/>
+    <rect x="15" y="18" width="3" height="3" class="pf-azure-bluet-5"/>
+    <rect x="21" y="18" width="3" height="3" class="pf-azure-bluet-5"/>
+    <rect x="24" y="18" width="3" height="3" class="pf-azure-bluet-1"/>
+    <rect x="6" y="21" width="3" height="3" class="pf-azure-bluet-3"/>
+    <rect x="9" y="21" width="3" height="3" class="pf-azure-bluet-1"/>
+    <rect x="12" y="21" width="3" height="3" class="pf-azure-bluet-5"/>
+    <rect x="15" y="21" width="3" height="3" class="pf-azure-bluet-5"/>
+    <rect x="18" y="21" width="3" height="3" class="pf-azure-bluet-5"/>
+    <rect x="12" y="24" width="3" height="3" class="pf-azure-bluet-5"/>
+    <rect x="15" y="24" width="3" height="3" class="pf-azure-bluet-4"/>
+    <rect x="12" y="27" width="3" height="3" class="pf-azure-bluet-6"/>
+  </g>
+</svg>

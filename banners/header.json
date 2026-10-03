@@ -1,0 +1,44 @@
+{
+  "name": "header",
+  "output": "assets/header",
+  "variants": [
+    "light", "solarized-light", "paper", "mint", "lavender", "rose",
+    "dracula", "nord", "tokyo-night", "neon", "forest", "volcano"
+  ],
+  "width": 800,
+  "height": 200,
+  "underline": true,
+  "stripes": {
+    "cell": 4,
+    "width": 32,
+    "colors": ["pf-primary", "pf-secondary", "pf-tertiary"],
+    "speed": 4
+  },
+  "heading": "PRINCE-IO",
+  "heading_scale": 1.15,
+  "heading_x": 248,
+  "heading_y": 79,
+  "icons": [
+    {
+      "center_x": 530,
+      "scale": 1,
+      "by_theme": {
+        "light": "dandelion",
+        "solarized-light": "oxeye-daisy",
+        "paper": "white-tulip",
+        "mint": "lily-of-the-valley",
+        "lavender": "allium",
+        "rose": "pink-tulip",
+        "dracula": "blue-orchid",
+        "nord": "cornflower",
+        "tokyo-night": "azure-bluet",
+        "neon": "poppy",
+        "forest": "red-tulip",
+        "volcano": "orange-tulip"
+      }
+    }
+  ],
+  "boxes": [
+    { "x": 228, "y": 61, "width": 344, "height": 79, "face_contrast": true, "border_w": 0 }
+  ]
+}

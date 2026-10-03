@@ -1,0 +1,37 @@
+{
+  "name": "theme-preview",
+  "output": "assets/theme-preview",
+  "variants": [
+    "light", "solarized-light", "paper", "mint", "lavender", "rose",
+    "dracula", "nord", "tokyo-night", "neon", "forest", "volcano"
+  ],
+  "heading": "THEME",
+  "margin": 18,
+  "tiles": [
+    { "x": 28, "y": 99, "width": 76, "height": 44, "face": "pf-primary-hi", "label": { "text": "PL", "color": "pf-frame-inner" } },
+    { "x": 110, "y": 99, "width": 76, "height": 44, "face": "pf-primary", "label": { "text": "PM", "color": "pf-cloud" } },
+    { "x": 192, "y": 99, "width": 76, "height": 44, "face": "pf-primary-lo", "label": { "text": "PD", "color": "pf-cloud" } },
+    { "x": 274, "y": 99, "width": 76, "height": 44, "face": "pf-secondary-hi", "label": { "text": "SL", "color": "pf-frame-inner" } },
+    { "x": 356, "y": 99, "width": 76, "height": 44, "face": "pf-secondary", "label": { "text": "SM", "color": "pf-cloud" } },
+    { "x": 438, "y": 99, "width": 76, "height": 44, "face": "pf-secondary-lo", "label": { "text": "SD", "color": "pf-cloud" } },
+    { "x": 520, "y": 99, "width": 76, "height": 44, "face": "pf-tertiary-hi", "label": { "text": "TL", "color": "pf-frame-inner" } },
+    { "x": 602, "y": 99, "width": 76, "height": 44, "face": "pf-tertiary", "label": { "text": "TM", "color": "pf-cloud" } },
+    { "x": 684, "y": 99, "width": 76, "height": 44, "face": "pf-tertiary-lo", "label": { "text": "TD", "color": "pf-cloud" } }
+  ],
+  "panels": {
+    "origin_x": 28,
+    "gap": 26,
+    "sections": [
+      {
+        "title": "TERTIARY BOXES",
+        "columns": 3,
+        "box": true,
+        "items": [
+          { "label": "BOX", "value": "1" },
+          { "label": "BOX", "value": "2" },
+          { "label": "BOX", "value": "3" }
+        ]
+      }
+    ]
+  }
+}

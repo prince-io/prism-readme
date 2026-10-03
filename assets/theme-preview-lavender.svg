@@ -1,0 +1,285 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="314" viewBox="0 0 800 314"
+     style="--pf-primary-hi: #EDE9FE;--pf-primary: #7C3AED;--pf-primary-lo: #4C1D95;--pf-secondary-hi: #FEF3C7;--pf-secondary: #D97706;--pf-secondary-lo: #92400E;--pf-tertiary-hi: #CCFBF1;--pf-tertiary: #0D9488;--pf-tertiary-lo: #115E59;--pf-frame-outer: #115E59;--pf-frame-mid: #0D9488;--pf-frame-hi: #CCFBF1;--pf-frame-inner: #115E59;--pf-canvas: #EDE9FE;--pf-ink: #92400E;--pf-ink-muted: #D97706;--pf-box-ink: #FEF3C7;--pf-tile-face: #CCFBF1;--pf-tile-edge-hi: #0D9488;--pf-tile-edge-lo: #115E59;--pf-panel-1: #EDE9FE;--pf-panel-2: #FEF3C7;--pf-panel-3: #CCFBF1;--pf-accent-red: #7C3AED;--pf-accent-pink: #7C3AED;--pf-accent-pink-hi: #EDE9FE;--pf-accent-green: #0D9488;--pf-accent-green-lo: #115E59;--pf-accent-yellow: #D97706;--pf-accent-gold-lo: #92400E;--pf-accent-blue: #CCFBF1;--pf-steel: #D97706;--pf-steel-hi: #FEF3C7;--pf-cloud: #FEF3C7;">
+  <style>
+    :root { --pf-primary-hi: #EDE9FE; --pf-primary: #7C3AED; --pf-primary-lo: #4C1D95; --pf-secondary-hi: #FEF3C7; --pf-secondary: #D97706; --pf-secondary-lo: #92400E; --pf-tertiary-hi: #CCFBF1; --pf-tertiary: #0D9488; --pf-tertiary-lo: #115E59; --pf-frame-outer: #115E59; --pf-frame-mid: #0D9488; --pf-frame-hi: #CCFBF1; --pf-frame-inner: #115E59; --pf-canvas: #EDE9FE; --pf-ink: #92400E; --pf-ink-muted: #D97706; --pf-box-ink: #FEF3C7; --pf-tile-face: #CCFBF1; --pf-tile-edge-hi: #0D9488; --pf-tile-edge-lo: #115E59; --pf-panel-1: #EDE9FE; --pf-panel-2: #FEF3C7; --pf-panel-3: #CCFBF1; --pf-accent-red: #7C3AED; --pf-accent-pink: #7C3AED; --pf-accent-pink-hi: #EDE9FE; --pf-accent-green: #0D9488; --pf-accent-green-lo: #115E59; --pf-accent-yellow: #D97706; --pf-accent-gold-lo: #92400E; --pf-accent-blue: #CCFBF1; --pf-steel: #D97706; --pf-steel-hi: #FEF3C7; --pf-cloud: #FEF3C7; }
+
+    .pf-primary-hi { fill: var(--pf-primary-hi); }
+    .pf-primary { fill: var(--pf-primary); }
+    .pf-primary-lo { fill: var(--pf-primary-lo); }
+    .pf-secondary-hi { fill: var(--pf-secondary-hi); }
+    .pf-secondary { fill: var(--pf-secondary); }
+    .pf-secondary-lo { fill: var(--pf-secondary-lo); }
+    .pf-tertiary-hi { fill: var(--pf-tertiary-hi); }
+    .pf-tertiary { fill: var(--pf-tertiary); }
+    .pf-tertiary-lo { fill: var(--pf-tertiary-lo); }
+    .pf-frame-outer { fill: var(--pf-frame-outer); }
+    .pf-frame-mid { fill: var(--pf-frame-mid); }
+    .pf-frame-hi { fill: var(--pf-frame-hi); }
+    .pf-frame-inner { fill: var(--pf-frame-inner); }
+    .pf-canvas { fill: var(--pf-canvas); }
+    .pf-ink { fill: var(--pf-ink); }
+    .pf-ink-muted { fill: var(--pf-ink-muted); }
+    .pf-box-ink { fill: var(--pf-box-ink); }
+    .pf-tile-face { fill: var(--pf-tile-face); }
+    .pf-tile-edge-hi { fill: var(--pf-tile-edge-hi); }
+    .pf-tile-edge-lo { fill: var(--pf-tile-edge-lo); }
+    .pf-panel-1 { fill: var(--pf-panel-1); }
+    .pf-panel-2 { fill: var(--pf-panel-2); }
+    .pf-panel-3 { fill: var(--pf-panel-3); }
+    .pf-accent-red { fill: var(--pf-accent-red); }
+    .pf-accent-pink { fill: var(--pf-accent-pink); }
+    .pf-accent-pink-hi { fill: var(--pf-accent-pink-hi); }
+    .pf-accent-green { fill: var(--pf-accent-green); }
+    .pf-accent-green-lo { fill: var(--pf-accent-green-lo); }
+    .pf-accent-yellow { fill: var(--pf-accent-yellow); }
+    .pf-accent-gold-lo { fill: var(--pf-accent-gold-lo); }
+    .pf-accent-blue { fill: var(--pf-accent-blue); }
+    .pf-steel { fill: var(--pf-steel); }
+    .pf-steel-hi { fill: var(--pf-steel-hi); }
+    .pf-cloud { fill: var(--pf-cloud); }
+
+    .pf-tile { animation: none; }
+    .pf-icon { animation: none; }
+    .pf-underline { animation: pf-wipe-cycle 22.000s ease-in-out infinite; transform-origin: 36px center; }
+    .pf-step-0 { animation: pf-step-0 22.000s steps(1, end) infinite; }
+    .pf-step-1 { animation: pf-step-1 22.000s steps(1, end) infinite; }
+    .pf-step-2 { animation: pf-step-2 22.000s steps(1, end) infinite; }
+    .pf-step-3 { animation: pf-step-3 22.000s steps(1, end) infinite; }
+    .pf-step-4 { animation: pf-step-4 22.000s steps(1, end) infinite; }
+
+
+
+
+
+    @keyframes pf-wipe-cycle {
+      0% { transform: scaleX(0); }
+      4.5455% { transform: scaleX(1); }
+      95.4545% { transform: scaleX(1); }
+      100% { transform: scaleX(0); }
+    }
+    @keyframes pf-step-0 {
+      0%, 0.0000% { opacity: 0; }
+      0.0010%, 99.0909% { opacity: 1; }
+      99.0919%, 100% { opacity: 0; }
+    }
+    @keyframes pf-step-1 {
+      0%, 0.9091% { opacity: 0; }
+      0.9101%, 98.1818% { opacity: 1; }
+      98.1828%, 100% { opacity: 0; }
+    }
+    @keyframes pf-step-2 {
+      0%, 1.8182% { opacity: 0; }
+      1.8192%, 97.2727% { opacity: 1; }
+      97.2737%, 100% { opacity: 0; }
+    }
+    @keyframes pf-step-3 {
+      0%, 2.7273% { opacity: 0; }
+      2.7283%, 96.3636% { opacity: 1; }
+      96.3646%, 100% { opacity: 0; }
+    }
+    @keyframes pf-step-4 {
+      0%, 3.6364% { opacity: 0; }
+      3.6374%, 95.4545% { opacity: 1; }
+      95.4555%, 100% { opacity: 0; }
+    }
+  </style>
+
+    <rect class="pf-frame-outer" x="0" y="0" width="800" height="314"/>
+    <rect class="pf-frame-mid" x="2" y="2" width="796" height="310"/>
+    <rect class="pf-frame-hi" x="2" y="2" width="796" height="1"/>
+    <rect class="pf-frame-hi" x="2" y="2" width="1" height="310"/>
+    <rect class="pf-frame-inner" x="6" y="6" width="788" height="302"/>
+    <rect class="pf-canvas" x="8" y="8" width="784" height="298"/>
+
+    <g class="pf-ink">
+      <g class="pf-step-0">
+          <rect x="36" y="32" width="4" height="4"/>
+          <rect x="40" y="32" width="4" height="4"/>
+          <rect x="44" y="32" width="4" height="4"/>
+          <rect x="48" y="32" width="4" height="4"/>
+          <rect x="52" y="32" width="4" height="4"/>
+          <rect x="44" y="36" width="4" height="4"/>
+          <rect x="44" y="40" width="4" height="4"/>
+          <rect x="44" y="44" width="4" height="4"/>
+          <rect x="44" y="48" width="4" height="4"/>
+          <rect x="44" y="52" width="4" height="4"/>
+          <rect x="44" y="56" width="4" height="4"/>
+      </g>
+      <g class="pf-step-1">
+          <rect x="60" y="32" width="4" height="4"/>
+          <rect x="76" y="32" width="4" height="4"/>
+          <rect x="60" y="36" width="4" height="4"/>
+          <rect x="76" y="36" width="4" height="4"/>
+          <rect x="60" y="40" width="4" height="4"/>
+          <rect x="76" y="40" width="4" height="4"/>
+          <rect x="60" y="44" width="4" height="4"/>
+          <rect x="64" y="44" width="4" height="4"/>
+          <rect x="68" y="44" width="4" height="4"/>
+          <rect x="72" y="44" width="4" height="4"/>
+          <rect x="76" y="44" width="4" height="4"/>
+          <rect x="60" y="48" width="4" height="4"/>
+          <rect x="76" y="48" width="4" height="4"/>
+          <rect x="60" y="52" width="4" height="4"/>
+          <rect x="76" y="52" width="4" height="4"/>
+          <rect x="60" y="56" width="4" height="4"/>
+          <rect x="76" y="56" width="4" height="4"/>
+      </g>
+      <g class="pf-step-2">
+          <rect x="84" y="32" width="4" height="4"/>
+          <rect x="88" y="32" width="4" height="4"/>
+          <rect x="92" y="32" width="4" height="4"/>
+          <rect x="96" y="32" width="4" height="4"/>
+          <rect x="100" y="32" width="4" height="4"/>
+          <rect x="84" y="36" width="4" height="4"/>
+          <rect x="84" y="40" width="4" height="4"/>
+          <rect x="84" y="44" width="4" height="4"/>
+          <rect x="88" y="44" width="4" height="4"/>
+          <rect x="92" y="44" width="4" height="4"/>
+          <rect x="96" y="44" width="4" height="4"/>
+          <rect x="84" y="48" width="4" height="4"/>
+          <rect x="84" y="52" width="4" height="4"/>
+          <rect x="84" y="56" width="4" height="4"/>
+          <rect x="88" y="56" width="4" height="4"/>
+          <rect x="92" y="56" width="4" height="4"/>
+          <rect x="96" y="56" width="4" height="4"/>
+          <rect x="100" y="56" width="4" height="4"/>
+      </g>
+      <g class="pf-step-3">
+          <rect x="108" y="32" width="4" height="4"/>
+          <rect x="124" y="32" width="4" height="4"/>
+          <rect x="108" y="36" width="4" height="4"/>
+          <rect x="112" y="36" width="4" height="4"/>
+          <rect x="120" y="36" width="4" height="4"/>
+          <rect x="124" y="36" width="4" height="4"/>
+          <rect x="108" y="40" width="4" height="4"/>
+          <rect x="116" y="40" width="4" height="4"/>
+          <rect x="124" y="40" width="4" height="4"/>
+          <rect x="108" y="44" width="4" height="4"/>
+          <rect x="124" y="44" width="4" height="4"/>
+          <rect x="108" y="48" width="4" height="4"/>
+          <rect x="124" y="48" width="4" height="4"/>
+          <rect x="108" y="52" width="4" height="4"/>
+          <rect x="124" y="52" width="4" height="4"/>
+          <rect x="108" y="56" width="4" height="4"/>
+          <rect x="124" y="56" width="4" height="4"/>
+      </g>
+      <g class="pf-step-4">
+          <rect x="132" y="32" width="4" height="4"/>
+          <rect x="136" y="32" width="4" height="4"/>
+          <rect x="140" y="32" width="4" height="4"/>
+          <rect x="144" y="32" width="4" height="4"/>
+          <rect x="148" y="32" width="4" height="4"/>
+          <rect x="132" y="36" width="4" height="4"/>
+          <rect x="132" y="40" width="4" height="4"/>
+          <rect x="132" y="44" width="4" height="4"/>
+          <rect x="136" y="44" width="4" height="4"/>
+          <rect x="140" y="44" width="4" height="4"/>
+          <rect x="144" y="44" width="4" height="4"/>
+          <rect x="132" y="48" width="4" height="4"/>
+          <rect x="132" y="52" width="4" height="4"/>
+          <rect x="132" y="56" width="4" height="4"/>
+          <rect x="136" y="56" width="4" height="4"/>
+          <rect x="140" y="56" width="4" height="4"/>
+          <rect x="144" y="56" width="4" height="4"/>
+          <rect x="148" y="56" width="4" height="4"/>
+      </g>
+    </g>
+
+    <g class="pf-underline">
+      <rect class="pf-ink" x="36" y="68" width="124" height="3"/>
+    </g>
+
+    <g class="pf-tile">
+    <rect class="pf-frame-outer" x="28" y="99" width="76" height="44"/>
+    <rect class="pf-frame-mid" x="29" y="100" width="74" height="42"/>
+    <rect class="pf-frame-inner" x="30" y="101" width="72" height="40"/>
+    <rect class="pf-primary-hi" x="31" y="102" width="70" height="38"/>
+    <text class="pf-frame-inner" x="66" y="128" text-anchor="middle" font-family="ui-monospace, monospace" font-size="15" font-weight="700" font-style="normal" letter-spacing="0.5">PL</text>
+    </g>
+
+    <g class="pf-tile">
+    <rect class="pf-frame-outer" x="110" y="99" width="76" height="44"/>
+    <rect class="pf-frame-mid" x="111" y="100" width="74" height="42"/>
+    <rect class="pf-frame-inner" x="112" y="101" width="72" height="40"/>
+    <rect class="pf-primary" x="113" y="102" width="70" height="38"/>
+    <text class="pf-cloud" x="148" y="128" text-anchor="middle" font-family="ui-monospace, monospace" font-size="15" font-weight="700" font-style="normal" letter-spacing="0.5">PM</text>
+    </g>
+
+    <g class="pf-tile">
+    <rect class="pf-frame-outer" x="192" y="99" width="76" height="44"/>
+    <rect class="pf-frame-mid" x="193" y="100" width="74" height="42"/>
+    <rect class="pf-frame-inner" x="194" y="101" width="72" height="40"/>
+    <rect class="pf-primary-lo" x="195" y="102" width="70" height="38"/>
+    <text class="pf-cloud" x="230" y="128" text-anchor="middle" font-family="ui-monospace, monospace" font-size="15" font-weight="700" font-style="normal" letter-spacing="0.5">PD</text>
+    </g>
+
+    <g class="pf-tile">
+    <rect class="pf-frame-outer" x="274" y="99" width="76" height="44"/>
+    <rect class="pf-frame-mid" x="275" y="100" width="74" height="42"/>
+    <rect class="pf-frame-inner" x="276" y="101" width="72" height="40"/>
+    <rect class="pf-secondary-hi" x="277" y="102" width="70" height="38"/>
+    <text class="pf-frame-inner" x="312" y="128" text-anchor="middle" font-family="ui-monospace, monospace" font-size="15" font-weight="700" font-style="normal" letter-spacing="0.5">SL</text>
+    </g>
+
+    <g class="pf-tile">
+    <rect class="pf-frame-outer" x="356" y="99" width="76" height="44"/>
+    <rect class="pf-frame-mid" x="357" y="100" width="74" height="42"/>
+    <rect class="pf-frame-inner" x="358" y="101" width="72" height="40"/>
+    <rect class="pf-secondary" x="359" y="102" width="70" height="38"/>
+    <text class="pf-cloud" x="394" y="128" text-anchor="middle" font-family="ui-monospace, monospace" font-size="15" font-weight="700" font-style="normal" letter-spacing="0.5">SM</text>
+    </g>
+
+    <g class="pf-tile">
+    <rect class="pf-frame-outer" x="438" y="99" width="76" height="44"/>
+    <rect class="pf-frame-mid" x="439" y="100" width="74" height="42"/>
+    <rect class="pf-frame-inner" x="440" y="101" width="72" height="40"/>
+    <rect class="pf-secondary-lo" x="441" y="102" width="70" height="38"/>
+    <text class="pf-cloud" x="476" y="128" text-anchor="middle" font-family="ui-monospace, monospace" font-size="15" font-weight="700" font-style="normal" letter-spacing="0.5">SD</text>
+    </g>
+
+    <g class="pf-tile">
+    <rect class="pf-frame-outer" x="520" y="99" width="76" height="44"/>
+    <rect class="pf-frame-mid" x="521" y="100" width="74" height="42"/>
+    <rect class="pf-frame-inner" x="522" y="101" width="72" height="40"/>
+    <rect class="pf-tertiary-hi" x="523" y="102" width="70" height="38"/>
+    <text class="pf-frame-inner" x="558" y="128" text-anchor="middle" font-family="ui-monospace, monospace" font-size="15" font-weight="700" font-style="normal" letter-spacing="0.5">TL</text>
+    </g>
+
+    <g class="pf-tile">
+    <rect class="pf-frame-outer" x="602" y="99" width="76" height="44"/>
+    <rect class="pf-frame-mid" x="603" y="100" width="74" height="42"/>
+    <rect class="pf-frame-inner" x="604" y="101" width="72" height="40"/>
+    <rect class="pf-tertiary" x="605" y="102" width="70" height="38"/>
+    <text class="pf-cloud" x="640" y="128" text-anchor="middle" font-family="ui-monospace, monospace" font-size="15" font-weight="700" font-style="normal" letter-spacing="0.5">TM</text>
+    </g>
+
+    <g class="pf-tile">
+    <rect class="pf-frame-outer" x="684" y="99" width="76" height="44"/>
+    <rect class="pf-frame-mid" x="685" y="100" width="74" height="42"/>
+    <rect class="pf-frame-inner" x="686" y="101" width="72" height="40"/>
+    <rect class="pf-tertiary-lo" x="687" y="102" width="70" height="38"/>
+    <text class="pf-cloud" x="722" y="128" text-anchor="middle" font-family="ui-monospace, monospace" font-size="15" font-weight="700" font-style="normal" letter-spacing="0.5">TD</text>
+    </g>
+
+    <text class="pf-ink" x="40" y="179" text-anchor="start" font-family="ui-monospace, monospace" font-size="14" font-weight="700" font-style="normal" letter-spacing="1">TERTIARY BOXES</text>
+
+    <rect class="pf-ink" x="40" y="185" width="720.0" height="1"/>
+
+    <rect class="pf-tertiary" x="40.0" y="197" width="221.33333333333334" height="61"/>
+
+    <text class="pf-box-ink" x="150.66666666666669" y="222" text-anchor="middle" font-family="ui-monospace, monospace" font-size="13" font-weight="500" font-style="normal" letter-spacing="0.5">BOX</text>
+
+    <text class="pf-box-ink" x="150.66666666666669" y="246" text-anchor="middle" font-family="ui-monospace, monospace" font-size="20" font-weight="700" font-style="normal" letter-spacing="0.5">1</text>
+
+    <rect class="pf-tertiary" x="289.33333333333337" y="197" width="221.33333333333334" height="61"/>
+
+    <text class="pf-box-ink" x="400.00000000000006" y="222" text-anchor="middle" font-family="ui-monospace, monospace" font-size="13" font-weight="500" font-style="normal" letter-spacing="0.5">BOX</text>
+
+    <text class="pf-box-ink" x="400.00000000000006" y="246" text-anchor="middle" font-family="ui-monospace, monospace" font-size="20" font-weight="700" font-style="normal" letter-spacing="0.5">2</text>
+
+    <rect class="pf-tertiary" x="538.6666666666667" y="197" width="221.33333333333334" height="61"/>
+
+    <text class="pf-box-ink" x="649.3333333333334" y="222" text-anchor="middle" font-family="ui-monospace, monospace" font-size="13" font-weight="500" font-style="normal" letter-spacing="0.5">BOX</text>
+
+    <text class="pf-box-ink" x="649.3333333333334" y="246" text-anchor="middle" font-family="ui-monospace, monospace" font-size="20" font-weight="700" font-style="normal" letter-spacing="0.5">3</text>
+</svg>

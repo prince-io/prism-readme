@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="42" height="78" viewBox="0 0 21 39"
+     shape-rendering="crispEdges"
+     style="--pf-white-tulip-1: #f4f4f4;--pf-white-tulip-2: #d3e5e5;--pf-white-tulip-3: #99bbbb;--pf-white-tulip-4: #177b04;--pf-white-tulip-5: #498d27;--pf-white-tulip-6: #54a92c;--pf-white-tulip-7: #51982d;">
+  <style>
+    :root { --pf-white-tulip-1: #f4f4f4; --pf-white-tulip-2: #d3e5e5; --pf-white-tulip-3: #99bbbb; --pf-white-tulip-4: #177b04; --pf-white-tulip-5: #498d27; --pf-white-tulip-6: #54a92c; --pf-white-tulip-7: #51982d; }
+    .pf-white-tulip-1 { fill: var(--pf-white-tulip-1); }
+    .pf-white-tulip-2 { fill: var(--pf-white-tulip-2); }
+    .pf-white-tulip-3 { fill: var(--pf-white-tulip-3); }
+    .pf-white-tulip-4 { fill: var(--pf-white-tulip-4); }
+    .pf-white-tulip-5 { fill: var(--pf-white-tulip-5); }
+    .pf-white-tulip-6 { fill: var(--pf-white-tulip-6); }
+    .pf-white-tulip-7 { fill: var(--pf-white-tulip-7); }
+  </style>
+
+  <!-- white-tulip: 7x13 cells of 3px. Copy the <g id="i-white-tulip"> below into a banner <defs>. -->
+  <g id="i-white-tulip">
+    <rect x="6" y="0" width="3" height="3" class="pf-white-tulip-1"/>
+    <rect x="12" y="0" width="3" height="3" class="pf-white-tulip-2"/>
+    <rect x="6" y="3" width="3" height="3" class="pf-white-tulip-1"/>
+    <rect x="9" y="3" width="3" height="3" class="pf-white-tulip-1"/>
+    <rect x="12" y="3" width="3" height="3" class="pf-white-tulip-2"/>
+    <rect x="6" y="6" width="3" height="3" class="pf-white-tulip-3"/>
+    <rect x="9" y="6" width="3" height="3" class="pf-white-tulip-2"/>
+    <rect x="12" y="6" width="3" height="3" class="pf-white-tulip-3"/>
+    <rect x="9" y="9" width="3" height="3" class="pf-white-tulip-3"/>
+    <rect x="18" y="9" width="3" height="3" class="pf-white-tulip-4"/>
+    <rect x="9" y="12" width="3" height="3" class="pf-white-tulip-4"/>
+    <rect x="15" y="12" width="3" height="3" class="pf-white-tulip-5"/>
+    <rect x="18" y="12" width="3" height="3" class="pf-white-tulip-6"/>
+    <rect x="9" y="15" width="3" height="3" class="pf-white-tulip-7"/>
+    <rect x="12" y="15" width="3" height="3" class="pf-white-tulip-4"/>
+    <rect x="15" y="15" width="3" height="3" class="pf-white-tulip-6"/>
+    <rect x="18" y="15" width="3" height="3" class="pf-white-tulip-6"/>
+    <rect x="9" y="18" width="3" height="3" class="pf-white-tulip-6"/>
+    <rect x="12" y="18" width="3" height="3" class="pf-white-tulip-4"/>
+    <rect x="15" y="18" width="3" height="3" class="pf-white-tulip-6"/>
+    <rect x="18" y="18" width="3" height="3" class="pf-white-tulip-7"/>
+    <rect x="0" y="21" width="3" height="3" class="pf-white-tulip-6"/>
+    <rect x="3" y="21" width="3" height="3" class="pf-white-tulip-6"/>
+    <rect x="9" y="21" width="3" height="3" class="pf-white-tulip-6"/>
+    <rect x="12" y="21" width="3" height="3" class="pf-white-tulip-7"/>
+    <rect x="15" y="21" width="3" height="3" class="pf-white-tulip-6"/>
+    <rect x="18" y="21" width="3" height="3" class="pf-white-tulip-4"/>
+    <rect x="0" y="24" width="3" height="3" class="pf-white-tulip-5"/>
+    <rect x="3" y="24" width="3" height="3" class="pf-white-tulip-6"/>
+    <rect x="6" y="24" width="3" height="3" class="pf-white-tulip-7"/>
+    <rect x="9" y="24" width="3" height="3" class="pf-white-tulip-6"/>
+    <rect x="12" y="24" width="3" height="3" class="pf-white-tulip-7"/>
+    <rect x="15" y="24" width="3" height="3" class="pf-white-tulip-7"/>
+    <rect x="3" y="27" width="3" height="3" class="pf-white-tulip-5"/>
+    <rect x="6" y="27" width="3" height="3" class="pf-white-tulip-6"/>
+    <rect x="9" y="27" width="3" height="3" class="pf-white-tulip-7"/>
+    <rect x="12" y="27" width="3" height="3" class="pf-white-tulip-5"/>
+    <rect x="15" y="27" width="3" height="3" class="pf-white-tulip-4"/>
+    <rect x="6" y="30" width="3" height="3" class="pf-white-tulip-6"/>
+    <rect x="9" y="30" width="3" height="3" class="pf-white-tulip-7"/>
+    <rect x="12" y="30" width="3" height="3" class="pf-white-tulip-4"/>
+    <rect x="6" y="33" width="3" height="3" class="pf-white-tulip-4"/>
+    <rect x="9" y="33" width="3" height="3" class="pf-white-tulip-5"/>
+    <rect x="12" y="33" width="3" height="3" class="pf-white-tulip-4"/>
+    <rect x="9" y="36" width="3" height="3" class="pf-white-tulip-4"/>
+  </g>
+</svg>

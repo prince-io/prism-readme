@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="78" height="78" viewBox="0 0 39 39"
+     shape-rendering="crispEdges"
+     style="--pf-diamond-pickaxe-1: #0e3f36;--pf-diamond-pickaxe-2: #33ebcb;--pf-diamond-pickaxe-3: #2bc7ac;--pf-diamond-pickaxe-4: #27b29a;--pf-diamond-pickaxe-5: #493615;--pf-diamond-pickaxe-6: #684e1e;--pf-diamond-pickaxe-7: #082520;--pf-diamond-pickaxe-8: #896727;--pf-diamond-pickaxe-9: #281e0b;">
+  <style>
+    :root { --pf-diamond-pickaxe-1: #0e3f36; --pf-diamond-pickaxe-2: #33ebcb; --pf-diamond-pickaxe-3: #2bc7ac; --pf-diamond-pickaxe-4: #27b29a; --pf-diamond-pickaxe-5: #493615; --pf-diamond-pickaxe-6: #684e1e; --pf-diamond-pickaxe-7: #082520; --pf-diamond-pickaxe-8: #896727; --pf-diamond-pickaxe-9: #281e0b; }
+    .pf-diamond-pickaxe-1 { fill: var(--pf-diamond-pickaxe-1); }
+    .pf-diamond-pickaxe-2 { fill: var(--pf-diamond-pickaxe-2); }
+    .pf-diamond-pickaxe-3 { fill: var(--pf-diamond-pickaxe-3); }
+    .pf-diamond-pickaxe-4 { fill: var(--pf-diamond-pickaxe-4); }
+    .pf-diamond-pickaxe-5 { fill: var(--pf-diamond-pickaxe-5); }
+    .pf-diamond-pickaxe-6 { fill: var(--pf-diamond-pickaxe-6); }
+    .pf-diamond-pickaxe-7 { fill: var(--pf-diamond-pickaxe-7); }
+    .pf-diamond-pickaxe-8 { fill: var(--pf-diamond-pickaxe-8); }
+    .pf-diamond-pickaxe-9 { fill: var(--pf-diamond-pickaxe-9); }
+  </style>
+
+  <!-- diamond-pickaxe: 13x13 cells of 3px. Copy the <g id="i-diamond-pickaxe"> below into a banner <defs>. -->
+  <g id="i-diamond-pickaxe">
+    <rect x="12" y="0" width="3" height="3" class="pf-diamond-pickaxe-1"/>
+    <rect x="15" y="0" width="3" height="3" class="pf-diamond-pickaxe-1"/>
+    <rect x="18" y="0" width="3" height="3" class="pf-diamond-pickaxe-1"/>
+    <rect x="21" y="0" width="3" height="3" class="pf-diamond-pickaxe-1"/>
+    <rect x="24" y="0" width="3" height="3" class="pf-diamond-pickaxe-1"/>
+    <rect x="9" y="3" width="3" height="3" class="pf-diamond-pickaxe-1"/>
+    <rect x="12" y="3" width="3" height="3" class="pf-diamond-pickaxe-2"/>
+    <rect x="15" y="3" width="3" height="3" class="pf-diamond-pickaxe-3"/>
+    <rect x="18" y="3" width="3" height="3" class="pf-diamond-pickaxe-4"/>
+    <rect x="21" y="3" width="3" height="3" class="pf-diamond-pickaxe-4"/>
+    <rect x="24" y="3" width="3" height="3" class="pf-diamond-pickaxe-3"/>
+    <rect x="27" y="3" width="3" height="3" class="pf-diamond-pickaxe-1"/>
+    <rect x="30" y="3" width="3" height="3" class="pf-diamond-pickaxe-5"/>
+    <rect x="33" y="3" width="3" height="3" class="pf-diamond-pickaxe-6"/>
+    <rect x="12" y="6" width="3" height="3" class="pf-diamond-pickaxe-1"/>
+    <rect x="15" y="6" width="3" height="3" class="pf-diamond-pickaxe-7"/>
+    <rect x="18" y="6" width="3" height="3" class="pf-diamond-pickaxe-7"/>
+    <rect x="21" y="6" width="3" height="3" class="pf-diamond-pickaxe-7"/>
+    <rect x="24" y="6" width="3" height="3" class="pf-diamond-pickaxe-4"/>
+    <rect x="27" y="6" width="3" height="3" class="pf-diamond-pickaxe-4"/>
+    <rect x="30" y="6" width="3" height="3" class="pf-diamond-pickaxe-8"/>
+    <rect x="33" y="6" width="3" height="3" class="pf-diamond-pickaxe-9"/>
+    <rect x="24" y="9" width="3" height="3" class="pf-diamond-pickaxe-5"/>
+    <rect x="27" y="9" width="3" height="3" class="pf-diamond-pickaxe-3"/>
+    <rect x="30" y="9" width="3" height="3" class="pf-diamond-pickaxe-4"/>
+    <rect x="33" y="9" width="3" height="3" class="pf-diamond-pickaxe-7"/>
+    <rect x="21" y="12" width="3" height="3" class="pf-diamond-pickaxe-5"/>
+    <rect x="24" y="12" width="3" height="3" class="pf-diamond-pickaxe-6"/>
+    <rect x="27" y="12" width="3" height="3" class="pf-diamond-pickaxe-9"/>
+    <rect x="30" y="12" width="3" height="3" class="pf-diamond-pickaxe-4"/>
+    <rect x="33" y="12" width="3" height="3" class="pf-diamond-pickaxe-3"/>
+    <rect x="36" y="12" width="3" height="3" class="pf-diamond-pickaxe-7"/>
+    <rect x="18" y="15" width="3" height="3" class="pf-diamond-pickaxe-5"/>
+    <rect x="21" y="15" width="3" height="3" class="pf-diamond-pickaxe-8"/>
+    <rect x="24" y="15" width="3" height="3" class="pf-diamond-pickaxe-9"/>
+    <rect x="30" y="15" width="3" height="3" class="pf-diamond-pickaxe-7"/>
+    <rect x="33" y="15" width="3" height="3" class="pf-diamond-pickaxe-4"/>
+    <rect x="36" y="15" width="3" height="3" class="pf-diamond-pickaxe-7"/>
+    <rect x="15" y="18" width="3" height="3" class="pf-diamond-pickaxe-5"/>
+    <rect x="18" y="18" width="3" height="3" class="pf-diamond-pickaxe-6"/>
+    <rect x="21" y="18" width="3" height="3" class="pf-diamond-pickaxe-9"/>
+    <rect x="30" y="18" width="3" height="3" class="pf-diamond-pickaxe-7"/>
+    <rect x="33" y="18" width="3" height="3" class="pf-diamond-pickaxe-4"/>
+    <rect x="36" y="18" width="3" height="3" class="pf-diamond-pickaxe-7"/>
+    <rect x="12" y="21" width="3" height="3" class="pf-diamond-pickaxe-5"/>
+    <rect x="15" y="21" width="3" height="3" class="pf-diamond-pickaxe-8"/>
+    <rect x="18" y="21" width="3" height="3" class="pf-diamond-pickaxe-9"/>
+    <rect x="30" y="21" width="3" height="3" class="pf-diamond-pickaxe-7"/>
+    <rect x="33" y="21" width="3" height="3" class="pf-diamond-pickaxe-3"/>
+    <rect x="36" y="21" width="3" height="3" class="pf-diamond-pickaxe-7"/>
+    <rect x="9" y="24" width="3" height="3" class="pf-diamond-pickaxe-5"/>
+    <rect x="12" y="24" width="3" height="3" class="pf-diamond-pickaxe-6"/>
+    <rect x="15" y="24" width="3" height="3" class="pf-diamond-pickaxe-9"/>
+    <rect x="30" y="24" width="3" height="3" class="pf-diamond-pickaxe-7"/>
+    <rect x="33" y="24" width="3" height="3" class="pf-diamond-pickaxe-2"/>
+    <rect x="36" y="24" width="3" height="3" class="pf-diamond-pickaxe-7"/>
+    <rect x="6" y="27" width="3" height="3" class="pf-diamond-pickaxe-5"/>
+    <rect x="9" y="27" width="3" height="3" class="pf-diamond-pickaxe-8"/>
+    <rect x="12" y="27" width="3" height="3" class="pf-diamond-pickaxe-9"/>
+    <rect x="33" y="27" width="3" height="3" class="pf-diamond-pickaxe-7"/>
+    <rect x="3" y="30" width="3" height="3" class="pf-diamond-pickaxe-5"/>
+    <rect x="6" y="30" width="3" height="3" class="pf-diamond-pickaxe-6"/>
+    <rect x="9" y="30" width="3" height="3" class="pf-diamond-pickaxe-9"/>
+    <rect x="0" y="33" width="3" height="3" class="pf-diamond-pickaxe-5"/>
+    <rect x="3" y="33" width="3" height="3" class="pf-diamond-pickaxe-8"/>
+    <rect x="6" y="33" width="3" height="3" class="pf-diamond-pickaxe-9"/>
+    <rect x="0" y="36" width="3" height="3" class="pf-diamond-pickaxe-9"/>
+    <rect x="3" y="36" width="3" height="3" class="pf-diamond-pickaxe-9"/>
+  </g>
+</svg>

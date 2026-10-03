@@ -1,0 +1,28 @@
+{
+  "name": "tech-stack",
+  "output": "assets/tech-stack",
+  "variants": [
+    "light", "solarized-light", "paper", "mint", "lavender", "rose",
+    "dracula", "nord", "tokyo-night", "neon", "forest", "volcano"
+  ],
+  "heading": "TECH I USE",
+  "heading_x": 94,
+  "icons": [
+    { "id": "totem-of-undying", "x": 36, "y": 23, "scale": 1 }
+  ],
+  "badges": {
+    "origin_x": 24,
+    "gap": 8,
+    "row_gap": 16,
+    "section_gap": 18,
+    "sections": [
+      { "label": "FRONTEND", "items": ["html5", "css3", "react", "nextjs", "tailwindcss", "daisyui", "gsap"] },
+      { "label": "BACKEND", "items": ["nodejs", "expressjs", "fastapi"] },
+      { "label": "DATABASES", "items": ["mongodb", "mysql", "postgres", "redis", "supabase"] },
+      { "label": "AI & ML", "items": ["tensorflow", "pytorch", "keras", "scikit-learn", "numpy", "pandas", "matplotlib", "deepseek", "langchain", "huggingface", "ollama", "yolo"] },
+      { "label": "LANGUAGES", "items": ["java", "javascript", "typescript", "python", "c", "cpp", "latex", "markdown"] },
+      { "label": "DEVELOPMENT", "items": ["git", "github", "inkscape", "postman", "opencode", "visual-studio-code", "linux-mint"] },
+      { "label": "DEPLOYMENT", "items": ["vercel", "docker", "cloudflare"] }
+    ]
+  }
+}

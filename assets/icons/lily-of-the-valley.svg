@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="60" height="72" viewBox="0 0 30 36"
+     shape-rendering="crispEdges"
+     style="--pf-lily-of-the-valley-1: #7dbe58;--pf-lily-of-the-valley-2: #63af31;--pf-lily-of-the-valley-3: #fcfcfc;--pf-lily-of-the-valley-4: #e4e4e4;--pf-lily-of-the-valley-5: #4f902e;--pf-lily-of-the-valley-6: #d5d5d5;--pf-lily-of-the-valley-7: #367d13;">
+  <style>
+    :root { --pf-lily-of-the-valley-1: #7dbe58; --pf-lily-of-the-valley-2: #63af31; --pf-lily-of-the-valley-3: #fcfcfc; --pf-lily-of-the-valley-4: #e4e4e4; --pf-lily-of-the-valley-5: #4f902e; --pf-lily-of-the-valley-6: #d5d5d5; --pf-lily-of-the-valley-7: #367d13; }
+    .pf-lily-of-the-valley-1 { fill: var(--pf-lily-of-the-valley-1); }
+    .pf-lily-of-the-valley-2 { fill: var(--pf-lily-of-the-valley-2); }
+    .pf-lily-of-the-valley-3 { fill: var(--pf-lily-of-the-valley-3); }
+    .pf-lily-of-the-valley-4 { fill: var(--pf-lily-of-the-valley-4); }
+    .pf-lily-of-the-valley-5 { fill: var(--pf-lily-of-the-valley-5); }
+    .pf-lily-of-the-valley-6 { fill: var(--pf-lily-of-the-valley-6); }
+    .pf-lily-of-the-valley-7 { fill: var(--pf-lily-of-the-valley-7); }
+  </style>
+
+  <!-- lily-of-the-valley: 10x12 cells of 3px. Copy the <g id="i-lily-of-the-valley"> below into a banner <defs>. -->
+  <g id="i-lily-of-the-valley">
+    <rect x="3" y="0" width="3" height="3" class="pf-lily-of-the-valley-1"/>
+    <rect x="6" y="0" width="3" height="3" class="pf-lily-of-the-valley-1"/>
+    <rect x="9" y="0" width="3" height="3" class="pf-lily-of-the-valley-2"/>
+    <rect x="0" y="3" width="3" height="3" class="pf-lily-of-the-valley-3"/>
+    <rect x="3" y="3" width="3" height="3" class="pf-lily-of-the-valley-4"/>
+    <rect x="12" y="3" width="3" height="3" class="pf-lily-of-the-valley-5"/>
+    <rect x="0" y="6" width="3" height="3" class="pf-lily-of-the-valley-3"/>
+    <rect x="3" y="6" width="3" height="3" class="pf-lily-of-the-valley-6"/>
+    <rect x="9" y="6" width="3" height="3" class="pf-lily-of-the-valley-5"/>
+    <rect x="15" y="6" width="3" height="3" class="pf-lily-of-the-valley-5"/>
+    <rect x="6" y="9" width="3" height="3" class="pf-lily-of-the-valley-3"/>
+    <rect x="9" y="9" width="3" height="3" class="pf-lily-of-the-valley-4"/>
+    <rect x="15" y="9" width="3" height="3" class="pf-lily-of-the-valley-5"/>
+    <rect x="27" y="9" width="3" height="3" class="pf-lily-of-the-valley-5"/>
+    <rect x="0" y="12" width="3" height="3" class="pf-lily-of-the-valley-4"/>
+    <rect x="3" y="12" width="3" height="3" class="pf-lily-of-the-valley-6"/>
+    <rect x="6" y="12" width="3" height="3" class="pf-lily-of-the-valley-3"/>
+    <rect x="9" y="12" width="3" height="3" class="pf-lily-of-the-valley-6"/>
+    <rect x="12" y="12" width="3" height="3" class="pf-lily-of-the-valley-1"/>
+    <rect x="15" y="12" width="3" height="3" class="pf-lily-of-the-valley-7"/>
+    <rect x="24" y="12" width="3" height="3" class="pf-lily-of-the-valley-5"/>
+    <rect x="27" y="12" width="3" height="3" class="pf-lily-of-the-valley-2"/>
+    <rect x="0" y="15" width="3" height="3" class="pf-lily-of-the-valley-4"/>
+    <rect x="3" y="15" width="3" height="3" class="pf-lily-of-the-valley-6"/>
+    <rect x="15" y="15" width="3" height="3" class="pf-lily-of-the-valley-5"/>
+    <rect x="18" y="15" width="3" height="3" class="pf-lily-of-the-valley-7"/>
+    <rect x="24" y="15" width="3" height="3" class="pf-lily-of-the-valley-2"/>
+    <rect x="27" y="15" width="3" height="3" class="pf-lily-of-the-valley-2"/>
+    <rect x="12" y="18" width="3" height="3" class="pf-lily-of-the-valley-3"/>
+    <rect x="15" y="18" width="3" height="3" class="pf-lily-of-the-valley-7"/>
+    <rect x="18" y="18" width="3" height="3" class="pf-lily-of-the-valley-7"/>
+    <rect x="21" y="18" width="3" height="3" class="pf-lily-of-the-valley-5"/>
+    <rect x="24" y="18" width="3" height="3" class="pf-lily-of-the-valley-1"/>
+    <rect x="27" y="18" width="3" height="3" class="pf-lily-of-the-valley-2"/>
+    <rect x="12" y="21" width="3" height="3" class="pf-lily-of-the-valley-3"/>
+    <rect x="15" y="21" width="3" height="3" class="pf-lily-of-the-valley-7"/>
+    <rect x="18" y="21" width="3" height="3" class="pf-lily-of-the-valley-7"/>
+    <rect x="21" y="21" width="3" height="3" class="pf-lily-of-the-valley-1"/>
+    <rect x="24" y="21" width="3" height="3" class="pf-lily-of-the-valley-2"/>
+    <rect x="27" y="21" width="3" height="3" class="pf-lily-of-the-valley-7"/>
+    <rect x="15" y="24" width="3" height="3" class="pf-lily-of-the-valley-7"/>
+    <rect x="18" y="24" width="3" height="3" class="pf-lily-of-the-valley-5"/>
+    <rect x="21" y="24" width="3" height="3" class="pf-lily-of-the-valley-2"/>
+    <rect x="24" y="24" width="3" height="3" class="pf-lily-of-the-valley-5"/>
+    <rect x="15" y="27" width="3" height="3" class="pf-lily-of-the-valley-7"/>
+    <rect x="18" y="27" width="3" height="3" class="pf-lily-of-the-valley-2"/>
+    <rect x="21" y="27" width="3" height="3" class="pf-lily-of-the-valley-5"/>
+    <rect x="24" y="27" width="3" height="3" class="pf-lily-of-the-valley-7"/>
+    <rect x="15" y="30" width="3" height="3" class="pf-lily-of-the-valley-7"/>
+    <rect x="18" y="30" width="3" height="3" class="pf-lily-of-the-valley-7"/>
+    <rect x="21" y="30" width="3" height="3" class="pf-lily-of-the-valley-7"/>
+    <rect x="15" y="33" width="3" height="3" class="pf-lily-of-the-valley-7"/>
+  </g>
+</svg>

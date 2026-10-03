@@ -1,0 +1,7 @@
+{
+  "name": "tokyo-night",
+  "mode": "dark",
+  "primary":   { "light": "#E0E7FF", "main": "#6366F1", "dark": "#3730A3" },
+  "secondary": { "light": "#FEF3C7", "main": "#F59E0B", "dark": "#92400E" },
+  "tertiary":  { "light": "#CFFAFE", "main": "#06B6D4", "dark": "#155E75" }
+}

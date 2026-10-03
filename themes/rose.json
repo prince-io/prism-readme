@@ -1,0 +1,7 @@
+{
+  "name": "rose",
+  "mode": "light",
+  "primary":   { "light": "#FFE4E6", "main": "#E11D48", "dark": "#9F1239" },
+  "secondary": { "light": "#CCFBF1", "main": "#0D9488", "dark": "#115E59" },
+  "tertiary":  { "light": "#E0E7FF", "main": "#4F46E5", "dark": "#3730A3" }
+}

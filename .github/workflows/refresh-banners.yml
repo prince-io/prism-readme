@@ -1,0 +1,46 @@
+name: Refresh banners
+
+on:
+  schedule:
+    - cron: "0 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-banners
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Refresh data caches
+        run: |
+          python3 tools/badges.py cache
+          python3 tools/stats.py cache
+          python3 tools/skyline.py cache
+
+      - name: Rebuild SVGs
+        run: |
+          python3 tools/build.py
+          python3 tools/check.py
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets tools/*_cache.json
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: refresh banners"
+            git push
+          fi

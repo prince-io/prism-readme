@@ -1,0 +1,69 @@
+{
+ "overall": [
+  {
+   "label": "Total Stars Earned",
+   "value": "0"
+  },
+  {
+   "label": "Total Commits",
+   "value": "540"
+  },
+  {
+   "label": "Total PRs",
+   "value": "0"
+  },
+  {
+   "label": "Total Issues",
+   "value": "0"
+  },
+  {
+   "label": "Contributed to (last year)",
+   "value": "0"
+  }
+ ],
+ "streaks": [
+  {
+   "label": "Total Contributions",
+   "value": "380",
+   "sub": "Feb 7 - Present"
+  },
+  {
+   "label": "Current Streak",
+   "value": "10",
+   "sub": "Sep 24 - Oct 3",
+   "unit": "days"
+  },
+  {
+   "label": "Longest Streak",
+   "value": "10",
+   "sub": "Sep 24 - Oct 3",
+   "unit": "days"
+  }
+ ],
+ "languages": [
+  {
+   "label": "Python",
+   "value": "55.05%"
+  },
+  {
+   "label": "JavaScript",
+   "value": "29.47%"
+  },
+  {
+   "label": "Java",
+   "value": "10.56%"
+  },
+  {
+   "label": "TeX",
+   "value": "2.28%"
+  },
+  {
+   "label": "CSS",
+   "value": "2.15%"
+  },
+  {
+   "label": "Shell",
+   "value": "0.49%"
+  }
+ ]
+}

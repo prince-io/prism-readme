@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="78" height="72" viewBox="0 0 39 36"
+     shape-rendering="crispEdges"
+     style="--pf-blue-orchid-1: #2eccfa;--pf-blue-orchid-2: #29bdfa;--pf-blue-orchid-3: #27a7f1;--pf-blue-orchid-4: #1c90d3;--pf-blue-orchid-5: #498d27;--pf-blue-orchid-6: #54a92c;--pf-blue-orchid-7: #177b04;">
+  <style>
+    :root { --pf-blue-orchid-1: #2eccfa; --pf-blue-orchid-2: #29bdfa; --pf-blue-orchid-3: #27a7f1; --pf-blue-orchid-4: #1c90d3; --pf-blue-orchid-5: #498d27; --pf-blue-orchid-6: #54a92c; --pf-blue-orchid-7: #177b04; }
+    .pf-blue-orchid-1 { fill: var(--pf-blue-orchid-1); }
+    .pf-blue-orchid-2 { fill: var(--pf-blue-orchid-2); }
+    .pf-blue-orchid-3 { fill: var(--pf-blue-orchid-3); }
+    .pf-blue-orchid-4 { fill: var(--pf-blue-orchid-4); }
+    .pf-blue-orchid-5 { fill: var(--pf-blue-orchid-5); }
+    .pf-blue-orchid-6 { fill: var(--pf-blue-orchid-6); }
+    .pf-blue-orchid-7 { fill: var(--pf-blue-orchid-7); }
+  </style>
+
+  <!-- blue-orchid: 13x12 cells of 3px. Copy the <g id="i-blue-orchid"> below into a banner <defs>. -->
+  <g id="i-blue-orchid">
+    <rect x="12" y="0" width="3" height="3" class="pf-blue-orchid-1"/>
+    <rect x="15" y="0" width="3" height="3" class="pf-blue-orchid-2"/>
+    <rect x="9" y="3" width="3" height="3" class="pf-blue-orchid-3"/>
+    <rect x="12" y="3" width="3" height="3" class="pf-blue-orchid-2"/>
+    <rect x="15" y="3" width="3" height="3" class="pf-blue-orchid-3"/>
+    <rect x="18" y="3" width="3" height="3" class="pf-blue-orchid-4"/>
+    <rect x="33" y="3" width="3" height="3" class="pf-blue-orchid-3"/>
+    <rect x="9" y="6" width="3" height="3" class="pf-blue-orchid-3"/>
+    <rect x="12" y="6" width="3" height="3" class="pf-blue-orchid-4"/>
+    <rect x="15" y="6" width="3" height="3" class="pf-blue-orchid-5"/>
+    <rect x="18" y="6" width="3" height="3" class="pf-blue-orchid-3"/>
+    <rect x="30" y="6" width="3" height="3" class="pf-blue-orchid-3"/>
+    <rect x="33" y="6" width="3" height="3" class="pf-blue-orchid-2"/>
+    <rect x="36" y="6" width="3" height="3" class="pf-blue-orchid-2"/>
+    <rect x="12" y="9" width="3" height="3" class="pf-blue-orchid-4"/>
+    <rect x="15" y="9" width="3" height="3" class="pf-blue-orchid-6"/>
+    <rect x="30" y="9" width="3" height="3" class="pf-blue-orchid-5"/>
+    <rect x="33" y="9" width="3" height="3" class="pf-blue-orchid-4"/>
+    <rect x="18" y="12" width="3" height="3" class="pf-blue-orchid-5"/>
+    <rect x="27" y="12" width="3" height="3" class="pf-blue-orchid-6"/>
+    <rect x="3" y="15" width="3" height="3" class="pf-blue-orchid-3"/>
+    <rect x="6" y="15" width="3" height="3" class="pf-blue-orchid-4"/>
+    <rect x="18" y="15" width="3" height="3" class="pf-blue-orchid-4"/>
+    <rect x="24" y="15" width="3" height="3" class="pf-blue-orchid-6"/>
+    <rect x="0" y="18" width="3" height="3" class="pf-blue-orchid-3"/>
+    <rect x="3" y="18" width="3" height="3" class="pf-blue-orchid-2"/>
+    <rect x="6" y="18" width="3" height="3" class="pf-blue-orchid-3"/>
+    <rect x="9" y="18" width="3" height="3" class="pf-blue-orchid-5"/>
+    <rect x="15" y="18" width="3" height="3" class="pf-blue-orchid-4"/>
+    <rect x="18" y="18" width="3" height="3" class="pf-blue-orchid-3"/>
+    <rect x="21" y="18" width="3" height="3" class="pf-blue-orchid-2"/>
+    <rect x="24" y="18" width="3" height="3" class="pf-blue-orchid-3"/>
+    <rect x="3" y="21" width="3" height="3" class="pf-blue-orchid-4"/>
+    <rect x="12" y="21" width="3" height="3" class="pf-blue-orchid-6"/>
+    <rect x="18" y="21" width="3" height="3" class="pf-blue-orchid-2"/>
+    <rect x="21" y="21" width="3" height="3" class="pf-blue-orchid-1"/>
+    <rect x="12" y="24" width="3" height="3" class="pf-blue-orchid-5"/>
+    <rect x="15" y="24" width="3" height="3" class="pf-blue-orchid-6"/>
+    <rect x="18" y="24" width="3" height="3" class="pf-blue-orchid-4"/>
+    <rect x="15" y="27" width="3" height="3" class="pf-blue-orchid-7"/>
+    <rect x="18" y="27" width="3" height="3" class="pf-blue-orchid-5"/>
+    <rect x="18" y="30" width="3" height="3" class="pf-blue-orchid-5"/>
+    <rect x="21" y="30" width="3" height="3" class="pf-blue-orchid-7"/>
+    <rect x="18" y="33" width="3" height="3" class="pf-blue-orchid-7"/>
+  </g>
+</svg>

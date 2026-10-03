@@ -1,0 +1,21 @@
+{
+  "name": "about",
+  "output": "assets/about",
+  "variants": [
+    "light", "solarized-light", "paper", "mint", "lavender", "rose",
+    "dracula", "nord", "tokyo-night", "neon", "forest", "volcano"
+  ],
+  "heading": "A BIT ABOUT ME",
+  "heading_x": 100,
+  "icons": [
+    { "id": "enchanted-book", "x": 36, "y": 25, "scale": 1 }
+  ],
+  "lines": [
+    { "x": 32, "size": 15, "text": "Hey, I'm Prince! I build full-stack apps and explore the future of AI." },
+    { "x": 32, "size": 15, "text": "I love building things end-to-end - from the first line of code to a" },
+    { "x": 32, "size": 15, "text": "working product people actually use. Lately my curiosity is pointed at" },
+    { "x": 32, "size": 15, "text": "the AI space, taking these tools beyond flashy demos into things that" },
+    { "x": 32, "size": 15, "text": "genuinely work. I learn best by building - if I'm curious, I've probably" },
+    { "x": 32, "size": 15, "text": "already started coding it. Check out my focus areas below." }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "name": "solarized-light",
+  "mode": "light",
+  "primary":   { "light": "#FEF9C3", "main": "#CA8A04", "dark": "#854D0E" },
+  "secondary": { "light": "#CCFBF1", "main": "#0D9488", "dark": "#115E59" },
+  "tertiary":  { "light": "#DBEAFE", "main": "#2563EB", "dark": "#1E3A8A" }
+}

@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="36" height="54" viewBox="0 0 18 27"
+     shape-rendering="crispEdges"
+     style="--pf-dandelion-1: #fce94e;--pf-dandelion-2: #fbd338;--pf-dandelion-3: #ee9b25;--pf-dandelion-4: #bb6922;--pf-dandelion-5: #177b04;--pf-dandelion-6: #498d27;--pf-dandelion-7: #54a92c;">
+  <style>
+    :root { --pf-dandelion-1: #fce94e; --pf-dandelion-2: #fbd338; --pf-dandelion-3: #ee9b25; --pf-dandelion-4: #bb6922; --pf-dandelion-5: #177b04; --pf-dandelion-6: #498d27; --pf-dandelion-7: #54a92c; }
+    .pf-dandelion-1 { fill: var(--pf-dandelion-1); }
+    .pf-dandelion-2 { fill: var(--pf-dandelion-2); }
+    .pf-dandelion-3 { fill: var(--pf-dandelion-3); }
+    .pf-dandelion-4 { fill: var(--pf-dandelion-4); }
+    .pf-dandelion-5 { fill: var(--pf-dandelion-5); }
+    .pf-dandelion-6 { fill: var(--pf-dandelion-6); }
+    .pf-dandelion-7 { fill: var(--pf-dandelion-7); }
+  </style>
+
+  <!-- dandelion: 6x9 cells of 3px. Copy the <g id="i-dandelion"> below into a banner <defs>. -->
+  <g id="i-dandelion">
+    <rect x="6" y="0" width="3" height="3" class="pf-dandelion-1"/>
+    <rect x="9" y="0" width="3" height="3" class="pf-dandelion-1"/>
+    <rect x="3" y="3" width="3" height="3" class="pf-dandelion-1"/>
+    <rect x="6" y="3" width="3" height="3" class="pf-dandelion-2"/>
+    <rect x="9" y="3" width="3" height="3" class="pf-dandelion-3"/>
+    <rect x="12" y="3" width="3" height="3" class="pf-dandelion-1"/>
+    <rect x="0" y="6" width="3" height="3" class="pf-dandelion-1"/>
+    <rect x="3" y="6" width="3" height="3" class="pf-dandelion-3"/>
+    <rect x="6" y="6" width="3" height="3" class="pf-dandelion-1"/>
+    <rect x="9" y="6" width="3" height="3" class="pf-dandelion-4"/>
+    <rect x="12" y="6" width="3" height="3" class="pf-dandelion-2"/>
+    <rect x="15" y="6" width="3" height="3" class="pf-dandelion-1"/>
+    <rect x="3" y="9" width="3" height="3" class="pf-dandelion-1"/>
+    <rect x="6" y="9" width="3" height="3" class="pf-dandelion-4"/>
+    <rect x="9" y="9" width="3" height="3" class="pf-dandelion-2"/>
+    <rect x="12" y="9" width="3" height="3" class="pf-dandelion-1"/>
+    <rect x="6" y="12" width="3" height="3" class="pf-dandelion-5"/>
+    <rect x="9" y="12" width="3" height="3" class="pf-dandelion-5"/>
+    <rect x="0" y="15" width="3" height="3" class="pf-dandelion-5"/>
+    <rect x="3" y="15" width="3" height="3" class="pf-dandelion-6"/>
+    <rect x="6" y="15" width="3" height="3" class="pf-dandelion-7"/>
+    <rect x="9" y="15" width="3" height="3" class="pf-dandelion-6"/>
+    <rect x="3" y="18" width="3" height="3" class="pf-dandelion-5"/>
+    <rect x="6" y="18" width="3" height="3" class="pf-dandelion-7"/>
+    <rect x="9" y="18" width="3" height="3" class="pf-dandelion-6"/>
+    <rect x="12" y="18" width="3" height="3" class="pf-dandelion-6"/>
+    <rect x="15" y="18" width="3" height="3" class="pf-dandelion-5"/>
+    <rect x="6" y="21" width="3" height="3" class="pf-dandelion-7"/>
+    <rect x="9" y="21" width="3" height="3" class="pf-dandelion-5"/>
+    <rect x="12" y="21" width="3" height="3" class="pf-dandelion-5"/>
+    <rect x="6" y="24" width="3" height="3" class="pf-dandelion-6"/>
+    <rect x="9" y="24" width="3" height="3" class="pf-dandelion-5"/>
+  </g>
+</svg>

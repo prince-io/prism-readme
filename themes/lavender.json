@@ -1,0 +1,7 @@
+{
+  "name": "lavender",
+  "mode": "light",
+  "primary":   { "light": "#EDE9FE", "main": "#7C3AED", "dark": "#4C1D95" },
+  "secondary": { "light": "#FEF3C7", "main": "#D97706", "dark": "#92400E" },
+  "tertiary":  { "light": "#CCFBF1", "main": "#0D9488", "dark": "#115E59" }
+}

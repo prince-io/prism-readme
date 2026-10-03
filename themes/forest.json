@@ -1,0 +1,7 @@
+{
+  "name": "forest",
+  "mode": "dark",
+  "primary":   { "light": "#DCFCE7", "main": "#22C55E", "dark": "#14532D" },
+  "secondary": { "light": "#FCE7F3", "main": "#EC4899", "dark": "#9D174D" },
+  "tertiary":  { "light": "#FEF3C7", "main": "#F59E0B", "dark": "#92400E" }
+}

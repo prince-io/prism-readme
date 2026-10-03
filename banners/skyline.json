@@ -1,0 +1,18 @@
+{
+  "name": "skyline",
+  "output": "assets/skyline",
+  "variants": [
+    "light", "solarized-light", "paper", "mint", "lavender", "rose",
+    "dracula", "nord", "tokyo-night", "neon", "forest", "volcano"
+  ],
+  "width": 800,
+  "height": 440,
+  "frame": false,
+  "underline": false,
+  "skyline": {
+    "levels": ["pf-primary-hi", "pf-tertiary", "pf-secondary", "pf-primary"],
+    "empty": "pf-frame-inner",
+    "height_scale": 1,
+    "rise": true
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "github-stats",
+  "output": "assets/github-stats",
+  "variants": [
+    "light", "solarized-light", "paper", "mint", "lavender", "rose",
+    "dracula", "nord", "tokyo-night", "neon", "forest", "volcano"
+  ],
+  "heading": "GITHUB IN NUMBERS",
+  "heading_x": 88,
+  "margin": 18,
+  "icons": [
+    { "id": "ender-eye", "x": 36, "y": 26, "scale": 1 }
+  ],
+  "panels": {
+    "origin_x": 28,
+    "gap": 30,
+    "section_gap": 28,
+    "title_size": 14,
+    "item_size": 13,
+    "row_h": 24,
+    "col_gap": 40,
+    "sections": [
+      { "title": "OVERALL", "span": 0.42, "columns": 1, "source": "overall", "bg": "pf-panel-2", "card_anim": "chase" },
+      { "title": "LANGUAGES", "span": 0.58, "columns": 2, "source": "languages", "bg": "pf-panel-2", "card_anim": "chase" },
+      { "title": "STREAKS", "span": 1.0, "columns": 3, "source": "streaks", "bg": "pf-panel-2", "box": true, "card_anim": "chase" }
+    ]
+  }
+}

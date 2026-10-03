@@ -1,0 +1,12 @@
+{
+  "theme": "dracula",
+  "variants": null,
+  "width": 800,
+  "height": "auto",
+  "frame": true,
+  "underline": true,
+  "animation": { "mode": "step", "hold": 20, "appear": 0.2, "disappear": 0.2 },
+  "heading_x": 36,
+  "heading_y": 32,
+  "margin": 16
+}

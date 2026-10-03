@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="42" height="66" viewBox="0 0 21 33"
+     shape-rendering="crispEdges"
+     style="--pf-poppy-1: #ea2f2b;--pf-poppy-2: #99221a;--pf-poppy-3: #bd2528;--pf-poppy-4: #732303;--pf-poppy-5: #204526;--pf-poppy-6: #265925;--pf-poppy-7: #498d27;--pf-poppy-8: #2a6f29;">
+  <style>
+    :root { --pf-poppy-1: #ea2f2b; --pf-poppy-2: #99221a; --pf-poppy-3: #bd2528; --pf-poppy-4: #732303; --pf-poppy-5: #204526; --pf-poppy-6: #265925; --pf-poppy-7: #498d27; --pf-poppy-8: #2a6f29; }
+    .pf-poppy-1 { fill: var(--pf-poppy-1); }
+    .pf-poppy-2 { fill: var(--pf-poppy-2); }
+    .pf-poppy-3 { fill: var(--pf-poppy-3); }
+    .pf-poppy-4 { fill: var(--pf-poppy-4); }
+    .pf-poppy-5 { fill: var(--pf-poppy-5); }
+    .pf-poppy-6 { fill: var(--pf-poppy-6); }
+    .pf-poppy-7 { fill: var(--pf-poppy-7); }
+    .pf-poppy-8 { fill: var(--pf-poppy-8); }
+  </style>
+
+  <!-- poppy: 7x11 cells of 3px. Copy the <g id="i-poppy"> below into a banner <defs>. -->
+  <g id="i-poppy">
+    <rect x="9" y="0" width="3" height="3" class="pf-poppy-1"/>
+    <rect x="12" y="0" width="3" height="3" class="pf-poppy-2"/>
+    <rect x="3" y="3" width="3" height="3" class="pf-poppy-1"/>
+    <rect x="6" y="3" width="3" height="3" class="pf-poppy-3"/>
+    <rect x="9" y="3" width="3" height="3" class="pf-poppy-2"/>
+    <rect x="12" y="3" width="3" height="3" class="pf-poppy-1"/>
+    <rect x="15" y="3" width="3" height="3" class="pf-poppy-3"/>
+    <rect x="0" y="6" width="3" height="3" class="pf-poppy-1"/>
+    <rect x="3" y="6" width="3" height="3" class="pf-poppy-3"/>
+    <rect x="6" y="6" width="3" height="3" class="pf-poppy-4"/>
+    <rect x="9" y="6" width="3" height="3" class="pf-poppy-3"/>
+    <rect x="12" y="6" width="3" height="3" class="pf-poppy-1"/>
+    <rect x="15" y="6" width="3" height="3" class="pf-poppy-2"/>
+    <rect x="0" y="9" width="3" height="3" class="pf-poppy-1"/>
+    <rect x="3" y="9" width="3" height="3" class="pf-poppy-1"/>
+    <rect x="6" y="9" width="3" height="3" class="pf-poppy-1"/>
+    <rect x="9" y="9" width="3" height="3" class="pf-poppy-1"/>
+    <rect x="12" y="9" width="3" height="3" class="pf-poppy-2"/>
+    <rect x="3" y="12" width="3" height="3" class="pf-poppy-3"/>
+    <rect x="6" y="12" width="3" height="3" class="pf-poppy-5"/>
+    <rect x="9" y="12" width="3" height="3" class="pf-poppy-6"/>
+    <rect x="9" y="15" width="3" height="3" class="pf-poppy-7"/>
+    <rect x="9" y="18" width="3" height="3" class="pf-poppy-7"/>
+    <rect x="9" y="21" width="3" height="3" class="pf-poppy-7"/>
+    <rect x="0" y="24" width="3" height="3" class="pf-poppy-5"/>
+    <rect x="3" y="24" width="3" height="3" class="pf-poppy-6"/>
+    <rect x="9" y="24" width="3" height="3" class="pf-poppy-8"/>
+    <rect x="15" y="24" width="3" height="3" class="pf-poppy-6"/>
+    <rect x="18" y="24" width="3" height="3" class="pf-poppy-6"/>
+    <rect x="3" y="27" width="3" height="3" class="pf-poppy-5"/>
+    <rect x="9" y="27" width="3" height="3" class="pf-poppy-5"/>
+    <rect x="12" y="27" width="3" height="3" class="pf-poppy-5"/>
+    <rect x="6" y="30" width="3" height="3" class="pf-poppy-5"/>
+    <rect x="9" y="30" width="3" height="3" class="pf-poppy-6"/>
+    <rect x="12" y="30" width="3" height="3" class="pf-poppy-5"/>
+  </g>
+</svg>

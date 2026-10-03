@@ -1,0 +1,21 @@
+{
+  "name": "focus-areas",
+  "output": "assets/focus-areas",
+  "variants": [
+    "light", "solarized-light", "paper", "mint", "lavender", "rose",
+    "dracula", "nord", "tokyo-night", "neon", "forest", "volcano"
+  ],
+  "heading": "MY FOCUS AREA",
+  "heading_x": 88,
+  "line_step": 54,
+  "icons": [
+    { "id": "diamond-pickaxe", "x": 36, "y": 26, "scale": 1 }
+  ],
+  "lines": [
+    { "x": 28, "size": 15, "text": "Full-Stack Development - React, Next.js, Node.js, Express", "bullet": { "id": "diamond", "scale": 1 } },
+    { "x": 28, "size": 15, "text": "System Design - scalable backends for real-world apps", "bullet": { "id": "netherite-ingot", "scale": 1 } },
+    { "x": 28, "size": 15, "text": "RAG Architectures - connecting LLMs to real, useful data", "bullet": { "id": "gold-ingot", "scale": 1 } },
+    { "x": 28, "size": 15, "text": "AI Agents - designing autonomous, task-driven workflows", "bullet": { "id": "iron-ingot", "scale": 1 } },
+    { "x": 28, "size": 15, "text": "LLM Orchestration - LangChain and agentic pipelines", "bullet": { "id": "emerald", "scale": 1 } }
+  ]
+}

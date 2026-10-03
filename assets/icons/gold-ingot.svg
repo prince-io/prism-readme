@@ -1,0 +1,155 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="96" height="72" viewBox="0 0 48 36"
+     shape-rendering="crispEdges"
+     style="--pf-gold-ingot-1: #b26411;--pf-gold-ingot-2: #fad64a;--pf-gold-ingot-3: #fdf55f;--pf-gold-ingot-4: #752802;--pf-gold-ingot-5: #fffde0;--pf-gold-ingot-6: #dc9613;--pf-gold-ingot-7: #e9b115;--pf-gold-ingot-8: #ffffff;">
+  <style>
+    :root { --pf-gold-ingot-1: #b26411; --pf-gold-ingot-2: #fad64a; --pf-gold-ingot-3: #fdf55f; --pf-gold-ingot-4: #752802; --pf-gold-ingot-5: #fffde0; --pf-gold-ingot-6: #dc9613; --pf-gold-ingot-7: #e9b115; --pf-gold-ingot-8: #ffffff; }
+    .pf-gold-ingot-1 { fill: var(--pf-gold-ingot-1); }
+    .pf-gold-ingot-2 { fill: var(--pf-gold-ingot-2); }
+    .pf-gold-ingot-3 { fill: var(--pf-gold-ingot-3); }
+    .pf-gold-ingot-4 { fill: var(--pf-gold-ingot-4); }
+    .pf-gold-ingot-5 { fill: var(--pf-gold-ingot-5); }
+    .pf-gold-ingot-6 { fill: var(--pf-gold-ingot-6); }
+    .pf-gold-ingot-7 { fill: var(--pf-gold-ingot-7); }
+    .pf-gold-ingot-8 { fill: var(--pf-gold-ingot-8); }
+  </style>
+
+  <!-- gold-ingot: 16x12 cells of 3px. Copy the <g id="i-gold-ingot"> below into a banner <defs>. -->
+  <g id="i-gold-ingot">
+    <rect x="30" y="0" width="3" height="3" class="pf-gold-ingot-1"/>
+    <rect x="33" y="0" width="3" height="3" class="pf-gold-ingot-1"/>
+    <rect x="21" y="3" width="3" height="3" class="pf-gold-ingot-1"/>
+    <rect x="24" y="3" width="3" height="3" class="pf-gold-ingot-1"/>
+    <rect x="27" y="3" width="3" height="3" class="pf-gold-ingot-1"/>
+    <rect x="30" y="3" width="3" height="3" class="pf-gold-ingot-2"/>
+    <rect x="33" y="3" width="3" height="3" class="pf-gold-ingot-2"/>
+    <rect x="36" y="3" width="3" height="3" class="pf-gold-ingot-1"/>
+    <rect x="12" y="6" width="3" height="3" class="pf-gold-ingot-1"/>
+    <rect x="15" y="6" width="3" height="3" class="pf-gold-ingot-1"/>
+    <rect x="18" y="6" width="3" height="3" class="pf-gold-ingot-1"/>
+    <rect x="21" y="6" width="3" height="3" class="pf-gold-ingot-3"/>
+    <rect x="24" y="6" width="3" height="3" class="pf-gold-ingot-3"/>
+    <rect x="27" y="6" width="3" height="3" class="pf-gold-ingot-3"/>
+    <rect x="30" y="6" width="3" height="3" class="pf-gold-ingot-3"/>
+    <rect x="33" y="6" width="3" height="3" class="pf-gold-ingot-3"/>
+    <rect x="36" y="6" width="3" height="3" class="pf-gold-ingot-3"/>
+    <rect x="39" y="6" width="3" height="3" class="pf-gold-ingot-1"/>
+    <rect x="3" y="9" width="3" height="3" class="pf-gold-ingot-1"/>
+    <rect x="6" y="9" width="3" height="3" class="pf-gold-ingot-1"/>
+    <rect x="9" y="9" width="3" height="3" class="pf-gold-ingot-1"/>
+    <rect x="12" y="9" width="3" height="3" class="pf-gold-ingot-2"/>
+    <rect x="15" y="9" width="3" height="3" class="pf-gold-ingot-3"/>
+    <rect x="18" y="9" width="3" height="3" class="pf-gold-ingot-3"/>
+    <rect x="21" y="9" width="3" height="3" class="pf-gold-ingot-3"/>
+    <rect x="24" y="9" width="3" height="3" class="pf-gold-ingot-3"/>
+    <rect x="27" y="9" width="3" height="3" class="pf-gold-ingot-3"/>
+    <rect x="30" y="9" width="3" height="3" class="pf-gold-ingot-3"/>
+    <rect x="33" y="9" width="3" height="3" class="pf-gold-ingot-3"/>
+    <rect x="36" y="9" width="3" height="3" class="pf-gold-ingot-3"/>
+    <rect x="39" y="9" width="3" height="3" class="pf-gold-ingot-2"/>
+    <rect x="42" y="9" width="3" height="3" class="pf-gold-ingot-4"/>
+    <rect x="0" y="12" width="3" height="3" class="pf-gold-ingot-1"/>
+    <rect x="3" y="12" width="3" height="3" class="pf-gold-ingot-5"/>
+    <rect x="6" y="12" width="3" height="3" class="pf-gold-ingot-3"/>
+    <rect x="9" y="12" width="3" height="3" class="pf-gold-ingot-3"/>
+    <rect x="12" y="12" width="3" height="3" class="pf-gold-ingot-3"/>
+    <rect x="15" y="12" width="3" height="3" class="pf-gold-ingot-3"/>
+    <rect x="18" y="12" width="3" height="3" class="pf-gold-ingot-3"/>
+    <rect x="21" y="12" width="3" height="3" class="pf-gold-ingot-3"/>
+    <rect x="24" y="12" width="3" height="3" class="pf-gold-ingot-3"/>
+    <rect x="27" y="12" width="3" height="3" class="pf-gold-ingot-3"/>
+    <rect x="30" y="12" width="3" height="3" class="pf-gold-ingot-3"/>
+    <rect x="33" y="12" width="3" height="3" class="pf-gold-ingot-3"/>
+    <rect x="36" y="12" width="3" height="3" class="pf-gold-ingot-5"/>
+    <rect x="39" y="12" width="3" height="3" class="pf-gold-ingot-5"/>
+    <rect x="42" y="12" width="3" height="3" class="pf-gold-ingot-3"/>
+    <rect x="45" y="12" width="3" height="3" class="pf-gold-ingot-4"/>
+    <rect x="0" y="15" width="3" height="3" class="pf-gold-ingot-1"/>
+    <rect x="3" y="15" width="3" height="3" class="pf-gold-ingot-2"/>
+    <rect x="6" y="15" width="3" height="3" class="pf-gold-ingot-5"/>
+    <rect x="9" y="15" width="3" height="3" class="pf-gold-ingot-3"/>
+    <rect x="12" y="15" width="3" height="3" class="pf-gold-ingot-3"/>
+    <rect x="15" y="15" width="3" height="3" class="pf-gold-ingot-3"/>
+    <rect x="18" y="15" width="3" height="3" class="pf-gold-ingot-3"/>
+    <rect x="21" y="15" width="3" height="3" class="pf-gold-ingot-3"/>
+    <rect x="24" y="15" width="3" height="3" class="pf-gold-ingot-3"/>
+    <rect x="27" y="15" width="3" height="3" class="pf-gold-ingot-5"/>
+    <rect x="30" y="15" width="3" height="3" class="pf-gold-ingot-5"/>
+    <rect x="33" y="15" width="3" height="3" class="pf-gold-ingot-5"/>
+    <rect x="36" y="15" width="3" height="3" class="pf-gold-ingot-3"/>
+    <rect x="39" y="15" width="3" height="3" class="pf-gold-ingot-6"/>
+    <rect x="42" y="15" width="3" height="3" class="pf-gold-ingot-2"/>
+    <rect x="45" y="15" width="3" height="3" class="pf-gold-ingot-4"/>
+    <rect x="0" y="18" width="3" height="3" class="pf-gold-ingot-1"/>
+    <rect x="3" y="18" width="3" height="3" class="pf-gold-ingot-2"/>
+    <rect x="6" y="18" width="3" height="3" class="pf-gold-ingot-3"/>
+    <rect x="9" y="18" width="3" height="3" class="pf-gold-ingot-5"/>
+    <rect x="12" y="18" width="3" height="3" class="pf-gold-ingot-3"/>
+    <rect x="15" y="18" width="3" height="3" class="pf-gold-ingot-3"/>
+    <rect x="18" y="18" width="3" height="3" class="pf-gold-ingot-5"/>
+    <rect x="21" y="18" width="3" height="3" class="pf-gold-ingot-5"/>
+    <rect x="24" y="18" width="3" height="3" class="pf-gold-ingot-5"/>
+    <rect x="27" y="18" width="3" height="3" class="pf-gold-ingot-3"/>
+    <rect x="30" y="18" width="3" height="3" class="pf-gold-ingot-7"/>
+    <rect x="33" y="18" width="3" height="3" class="pf-gold-ingot-6"/>
+    <rect x="36" y="18" width="3" height="3" class="pf-gold-ingot-6"/>
+    <rect x="39" y="18" width="3" height="3" class="pf-gold-ingot-6"/>
+    <rect x="42" y="18" width="3" height="3" class="pf-gold-ingot-2"/>
+    <rect x="45" y="18" width="3" height="3" class="pf-gold-ingot-4"/>
+    <rect x="0" y="21" width="3" height="3" class="pf-gold-ingot-1"/>
+    <rect x="3" y="21" width="3" height="3" class="pf-gold-ingot-2"/>
+    <rect x="6" y="21" width="3" height="3" class="pf-gold-ingot-3"/>
+    <rect x="9" y="21" width="3" height="3" class="pf-gold-ingot-2"/>
+    <rect x="12" y="21" width="3" height="3" class="pf-gold-ingot-8"/>
+    <rect x="15" y="21" width="3" height="3" class="pf-gold-ingot-5"/>
+    <rect x="18" y="21" width="3" height="3" class="pf-gold-ingot-3"/>
+    <rect x="21" y="21" width="3" height="3" class="pf-gold-ingot-7"/>
+    <rect x="24" y="21" width="3" height="3" class="pf-gold-ingot-6"/>
+    <rect x="27" y="21" width="3" height="3" class="pf-gold-ingot-6"/>
+    <rect x="30" y="21" width="3" height="3" class="pf-gold-ingot-6"/>
+    <rect x="33" y="21" width="3" height="3" class="pf-gold-ingot-6"/>
+    <rect x="36" y="21" width="3" height="3" class="pf-gold-ingot-7"/>
+    <rect x="39" y="21" width="3" height="3" class="pf-gold-ingot-2"/>
+    <rect x="42" y="21" width="3" height="3" class="pf-gold-ingot-2"/>
+    <rect x="45" y="21" width="3" height="3" class="pf-gold-ingot-4"/>
+    <rect x="0" y="24" width="3" height="3" class="pf-gold-ingot-1"/>
+    <rect x="3" y="24" width="3" height="3" class="pf-gold-ingot-7"/>
+    <rect x="6" y="24" width="3" height="3" class="pf-gold-ingot-3"/>
+    <rect x="9" y="24" width="3" height="3" class="pf-gold-ingot-2"/>
+    <rect x="12" y="24" width="3" height="3" class="pf-gold-ingot-3"/>
+    <rect x="15" y="24" width="3" height="3" class="pf-gold-ingot-7"/>
+    <rect x="18" y="24" width="3" height="3" class="pf-gold-ingot-6"/>
+    <rect x="21" y="24" width="3" height="3" class="pf-gold-ingot-6"/>
+    <rect x="24" y="24" width="3" height="3" class="pf-gold-ingot-6"/>
+    <rect x="27" y="24" width="3" height="3" class="pf-gold-ingot-6"/>
+    <rect x="30" y="24" width="3" height="3" class="pf-gold-ingot-7"/>
+    <rect x="33" y="24" width="3" height="3" class="pf-gold-ingot-2"/>
+    <rect x="36" y="24" width="3" height="3" class="pf-gold-ingot-2"/>
+    <rect x="39" y="24" width="3" height="3" class="pf-gold-ingot-4"/>
+    <rect x="42" y="24" width="3" height="3" class="pf-gold-ingot-4"/>
+    <rect x="3" y="27" width="3" height="3" class="pf-gold-ingot-1"/>
+    <rect x="6" y="27" width="3" height="3" class="pf-gold-ingot-7"/>
+    <rect x="9" y="27" width="3" height="3" class="pf-gold-ingot-2"/>
+    <rect x="12" y="27" width="3" height="3" class="pf-gold-ingot-3"/>
+    <rect x="15" y="27" width="3" height="3" class="pf-gold-ingot-7"/>
+    <rect x="18" y="27" width="3" height="3" class="pf-gold-ingot-6"/>
+    <rect x="21" y="27" width="3" height="3" class="pf-gold-ingot-6"/>
+    <rect x="24" y="27" width="3" height="3" class="pf-gold-ingot-7"/>
+    <rect x="27" y="27" width="3" height="3" class="pf-gold-ingot-7"/>
+    <rect x="30" y="27" width="3" height="3" class="pf-gold-ingot-4"/>
+    <rect x="33" y="27" width="3" height="3" class="pf-gold-ingot-4"/>
+    <rect x="36" y="27" width="3" height="3" class="pf-gold-ingot-4"/>
+    <rect x="6" y="30" width="3" height="3" class="pf-gold-ingot-1"/>
+    <rect x="9" y="30" width="3" height="3" class="pf-gold-ingot-7"/>
+    <rect x="12" y="30" width="3" height="3" class="pf-gold-ingot-2"/>
+    <rect x="15" y="30" width="3" height="3" class="pf-gold-ingot-7"/>
+    <rect x="18" y="30" width="3" height="3" class="pf-gold-ingot-7"/>
+    <rect x="21" y="30" width="3" height="3" class="pf-gold-ingot-4"/>
+    <rect x="24" y="30" width="3" height="3" class="pf-gold-ingot-4"/>
+    <rect x="27" y="30" width="3" height="3" class="pf-gold-ingot-4"/>
+    <rect x="9" y="33" width="3" height="3" class="pf-gold-ingot-1"/>
+    <rect x="12" y="33" width="3" height="3" class="pf-gold-ingot-1"/>
+    <rect x="15" y="33" width="3" height="3" class="pf-gold-ingot-4"/>
+    <rect x="18" y="33" width="3" height="3" class="pf-gold-ingot-4"/>
+  </g>
+</svg>

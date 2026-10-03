@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="78" height="78" viewBox="0 0 39 39"
+     shape-rendering="crispEdges"
+     style="--pf-ender-eye-1: #316364;--pf-ender-eye-2: #1e4835;--pf-ender-eye-3: #4e8386;--pf-ender-eye-4: #659b7d;--pf-ender-eye-5: #cbfcdd;--pf-ender-eye-6: #b5e45a;--pf-ender-eye-7: #88c35a;--pf-ender-eye-8: #71ac49;--pf-ender-eye-9: #97d16b;--pf-ender-eye-a: #579143;--pf-ender-eye-b: #102c31;--pf-ender-eye-c: #1b2b10;">
+  <style>
+    :root { --pf-ender-eye-1: #316364; --pf-ender-eye-2: #1e4835; --pf-ender-eye-3: #4e8386; --pf-ender-eye-4: #659b7d; --pf-ender-eye-5: #cbfcdd; --pf-ender-eye-6: #b5e45a; --pf-ender-eye-7: #88c35a; --pf-ender-eye-8: #71ac49; --pf-ender-eye-9: #97d16b; --pf-ender-eye-a: #579143; --pf-ender-eye-b: #102c31; --pf-ender-eye-c: #1b2b10; }
+    .pf-ender-eye-1 { fill: var(--pf-ender-eye-1); }
+    .pf-ender-eye-2 { fill: var(--pf-ender-eye-2); }
+    .pf-ender-eye-3 { fill: var(--pf-ender-eye-3); }
+    .pf-ender-eye-4 { fill: var(--pf-ender-eye-4); }
+    .pf-ender-eye-5 { fill: var(--pf-ender-eye-5); }
+    .pf-ender-eye-6 { fill: var(--pf-ender-eye-6); }
+    .pf-ender-eye-7 { fill: var(--pf-ender-eye-7); }
+    .pf-ender-eye-8 { fill: var(--pf-ender-eye-8); }
+    .pf-ender-eye-9 { fill: var(--pf-ender-eye-9); }
+    .pf-ender-eye-a { fill: var(--pf-ender-eye-a); }
+    .pf-ender-eye-b { fill: var(--pf-ender-eye-b); }
+    .pf-ender-eye-c { fill: var(--pf-ender-eye-c); }
+  </style>
+
+  <!-- ender-eye: 13x13 cells of 3px. Copy the <g id="i-ender-eye"> below into a banner <defs>. -->
+  <g id="i-ender-eye">
+    <rect x="15" y="0" width="3" height="3" class="pf-ender-eye-1"/>
+    <rect x="18" y="0" width="3" height="3" class="pf-ender-eye-2"/>
+    <rect x="21" y="0" width="3" height="3" class="pf-ender-eye-2"/>
+    <rect x="9" y="3" width="3" height="3" class="pf-ender-eye-1"/>
+    <rect x="12" y="3" width="3" height="3" class="pf-ender-eye-1"/>
+    <rect x="15" y="3" width="3" height="3" class="pf-ender-eye-3"/>
+    <rect x="18" y="3" width="3" height="3" class="pf-ender-eye-3"/>
+    <rect x="21" y="3" width="3" height="3" class="pf-ender-eye-3"/>
+    <rect x="24" y="3" width="3" height="3" class="pf-ender-eye-2"/>
+    <rect x="27" y="3" width="3" height="3" class="pf-ender-eye-2"/>
+    <rect x="6" y="6" width="3" height="3" class="pf-ender-eye-1"/>
+    <rect x="9" y="6" width="3" height="3" class="pf-ender-eye-3"/>
+    <rect x="12" y="6" width="3" height="3" class="pf-ender-eye-4"/>
+    <rect x="15" y="6" width="3" height="3" class="pf-ender-eye-4"/>
+    <rect x="18" y="6" width="3" height="3" class="pf-ender-eye-4"/>
+    <rect x="21" y="6" width="3" height="3" class="pf-ender-eye-4"/>
+    <rect x="24" y="6" width="3" height="3" class="pf-ender-eye-4"/>
+    <rect x="27" y="6" width="3" height="3" class="pf-ender-eye-1"/>
+    <rect x="30" y="6" width="3" height="3" class="pf-ender-eye-2"/>
+    <rect x="3" y="9" width="3" height="3" class="pf-ender-eye-2"/>
+    <rect x="6" y="9" width="3" height="3" class="pf-ender-eye-3"/>
+    <rect x="9" y="9" width="3" height="3" class="pf-ender-eye-4"/>
+    <rect x="12" y="9" width="3" height="3" class="pf-ender-eye-5"/>
+    <rect x="15" y="9" width="3" height="3" class="pf-ender-eye-6"/>
+    <rect x="18" y="9" width="3" height="3" class="pf-ender-eye-7"/>
+    <rect x="21" y="9" width="3" height="3" class="pf-ender-eye-8"/>
+    <rect x="24" y="9" width="3" height="3" class="pf-ender-eye-4"/>
+    <rect x="27" y="9" width="3" height="3" class="pf-ender-eye-4"/>
+    <rect x="30" y="9" width="3" height="3" class="pf-ender-eye-1"/>
+    <rect x="33" y="9" width="3" height="3" class="pf-ender-eye-2"/>
+    <rect x="3" y="12" width="3" height="3" class="pf-ender-eye-2"/>
+    <rect x="6" y="12" width="3" height="3" class="pf-ender-eye-4"/>
+    <rect x="9" y="12" width="3" height="3" class="pf-ender-eye-5"/>
+    <rect x="12" y="12" width="3" height="3" class="pf-ender-eye-6"/>
+    <rect x="15" y="12" width="3" height="3" class="pf-ender-eye-9"/>
+    <rect x="18" y="12" width="3" height="3" class="pf-ender-eye-2"/>
+    <rect x="21" y="12" width="3" height="3" class="pf-ender-eye-a"/>
+    <rect x="24" y="12" width="3" height="3" class="pf-ender-eye-8"/>
+    <rect x="27" y="12" width="3" height="3" class="pf-ender-eye-4"/>
+    <rect x="30" y="12" width="3" height="3" class="pf-ender-eye-4"/>
+    <rect x="33" y="12" width="3" height="3" class="pf-ender-eye-b"/>
+    <rect x="0" y="15" width="3" height="3" class="pf-ender-eye-2"/>
+    <rect x="3" y="15" width="3" height="3" class="pf-ender-eye-1"/>
+    <rect x="6" y="15" width="3" height="3" class="pf-ender-eye-4"/>
+    <rect x="9" y="15" width="3" height="3" class="pf-ender-eye-6"/>
+    <rect x="12" y="15" width="3" height="3" class="pf-ender-eye-9"/>
+    <rect x="15" y="15" width="3" height="3" class="pf-ender-eye-2"/>
+    <rect x="18" y="15" width="3" height="3" class="pf-ender-eye-c"/>
+    <rect x="21" y="15" width="3" height="3" class="pf-ender-eye-2"/>
+    <rect x="24" y="15" width="3" height="3" class="pf-ender-eye-a"/>
+    <rect x="27" y="15" width="3" height="3" class="pf-ender-eye-8"/>
+    <rect x="30" y="15" width="3" height="3" class="pf-ender-eye-4"/>
+    <rect x="33" y="15" width="3" height="3" class="pf-ender-eye-1"/>
+    <rect x="36" y="15" width="3" height="3" class="pf-ender-eye-b"/>
+    <rect x="0" y="18" width="3" height="3" class="pf-ender-eye-2"/>
+    <rect x="3" y="18" width="3" height="3" class="pf-ender-eye-1"/>
+    <rect x="6" y="18" width="3" height="3" class="pf-ender-eye-8"/>
+    <rect x="9" y="18" width="3" height="3" class="pf-ender-eye-8"/>
+    <rect x="12" y="18" width="3" height="3" class="pf-ender-eye-7"/>
+    <rect x="15" y="18" width="3" height="3" class="pf-ender-eye-2"/>
+    <rect x="18" y="18" width="3" height="3" class="pf-ender-eye-c"/>
+    <rect x="21" y="18" width="3" height="3" class="pf-ender-eye-2"/>
+    <rect x="24" y="18" width="3" height="3" class="pf-ender-eye-a"/>
+    <rect x="27" y="18" width="3" height="3" class="pf-ender-eye-8"/>
+    <rect x="30" y="18" width="3" height="3" class="pf-ender-eye-4"/>
+    <rect x="33" y="18" width="3" height="3" class="pf-ender-eye-1"/>
+    <rect x="36" y="18" width="3" height="3" class="pf-ender-eye-b"/>
+    <rect x="0" y="21" width="3" height="3" class="pf-ender-eye-2"/>
+    <rect x="3" y="21" width="3" height="3" class="pf-ender-eye-1"/>
+    <rect x="6" y="21" width="3" height="3" class="pf-ender-eye-4"/>
+    <rect x="9" y="21" width="3" height="3" class="pf-ender-eye-8"/>
+    <rect x="12" y="21" width="3" height="3" class="pf-ender-eye-a"/>
+    <rect x="15" y="21" width="3" height="3" class="pf-ender-eye-2"/>
+    <rect x="18" y="21" width="3" height="3" class="pf-ender-eye-c"/>
+    <rect x="21" y="21" width="3" height="3" class="pf-ender-eye-2"/>
+    <rect x="24" y="21" width="3" height="3" class="pf-ender-eye-7"/>
+    <rect x="27" y="21" width="3" height="3" class="pf-ender-eye-8"/>
+    <rect x="30" y="21" width="3" height="3" class="pf-ender-eye-8"/>
+    <rect x="33" y="21" width="3" height="3" class="pf-ender-eye-1"/>
+    <rect x="36" y="21" width="3" height="3" class="pf-ender-eye-b"/>
+    <rect x="3" y="24" width="3" height="3" class="pf-ender-eye-2"/>
+    <rect x="6" y="24" width="3" height="3" class="pf-ender-eye-3"/>
+    <rect x="9" y="24" width="3" height="3" class="pf-ender-eye-4"/>
+    <rect x="12" y="24" width="3" height="3" class="pf-ender-eye-8"/>
+    <rect x="15" y="24" width="3" height="3" class="pf-ender-eye-7"/>
+    <rect x="18" y="24" width="3" height="3" class="pf-ender-eye-2"/>
+    <rect x="21" y="24" width="3" height="3" class="pf-ender-eye-9"/>
+    <rect x="24" y="24" width="3" height="3" class="pf-ender-eye-8"/>
+    <rect x="27" y="24" width="3" height="3" class="pf-ender-eye-3"/>
+    <rect x="30" y="24" width="3" height="3" class="pf-ender-eye-4"/>
+    <rect x="33" y="24" width="3" height="3" class="pf-ender-eye-b"/>
+    <rect x="3" y="27" width="3" height="3" class="pf-ender-eye-2"/>
+    <rect x="6" y="27" width="3" height="3" class="pf-ender-eye-1"/>
+    <rect x="9" y="27" width="3" height="3" class="pf-ender-eye-3"/>
+    <rect x="12" y="27" width="3" height="3" class="pf-ender-eye-4"/>
+    <rect x="15" y="27" width="3" height="3" class="pf-ender-eye-8"/>
+    <rect x="18" y="27" width="3" height="3" class="pf-ender-eye-a"/>
+    <rect x="21" y="27" width="3" height="3" class="pf-ender-eye-8"/>
+    <rect x="24" y="27" width="3" height="3" class="pf-ender-eye-3"/>
+    <rect x="27" y="27" width="3" height="3" class="pf-ender-eye-8"/>
+    <rect x="30" y="27" width="3" height="3" class="pf-ender-eye-1"/>
+    <rect x="33" y="27" width="3" height="3" class="pf-ender-eye-b"/>
+    <rect x="6" y="30" width="3" height="3" class="pf-ender-eye-b"/>
+    <rect x="9" y="30" width="3" height="3" class="pf-ender-eye-1"/>
+    <rect x="12" y="30" width="3" height="3" class="pf-ender-eye-3"/>
+    <rect x="15" y="30" width="3" height="3" class="pf-ender-eye-3"/>
+    <rect x="18" y="30" width="3" height="3" class="pf-ender-eye-3"/>
+    <rect x="21" y="30" width="3" height="3" class="pf-ender-eye-3"/>
+    <rect x="24" y="30" width="3" height="3" class="pf-ender-eye-4"/>
+    <rect x="27" y="30" width="3" height="3" class="pf-ender-eye-1"/>
+    <rect x="30" y="30" width="3" height="3" class="pf-ender-eye-b"/>
+    <rect x="9" y="33" width="3" height="3" class="pf-ender-eye-b"/>
+    <rect x="12" y="33" width="3" height="3" class="pf-ender-eye-b"/>
+    <rect x="15" y="33" width="3" height="3" class="pf-ender-eye-1"/>
+    <rect x="18" y="33" width="3" height="3" class="pf-ender-eye-1"/>
+    <rect x="21" y="33" width="3" height="3" class="pf-ender-eye-1"/>
+    <rect x="24" y="33" width="3" height="3" class="pf-ender-eye-b"/>
+    <rect x="27" y="33" width="3" height="3" class="pf-ender-eye-b"/>
+    <rect x="15" y="36" width="3" height="3" class="pf-ender-eye-b"/>
+    <rect x="18" y="36" width="3" height="3" class="pf-ender-eye-b"/>
+    <rect x="21" y="36" width="3" height="3" class="pf-ender-eye-b"/>
+  </g>
+</svg>

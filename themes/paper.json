@@ -1,0 +1,7 @@
+{
+  "name": "paper",
+  "mode": "light",
+  "primary":   { "light": "#F5F5F4", "main": "#78716C", "dark": "#44403C" },
+  "secondary": { "light": "#DBEAFE", "main": "#2563EB", "dark": "#1E3A8A" },
+  "tertiary":  { "light": "#E2E8F0", "main": "#475569", "dark": "#1E293B" }
+}

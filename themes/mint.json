@@ -1,0 +1,7 @@
+{
+  "name": "mint",
+  "mode": "light",
+  "primary":   { "light": "#CCFBF1", "main": "#14B8A6", "dark": "#0F766E" },
+  "secondary": { "light": "#E0E7FF", "main": "#4F46E5", "dark": "#3730A3" },
+  "tertiary":  { "light": "#FCE7F3", "main": "#DB2777", "dark": "#9D174D" }
+}

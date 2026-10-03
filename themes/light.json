@@ -1,0 +1,7 @@
+{
+  "name": "light",
+  "mode": "light",
+  "primary":   { "light": "#FEF3C7", "main": "#D97706", "dark": "#92400E" },
+  "secondary": { "light": "#DBEAFE", "main": "#2563EB", "dark": "#1E3A8A" },
+  "tertiary":  { "light": "#DCFCE7", "main": "#16A34A", "dark": "#166534" }
+}
