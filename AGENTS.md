@@ -89,6 +89,7 @@ Record durable user requests here or in the relevant child AGENTS.md.
 
 ## Ownership
 
+- `README.md` — the project readme (repo landing page).
 - `SNIPPET.md` — the copy-paste snippet for the profile README (not part of the build; named so GitHub does not render it as the repo README).
 - `assets/<name>-<theme>.svg` — served data: 7 banners × 12 themes = 84 generated SVGs, plus dev sheets (`glyphs.svg`, `icons.svg`, `icons/`, `theme-preview-*`). Build output; never hand-edited.
 - `tools/` — generator pipeline (engine, font/icons, caches, CLIs). See `tools/AGENTS.md`.
