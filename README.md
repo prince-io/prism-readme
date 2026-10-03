@@ -18,9 +18,9 @@ different theme on every time window, plus a matching per-theme GIF.
 ## How it works
 
 ```text
-tools/*.py  ──build──▶  assets/<name>-<theme>.svg ─┐
+tools/*.py  ──build──▶  assets/<name>-<theme>.svg  ──┐
                                                      ├─▶ api/ (Vercel) ─▶ src="…/api/banner/<name>"
-gifs/<theme>.gif ───────────────────────────────────┘                     src="…/api/gif"
+gifs/<theme>.gif ────────────────────────────────────┘                     src="…/api/gif"
 ```
 
 1. **Generate** — `tools/build.py` renders each `banners/*.json` config × 12 `themes/*.json` presets into `assets/`.
