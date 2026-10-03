@@ -4,7 +4,7 @@
 Python generates pixel-art SVG banners in 12 themes; a Vercel function serves a
 different theme on every time window, plus a matching per-theme GIF.
 
-<img src="https://readme-profile-app.vercel.app/api/banner/header" width="100%" alt="Header banner">
+<img src="https://prism-readme.vercel.app/api/banner/header" width="100%" alt="Header banner">
 
 ## Highlights
 

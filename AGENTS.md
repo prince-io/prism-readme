@@ -113,7 +113,7 @@ Record durable user requests here or in the relevant child AGENTS.md.
 - Auto-refresh: `.github/workflows/refresh-banners.yml` runs the cache + rebuild hourly and commits changes; the Vercel Git integration then redeploys the push.
 - Preview locally: `python3 tools/preview.py` → `preview.html` (gitignored).
 - Import new art: `python3 tools/convert.py` (see `tools/AGENTS.md`).
-- Deploy: `vercel --prod` from this folder; alias `https://readme-profile-app.vercel.app`.
+- Deploy: `vercel --prod` from this folder; alias `https://prism-readme.vercel.app`.
 
 ## Verification
 
