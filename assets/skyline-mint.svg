@@ -2157,9 +2157,9 @@
     </g>
 
     <g class="pf-bar" style="transform-origin:771.3px 389.8px;animation-delay:1.040s">
-        <polygon points="759.79,389.76 771.31,396.20 771.31,360.50 759.79,354.05" fill="#b82164"/>
-        <polygon points="782.84,389.76 771.31,396.20 771.31,360.50 782.84,354.05" fill="#951b51"/>
-        <polygon points="771.31,347.61 782.84,354.05 771.31,360.50 759.79,354.05" fill="#DB2777"/>
+        <polygon points="759.79,389.76 771.31,396.20 771.31,349.98 759.79,343.54" fill="#423bc0"/>
+        <polygon points="782.84,389.76 771.31,396.20 771.31,349.98 782.84,343.54" fill="#36309c"/>
+        <polygon points="771.31,337.09 782.84,343.54 771.31,349.98 759.79,343.54" fill="#4F46E5"/>
     </g>
 
     <g class="pf-bar" style="transform-origin:630.5px 396.9px;animation-delay:0.940s">

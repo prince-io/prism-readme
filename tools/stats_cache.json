@@ -6,7 +6,7 @@
   },
   {
    "label": "Total Commits",
-   "value": "547"
+   "value": "551"
   },
   {
    "label": "Total PRs",
@@ -43,23 +43,23 @@
  "languages": [
   {
    "label": "Python",
-   "value": "58.33%"
+   "value": "58.73%"
   },
   {
    "label": "JavaScript",
-   "value": "27.40%"
+   "value": "27.14%"
   },
   {
    "label": "Java",
-   "value": "9.74%"
+   "value": "9.65%"
   },
   {
    "label": "TeX",
-   "value": "2.11%"
+   "value": "2.09%"
   },
   {
    "label": "CSS",
-   "value": "1.98%"
+   "value": "1.96%"
   },
   {
    "label": "Shell",

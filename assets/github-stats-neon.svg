@@ -1070,7 +1070,7 @@
 
     <text class="pf-ink-muted" x="40.0" y="170" text-anchor="start" font-family="ui-monospace, monospace" font-size="13" font-weight="500" font-style="normal" letter-spacing="0.5">Total Commits</text>
 
-    <text class="pf-ink" x="316.71999999999997" y="170" text-anchor="end" font-family="ui-monospace, monospace" font-size="13" font-weight="700" font-style="normal" letter-spacing="0.5">547</text>
+    <text class="pf-ink" x="316.71999999999997" y="170" text-anchor="end" font-family="ui-monospace, monospace" font-size="13" font-weight="700" font-style="normal" letter-spacing="0.5">551</text>
 
     <text class="pf-ink-muted" x="40.0" y="194" text-anchor="start" font-family="ui-monospace, monospace" font-size="13" font-weight="500" font-style="normal" letter-spacing="0.5">Total PRs</text>
 
@@ -1676,23 +1676,23 @@
 
     <text class="pf-ink-muted" x="368.71999999999997" y="146" text-anchor="start" font-family="ui-monospace, monospace" font-size="13" font-weight="500" font-style="normal" letter-spacing="0.5">Python</text>
 
-    <text class="pf-ink" x="544.36" y="146" text-anchor="end" font-family="ui-monospace, monospace" font-size="13" font-weight="700" font-style="normal" letter-spacing="0.5">58.33%</text>
+    <text class="pf-ink" x="544.36" y="146" text-anchor="end" font-family="ui-monospace, monospace" font-size="13" font-weight="700" font-style="normal" letter-spacing="0.5">58.73%</text>
 
     <text class="pf-ink-muted" x="368.71999999999997" y="170" text-anchor="start" font-family="ui-monospace, monospace" font-size="13" font-weight="500" font-style="normal" letter-spacing="0.5">JavaScript</text>
 
-    <text class="pf-ink" x="544.36" y="170" text-anchor="end" font-family="ui-monospace, monospace" font-size="13" font-weight="700" font-style="normal" letter-spacing="0.5">27.40%</text>
+    <text class="pf-ink" x="544.36" y="170" text-anchor="end" font-family="ui-monospace, monospace" font-size="13" font-weight="700" font-style="normal" letter-spacing="0.5">27.14%</text>
 
     <text class="pf-ink-muted" x="368.71999999999997" y="194" text-anchor="start" font-family="ui-monospace, monospace" font-size="13" font-weight="500" font-style="normal" letter-spacing="0.5">Java</text>
 
-    <text class="pf-ink" x="544.36" y="194" text-anchor="end" font-family="ui-monospace, monospace" font-size="13" font-weight="700" font-style="normal" letter-spacing="0.5">9.74%</text>
+    <text class="pf-ink" x="544.36" y="194" text-anchor="end" font-family="ui-monospace, monospace" font-size="13" font-weight="700" font-style="normal" letter-spacing="0.5">9.65%</text>
 
     <text class="pf-ink-muted" x="584.36" y="146" text-anchor="start" font-family="ui-monospace, monospace" font-size="13" font-weight="500" font-style="normal" letter-spacing="0.5">TeX</text>
 
-    <text class="pf-ink" x="760.0" y="146" text-anchor="end" font-family="ui-monospace, monospace" font-size="13" font-weight="700" font-style="normal" letter-spacing="0.5">2.11%</text>
+    <text class="pf-ink" x="760.0" y="146" text-anchor="end" font-family="ui-monospace, monospace" font-size="13" font-weight="700" font-style="normal" letter-spacing="0.5">2.09%</text>
 
     <text class="pf-ink-muted" x="584.36" y="170" text-anchor="start" font-family="ui-monospace, monospace" font-size="13" font-weight="500" font-style="normal" letter-spacing="0.5">CSS</text>
 
-    <text class="pf-ink" x="760.0" y="170" text-anchor="end" font-family="ui-monospace, monospace" font-size="13" font-weight="700" font-style="normal" letter-spacing="0.5">1.98%</text>
+    <text class="pf-ink" x="760.0" y="170" text-anchor="end" font-family="ui-monospace, monospace" font-size="13" font-weight="700" font-style="normal" letter-spacing="0.5">1.96%</text>
 
     <text class="pf-ink-muted" x="584.36" y="194" text-anchor="start" font-family="ui-monospace, monospace" font-size="13" font-weight="500" font-style="normal" letter-spacing="0.5">Shell</text>
 
