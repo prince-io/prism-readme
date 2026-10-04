@@ -20,9 +20,3 @@
 
 <img src="https://prism-readme.vercel.app/api/banner/thanks" width="100%" alt="Thanks for visiting, have a cookie">
 
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/cyprieng/github-breakout/main/example/light.svg" />
-    <img alt="Breakout Game" src="https://raw.githubusercontent.com/cyprieng/github-breakout/main/example/dark.svg" />
-  </picture>
-</div>
