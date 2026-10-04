@@ -1,7 +1,7 @@
 # prism-readme
 
 **A self-contained, theme-rotating banner service for a GitHub profile README.**
-Python generates pixel-art SVG banners in 12 themes; a Vercel function serves a
+Python generates pixel-art SVG banners in 13 themes; a Vercel function serves a
 different theme on every time window, plus a matching per-theme GIF.
 
 <img src="https://prism-readme.vercel.app/api/banner/header" width="100%" alt="Header banner">
@@ -9,8 +9,8 @@ different theme on every time window, plus a matching per-theme GIF.
 ## Highlights
 
 - **7 banners** — `header`, `about`, `focus-areas`, `tech-stack`, `github-stats`, `skyline`, `thanks`, each rendered in every theme.
-- **12 themes** — `light`, `solarized-light`, `paper`, `mint`, `lavender`, `rose`, `dracula`, `nord`, `tokyo-night`, `neon`, `forest`, `volcano`.
-- **Time-window rotation** — the served theme is `THEMES[floor(now / THEME_WINDOW_MS) % 12]`, so all banners + the GIF fetched together share one cohesive look.
+- **13 themes** — `light`, `solarized-light`, `paper`, `mint`, `lavender`, `rose`, `dracula`, `nord`, `tokyo-night`, `neon`, `forest`, `volcano`, `minecraft`.
+- **Time-window rotation** — the served theme is `THEMES[floor(now / THEME_WINDOW_MS) % THEMES.length]`, so all banners + the GIF fetched together share one cohesive look.
 - **Baked data** — GitHub stats, top languages, streaks and the contribution skyline are fetched at build time and inlined; the runtime does **zero** external calls.
 - **Self-contained SVGs** — everything (font, icons, badges) is inline `<rect>`/`<path>`, so it survives GitHub's camo proxy and SVG sanitizer.
 - **Hourly refresh** — a GitHub Action re-pulls the data, rebuilds, and commits; Vercel redeploys on the push.
@@ -23,7 +23,7 @@ tools/*.py  ──build──▶  assets/<name>-<theme>.svg  ──┐
 gifs/<theme>.gif ────────────────────────────────────┘                     src="…/api/gif"
 ```
 
-1. **Generate** — `tools/build.py` renders each `banners/*.json` config × 12 `themes/*.json` presets into `assets/`.
+1. **Generate** — `tools/build.py` renders each `banners/*.json` config × 13 `themes/*.json` presets into `assets/`.
 2. **Serve** — Vercel functions pick a theme from the clock and stream the matching file (`no-store`, so GitHub refetches each load).
 3. **Refresh** — `.github/workflows/refresh-banners.yml` runs hourly, refreshes the caches, rebuilds, and commits.
 
@@ -42,9 +42,10 @@ Add `?theme=<name>` to force a specific theme (testing).
 ```text
 banner-app/
 ├── api/                 # Vercel functions: banner/[name].js, gif.js, _theme.js
-├── assets/              # generated SVGs (7 × 12) + glyph/icon libraries
+├── assets/              # generated SVGs (7 × 13) + glyph/icon libraries
 ├── banners/             # per-banner content configs (JSON)
-├── themes/              # 12 palettes (9 colors each)
+├── themes/              # 13 palettes (9 colors each)
+├── textures/            # Minecraft block tiles for the minecraft theme
 ├── gifs/                # <theme>.gif (one per theme) + cat.gif
 ├── tools/               # Python generator + data caches
 ├── .github/workflows/   # hourly refresh Action
@@ -54,7 +55,7 @@ banner-app/
 
 ## Getting started
 
-Requires `python3` (standard library; **Pillow** only for `tools/convert.py`), and optionally
+Requires `python3` (standard library; **Pillow** only for `tools/convert.py` and `tools/textures.py`), and optionally
 [`gifsicle`](https://www.lcdf.org/gifsicle/) for GIF optimization.
 
 ```bash

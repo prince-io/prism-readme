@@ -85,16 +85,17 @@ Record durable user requests here or in the relevant child AGENTS.md.
 
 ## Purpose
 
-- Self-contained project: the Python generator (`tools/`) builds themed banner SVGs into `assets/`, and a Vercel function (`api/`) serves them to the profile README, rotating the theme per time window (1 of 12). This folder is the repo root and the Vercel deploy root.
+- Self-contained project: the Python generator (`tools/`) builds themed banner SVGs into `assets/`, and a Vercel function (`api/`) serves them to the profile README, rotating the theme per time window (1 of 13). This folder is the repo root and the Vercel deploy root.
 
 ## Ownership
 
 - `README.md` — the project readme (repo landing page).
 - `SNIPPET.md` — the copy-paste snippet for the profile README (not part of the build; named so GitHub does not render it as the repo README).
-- `assets/<name>-<theme>.svg` — served data: 7 banners × 12 themes = 84 generated SVGs, plus dev sheets (`glyphs.svg`, `icons.svg`, `icons/`, `theme-preview-*`). Build output; never hand-edited.
+- `assets/<name>-<theme>.svg` — served data: 7 banners × 13 themes = 91 generated SVGs, plus dev sheets (`glyphs.svg`, `icons.svg`, `icons/`, `theme-preview-*`). Build output; never hand-edited.
 - `tools/` — generator pipeline (engine, font/icons, caches, CLIs). See `tools/AGENTS.md`.
 - `banners/` — per-banner content configs. See `banners/AGENTS.md`.
-- `themes/` — 12 palette presets. See `themes/AGENTS.md`.
+- `themes/` — 13 palette presets (12 originals + `minecraft`). See `themes/AGENTS.md`.
+- `textures/` — generated Minecraft block tiles for the `minecraft` theme. See `textures/AGENTS.md`.
 - `gifs/` — per-theme README GIFs (`<theme>.gif`). See `gifs/AGENTS.md`.
 - `api/` — Vercel endpoints that serve the SVGs and the theme GIF. See `api/AGENTS.md`.
 - `vercel.json` — function config (`functions["api/**/*.js"].includeFiles = "{assets/*.svg,gifs/*.gif}"`).
@@ -124,7 +125,8 @@ Record durable user requests here or in the relevant child AGENTS.md.
 
 - `tools/AGENTS.md` — generator pipeline: font, icons, engine, CLIs, caches.
 - `banners/AGENTS.md` — per-banner content configs consumed by the engine.
-- `themes/AGENTS.md` — 12 palette presets.
+- `themes/AGENTS.md` — palette presets (13).
+- `textures/AGENTS.md` — generated Minecraft block tiles for the `minecraft` theme.
 - `gifs/AGENTS.md` — per-theme README GIFs.
 - `assets/AGENTS.md` — generated SVGs and libraries (contains `icons/AGENTS.md`).
 - `api/AGENTS.md` — Vercel banner endpoint (theme selection + serving).

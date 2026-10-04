@@ -10,7 +10,7 @@
 
 ## Local Contracts
 - Banner names (allowlist): `header, about, focus-areas, tech-stack, github-stats, skyline, thanks`; anything else → 404 (also rejects path traversal).
-- Theme = `THEMES[floor(Date.now() / WINDOW_MS) % 12]`; `WINDOW_MS` = env `THEME_WINDOW_MS` (default 60000). Every banner and the GIF fetched in one window share a theme.
+- Theme = `THEMES[floor(Date.now() / WINDOW_MS) % THEMES.length]`; `WINDOW_MS` = env `THEME_WINDOW_MS` (default 60000). Every banner and the GIF fetched in one window share a theme.
 - `?theme=<name>` overrides selection on both endpoints; an unknown value falls back to the window.
 - Reads `assets/<name>-<theme>.svg` and `gifs/<theme>.gif` from the project root; no runtime external fetches (badges/stats/skyline are baked at build time).
 - Responses: `image/svg+xml; charset=utf-8` / `image/gif`, `Cache-Control: no-store, max-age=0`, `CDN-Cache-Control: no-store`, `X-Banner-Theme: <theme>`, `X-Robots-Tag: noindex`; `HEAD` returns headers only.

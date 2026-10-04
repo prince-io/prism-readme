@@ -4,7 +4,7 @@
 - One animated GIF per theme, so the README GIF matches the rotating banner theme. The app serves `<theme>.gif` alongside the banners.
 
 ## Ownership
-- `<theme>.gif` — one per preset in `../themes/` (12 total), chosen to match that theme's palette.
+- `<theme>.gif` — one per preset in `../themes/` (13 total), chosen to match that theme's palette.
 - `cat.gif` — kept for reference only; not served.
 
 ## Local Contracts

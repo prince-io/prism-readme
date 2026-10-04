@@ -4,11 +4,12 @@
 - Token sets used by the banner engine. Banners reference a preset by name; adding a preset is the way to add a new look.
 
 ## Ownership
-- Presets (12): `light`, `solarized-light`, `paper`, `mint`, `lavender`, `rose`, `dracula`, `nord`, `tokyo-night`, `neon`, `forest`, `volcano` (`.json` each).
-- Compare all presets via `../banners/theme-preview.json` (emits `../assets/theme-preview-<theme>.svg`); `../tools/preview.py` embeds only those samples.
+- Presets (13): `light`, `solarized-light`, `paper`, `mint`, `lavender`, `rose`, `dracula`, `nord`, `tokyo-night`, `neon`, `forest`, `volcano`, `minecraft` (`.json` each).
+- Compare all presets via `../banners/theme-preview.json` (emits `../assets/theme-preview-<theme>.svg`); `../tools/preview.py` renders those samples plus a README-layout stack.
 
 ## Local Contracts
 - Shape: `{ "name", "mode": "light"|"dark", "primary"|"secondary"|"tertiary": { "light", "main", "dark" } }` — **9 colors**. `../tools/banner.py` `expand_theme` derives the full `--pf-*` token set; a preset that carries `tokens` instead is passed through unchanged.
+- **`by_banner` (theme-scoped overrides):** a preset may carry `"by_banner": { "<banner>": { …config keys… } }`. `render()` deep-merges `by_banner[<banner>]` over that banner's config (and `_defaults`) **only when this theme is active**, so size/font/texture/frame changes stay isolated to this theme and never touch the other themes. `minecraft` uses this to own its textured scenes. Lists replace wholesale; `null` removes a key.
 - Every hue must have all three shades (`light`/`main`/`dark`) or expansion breaks.
 - No layout or geometry here — colors only.
 - **Palette doctrine:** three compatible hues, three shades each; canvas follows `mode`; text (`ink`/`box-ink`) is chosen by luminance contrast; frame and static tiles/boxes are tertiary; underline/separation lines use `ink`; `panel-1/2/3` are the P/S/T tints; accents alias P/S/T so icons are tri-color.

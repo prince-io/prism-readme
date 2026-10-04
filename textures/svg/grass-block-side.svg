@@ -1,0 +1,281 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 16 16" shape-rendering="crispEdges">
+  <style>
+    :root {
+      --pf-tex-grass-block-side-0: #74b44a;
+      --pf-tex-grass-block-side-1: #76b64c;
+      --pf-tex-grass-block-side-2: #73b349;
+      --pf-tex-grass-block-side-3: #66a63c;
+      --pf-tex-grass-block-side-4: #6faf45;
+      --pf-tex-grass-block-side-5: #5f9f35;
+      --pf-tex-grass-block-side-6: #6cac42;
+      --pf-tex-grass-block-side-7: #7ebe54;
+      --pf-tex-grass-block-side-8: #6aaa40;
+      --pf-tex-grass-block-side-9: #67a73d;
+      --pf-tex-grass-block-side-10: #69a93f;
+      --pf-tex-grass-block-side-11: #61a137;
+      --pf-tex-grass-block-side-12: #509026;
+      --pf-tex-grass-block-side-13: #6dad43;
+      --pf-tex-grass-block-side-14: #75b54b;
+      --pf-tex-grass-block-side-15: #8ab95a;
+      --pf-tex-grass-block-side-16: #81b051;
+      --pf-tex-grass-block-side-17: #83b253;
+      --pf-tex-grass-block-side-18: #593d29;
+      --pf-tex-grass-block-side-19: #68a83e;
+      --pf-tex-grass-block-side-20: #62a238;
+      --pf-tex-grass-block-side-21: #93c263;
+      --pf-tex-grass-block-side-22: #90bf60;
+      --pf-tex-grass-block-side-23: #6bab41;
+      --pf-tex-grass-block-side-24: #8dbc5d;
+      --pf-tex-grass-block-side-25: #9ccb6c;
+      --pf-tex-grass-block-side-26: #64a43a;
+      --pf-tex-grass-block-side-27: #70b046;
+      --pf-tex-grass-block-side-28: #7fbf55;
+      --pf-tex-grass-block-side-29: #92c162;
+      --pf-tex-grass-block-side-30: #97c667;
+      --pf-tex-grass-block-side-31: #57972d;
+      --pf-tex-grass-block-side-32: #60a036;
+      --pf-tex-grass-block-side-33: #6c6c6c;
+      --pf-tex-grass-block-side-34: #71b147;
+      --pf-tex-grass-block-side-35: #79553a;
+      --pf-tex-grass-block-side-36: #966c4a;
+      --pf-tex-grass-block-side-37: #b9855c;
+      --pf-tex-grass-block-side-38: #878787;
+      --pf-tex-grass-block-side-39: #745844;
+    }
+      .pf-tex-grass-block-side-0 { fill: var(--pf-tex-grass-block-side-0); }
+      .pf-tex-grass-block-side-1 { fill: var(--pf-tex-grass-block-side-1); }
+      .pf-tex-grass-block-side-2 { fill: var(--pf-tex-grass-block-side-2); }
+      .pf-tex-grass-block-side-3 { fill: var(--pf-tex-grass-block-side-3); }
+      .pf-tex-grass-block-side-4 { fill: var(--pf-tex-grass-block-side-4); }
+      .pf-tex-grass-block-side-5 { fill: var(--pf-tex-grass-block-side-5); }
+      .pf-tex-grass-block-side-6 { fill: var(--pf-tex-grass-block-side-6); }
+      .pf-tex-grass-block-side-7 { fill: var(--pf-tex-grass-block-side-7); }
+      .pf-tex-grass-block-side-8 { fill: var(--pf-tex-grass-block-side-8); }
+      .pf-tex-grass-block-side-9 { fill: var(--pf-tex-grass-block-side-9); }
+      .pf-tex-grass-block-side-10 { fill: var(--pf-tex-grass-block-side-10); }
+      .pf-tex-grass-block-side-11 { fill: var(--pf-tex-grass-block-side-11); }
+      .pf-tex-grass-block-side-12 { fill: var(--pf-tex-grass-block-side-12); }
+      .pf-tex-grass-block-side-13 { fill: var(--pf-tex-grass-block-side-13); }
+      .pf-tex-grass-block-side-14 { fill: var(--pf-tex-grass-block-side-14); }
+      .pf-tex-grass-block-side-15 { fill: var(--pf-tex-grass-block-side-15); }
+      .pf-tex-grass-block-side-16 { fill: var(--pf-tex-grass-block-side-16); }
+      .pf-tex-grass-block-side-17 { fill: var(--pf-tex-grass-block-side-17); }
+      .pf-tex-grass-block-side-18 { fill: var(--pf-tex-grass-block-side-18); }
+      .pf-tex-grass-block-side-19 { fill: var(--pf-tex-grass-block-side-19); }
+      .pf-tex-grass-block-side-20 { fill: var(--pf-tex-grass-block-side-20); }
+      .pf-tex-grass-block-side-21 { fill: var(--pf-tex-grass-block-side-21); }
+      .pf-tex-grass-block-side-22 { fill: var(--pf-tex-grass-block-side-22); }
+      .pf-tex-grass-block-side-23 { fill: var(--pf-tex-grass-block-side-23); }
+      .pf-tex-grass-block-side-24 { fill: var(--pf-tex-grass-block-side-24); }
+      .pf-tex-grass-block-side-25 { fill: var(--pf-tex-grass-block-side-25); }
+      .pf-tex-grass-block-side-26 { fill: var(--pf-tex-grass-block-side-26); }
+      .pf-tex-grass-block-side-27 { fill: var(--pf-tex-grass-block-side-27); }
+      .pf-tex-grass-block-side-28 { fill: var(--pf-tex-grass-block-side-28); }
+      .pf-tex-grass-block-side-29 { fill: var(--pf-tex-grass-block-side-29); }
+      .pf-tex-grass-block-side-30 { fill: var(--pf-tex-grass-block-side-30); }
+      .pf-tex-grass-block-side-31 { fill: var(--pf-tex-grass-block-side-31); }
+      .pf-tex-grass-block-side-32 { fill: var(--pf-tex-grass-block-side-32); }
+      .pf-tex-grass-block-side-33 { fill: var(--pf-tex-grass-block-side-33); }
+      .pf-tex-grass-block-side-34 { fill: var(--pf-tex-grass-block-side-34); }
+      .pf-tex-grass-block-side-35 { fill: var(--pf-tex-grass-block-side-35); }
+      .pf-tex-grass-block-side-36 { fill: var(--pf-tex-grass-block-side-36); }
+      .pf-tex-grass-block-side-37 { fill: var(--pf-tex-grass-block-side-37); }
+      .pf-tex-grass-block-side-38 { fill: var(--pf-tex-grass-block-side-38); }
+      .pf-tex-grass-block-side-39 { fill: var(--pf-tex-grass-block-side-39); }
+  </style>
+  <rect x="0" y="0" width="1" height="1" class="pf-tex-grass-block-side-0"/>
+  <rect x="1" y="0" width="1" height="1" class="pf-tex-grass-block-side-1"/>
+  <rect x="2" y="0" width="1" height="1" class="pf-tex-grass-block-side-2"/>
+  <rect x="3" y="0" width="2" height="1" class="pf-tex-grass-block-side-3"/>
+  <rect x="5" y="0" width="1" height="1" class="pf-tex-grass-block-side-4"/>
+  <rect x="6" y="0" width="1" height="1" class="pf-tex-grass-block-side-5"/>
+  <rect x="7" y="0" width="1" height="1" class="pf-tex-grass-block-side-6"/>
+  <rect x="8" y="0" width="1" height="1" class="pf-tex-grass-block-side-7"/>
+  <rect x="9" y="0" width="1" height="1" class="pf-tex-grass-block-side-1"/>
+  <rect x="10" y="0" width="1" height="1" class="pf-tex-grass-block-side-8"/>
+  <rect x="11" y="0" width="1" height="1" class="pf-tex-grass-block-side-9"/>
+  <rect x="12" y="0" width="1" height="1" class="pf-tex-grass-block-side-10"/>
+  <rect x="13" y="0" width="1" height="1" class="pf-tex-grass-block-side-11"/>
+  <rect x="14" y="0" width="1" height="1" class="pf-tex-grass-block-side-12"/>
+  <rect x="15" y="0" width="1" height="1" class="pf-tex-grass-block-side-13"/>
+  <rect x="0" y="1" width="1" height="1" class="pf-tex-grass-block-side-14"/>
+  <rect x="1" y="1" width="1" height="1" class="pf-tex-grass-block-side-6"/>
+  <rect x="2" y="1" width="1" height="1" class="pf-tex-grass-block-side-15"/>
+  <rect x="3" y="1" width="1" height="1" class="pf-tex-grass-block-side-16"/>
+  <rect x="4" y="1" width="1" height="1" class="pf-tex-grass-block-side-17"/>
+  <rect x="5" y="1" width="1" height="1" class="pf-tex-grass-block-side-18"/>
+  <rect x="6" y="1" width="1" height="1" class="pf-tex-grass-block-side-19"/>
+  <rect x="7" y="1" width="1" height="1" class="pf-tex-grass-block-side-20"/>
+  <rect x="8" y="1" width="1" height="1" class="pf-tex-grass-block-side-5"/>
+  <rect x="9" y="1" width="1" height="1" class="pf-tex-grass-block-side-21"/>
+  <rect x="10" y="1" width="1" height="1" class="pf-tex-grass-block-side-22"/>
+  <rect x="11" y="1" width="1" height="1" class="pf-tex-grass-block-side-2"/>
+  <rect x="12" y="1" width="1" height="1" class="pf-tex-grass-block-side-11"/>
+  <rect x="13" y="1" width="1" height="1" class="pf-tex-grass-block-side-6"/>
+  <rect x="14" y="1" width="1" height="1" class="pf-tex-grass-block-side-9"/>
+  <rect x="15" y="1" width="1" height="1" class="pf-tex-grass-block-side-23"/>
+  <rect x="0" y="2" width="1" height="1" class="pf-tex-grass-block-side-24"/>
+  <rect x="1" y="2" width="1" height="1" class="pf-tex-grass-block-side-18"/>
+  <rect x="2" y="2" width="1" height="1" class="pf-tex-grass-block-side-25"/>
+  <rect x="3" y="2" width="1" height="1" class="pf-tex-grass-block-side-26"/>
+  <rect x="4" y="2" width="1" height="1" class="pf-tex-grass-block-side-10"/>
+  <rect x="5" y="2" width="1" height="1" class="pf-tex-grass-block-side-18"/>
+  <rect x="6" y="2" width="1" height="1" class="pf-tex-grass-block-side-27"/>
+  <rect x="7" y="2" width="1" height="1" class="pf-tex-grass-block-side-18"/>
+  <rect x="8" y="2" width="1" height="1" class="pf-tex-grass-block-side-0"/>
+  <rect x="9" y="2" width="1" height="1" class="pf-tex-grass-block-side-28"/>
+  <rect x="10" y="2" width="1" height="1" class="pf-tex-grass-block-side-29"/>
+  <rect x="11" y="2" width="1" height="1" class="pf-tex-grass-block-side-30"/>
+  <rect x="12" y="2" width="1" height="1" class="pf-tex-grass-block-side-18"/>
+  <rect x="13" y="2" width="1" height="1" class="pf-tex-grass-block-side-31"/>
+  <rect x="14" y="2" width="1" height="1" class="pf-tex-grass-block-side-32"/>
+  <rect x="15" y="2" width="1" height="1" class="pf-tex-grass-block-side-18"/>
+  <rect x="0" y="3" width="1" height="1" class="pf-tex-grass-block-side-18"/>
+  <rect x="1" y="3" width="1" height="1" class="pf-tex-grass-block-side-33"/>
+  <rect x="2" y="3" width="2" height="1" class="pf-tex-grass-block-side-18"/>
+  <rect x="4" y="3" width="1" height="1" class="pf-tex-grass-block-side-34"/>
+  <rect x="5" y="3" width="3" height="1" class="pf-tex-grass-block-side-18"/>
+  <rect x="8" y="3" width="1" height="1" class="pf-tex-grass-block-side-5"/>
+  <rect x="9" y="3" width="1" height="1" class="pf-tex-grass-block-side-18"/>
+  <rect x="10" y="3" width="1" height="1" class="pf-tex-grass-block-side-13"/>
+  <rect x="11" y="3" width="1" height="1" class="pf-tex-grass-block-side-18"/>
+  <rect x="12" y="3" width="1" height="1" class="pf-tex-grass-block-side-35"/>
+  <rect x="13" y="3" width="2" height="1" class="pf-tex-grass-block-side-18"/>
+  <rect x="15" y="3" width="1" height="1" class="pf-tex-grass-block-side-35"/>
+  <rect x="0" y="4" width="1" height="1" class="pf-tex-grass-block-side-36"/>
+  <rect x="1" y="4" width="1" height="1" class="pf-tex-grass-block-side-35"/>
+  <rect x="2" y="4" width="1" height="1" class="pf-tex-grass-block-side-36"/>
+  <rect x="3" y="4" width="1" height="1" class="pf-tex-grass-block-side-37"/>
+  <rect x="4" y="4" width="1" height="1" class="pf-tex-grass-block-side-18"/>
+  <rect x="5" y="4" width="1" height="1" class="pf-tex-grass-block-side-36"/>
+  <rect x="6" y="4" width="2" height="1" class="pf-tex-grass-block-side-35"/>
+  <rect x="8" y="4" width="3" height="1" class="pf-tex-grass-block-side-18"/>
+  <rect x="11" y="4" width="1" height="1" class="pf-tex-grass-block-side-33"/>
+  <rect x="12" y="4" width="1" height="1" class="pf-tex-grass-block-side-35"/>
+  <rect x="13" y="4" width="1" height="1" class="pf-tex-grass-block-side-36"/>
+  <rect x="14" y="4" width="1" height="1" class="pf-tex-grass-block-side-18"/>
+  <rect x="15" y="4" width="1" height="1" class="pf-tex-grass-block-side-35"/>
+  <rect x="0" y="5" width="1" height="1" class="pf-tex-grass-block-side-35"/>
+  <rect x="1" y="5" width="1" height="1" class="pf-tex-grass-block-side-18"/>
+  <rect x="2" y="5" width="2" height="1" class="pf-tex-grass-block-side-36"/>
+  <rect x="4" y="5" width="1" height="1" class="pf-tex-grass-block-side-35"/>
+  <rect x="5" y="5" width="1" height="1" class="pf-tex-grass-block-side-36"/>
+  <rect x="6" y="5" width="3" height="1" class="pf-tex-grass-block-side-18"/>
+  <rect x="9" y="5" width="2" height="1" class="pf-tex-grass-block-side-35"/>
+  <rect x="11" y="5" width="1" height="1" class="pf-tex-grass-block-side-18"/>
+  <rect x="12" y="5" width="3" height="1" class="pf-tex-grass-block-side-35"/>
+  <rect x="15" y="5" width="1" height="1" class="pf-tex-grass-block-side-37"/>
+  <rect x="0" y="6" width="1" height="1" class="pf-tex-grass-block-side-37"/>
+  <rect x="1" y="6" width="3" height="1" class="pf-tex-grass-block-side-35"/>
+  <rect x="4" y="6" width="1" height="1" class="pf-tex-grass-block-side-38"/>
+  <rect x="5" y="6" width="2" height="1" class="pf-tex-grass-block-side-35"/>
+  <rect x="7" y="6" width="2" height="1" class="pf-tex-grass-block-side-37"/>
+  <rect x="9" y="6" width="1" height="1" class="pf-tex-grass-block-side-35"/>
+  <rect x="10" y="6" width="2" height="1" class="pf-tex-grass-block-side-37"/>
+  <rect x="12" y="6" width="1" height="1" class="pf-tex-grass-block-side-35"/>
+  <rect x="13" y="6" width="1" height="1" class="pf-tex-grass-block-side-36"/>
+  <rect x="14" y="6" width="1" height="1" class="pf-tex-grass-block-side-35"/>
+  <rect x="15" y="6" width="1" height="1" class="pf-tex-grass-block-side-36"/>
+  <rect x="0" y="7" width="2" height="1" class="pf-tex-grass-block-side-35"/>
+  <rect x="2" y="7" width="2" height="1" class="pf-tex-grass-block-side-37"/>
+  <rect x="4" y="7" width="2" height="1" class="pf-tex-grass-block-side-36"/>
+  <rect x="6" y="7" width="2" height="1" class="pf-tex-grass-block-side-35"/>
+  <rect x="8" y="7" width="1" height="1" class="pf-tex-grass-block-side-36"/>
+  <rect x="9" y="7" width="1" height="1" class="pf-tex-grass-block-side-18"/>
+  <rect x="10" y="7" width="2" height="1" class="pf-tex-grass-block-side-36"/>
+  <rect x="12" y="7" width="2" height="1" class="pf-tex-grass-block-side-35"/>
+  <rect x="14" y="7" width="2" height="1" class="pf-tex-grass-block-side-36"/>
+  <rect x="0" y="8" width="1" height="1" class="pf-tex-grass-block-side-36"/>
+  <rect x="1" y="8" width="2" height="1" class="pf-tex-grass-block-side-35"/>
+  <rect x="3" y="8" width="1" height="1" class="pf-tex-grass-block-side-36"/>
+  <rect x="4" y="8" width="1" height="1" class="pf-tex-grass-block-side-35"/>
+  <rect x="5" y="8" width="1" height="1" class="pf-tex-grass-block-side-36"/>
+  <rect x="6" y="8" width="1" height="1" class="pf-tex-grass-block-side-35"/>
+  <rect x="7" y="8" width="1" height="1" class="pf-tex-grass-block-side-18"/>
+  <rect x="8" y="8" width="1" height="1" class="pf-tex-grass-block-side-35"/>
+  <rect x="9" y="8" width="2" height="1" class="pf-tex-grass-block-side-36"/>
+  <rect x="11" y="8" width="3" height="1" class="pf-tex-grass-block-side-35"/>
+  <rect x="14" y="8" width="1" height="1" class="pf-tex-grass-block-side-18"/>
+  <rect x="15" y="8" width="1" height="1" class="pf-tex-grass-block-side-35"/>
+  <rect x="0" y="9" width="1" height="1" class="pf-tex-grass-block-side-35"/>
+  <rect x="1" y="9" width="1" height="1" class="pf-tex-grass-block-side-36"/>
+  <rect x="2" y="9" width="1" height="1" class="pf-tex-grass-block-side-18"/>
+  <rect x="3" y="9" width="2" height="1" class="pf-tex-grass-block-side-35"/>
+  <rect x="5" y="9" width="2" height="1" class="pf-tex-grass-block-side-18"/>
+  <rect x="7" y="9" width="5" height="1" class="pf-tex-grass-block-side-35"/>
+  <rect x="12" y="9" width="2" height="1" class="pf-tex-grass-block-side-37"/>
+  <rect x="14" y="9" width="1" height="1" class="pf-tex-grass-block-side-35"/>
+  <rect x="15" y="9" width="1" height="1" class="pf-tex-grass-block-side-36"/>
+  <rect x="0" y="10" width="1" height="1" class="pf-tex-grass-block-side-35"/>
+  <rect x="1" y="10" width="1" height="1" class="pf-tex-grass-block-side-36"/>
+  <rect x="2" y="10" width="1" height="1" class="pf-tex-grass-block-side-35"/>
+  <rect x="3" y="10" width="2" height="1" class="pf-tex-grass-block-side-37"/>
+  <rect x="5" y="10" width="1" height="1" class="pf-tex-grass-block-side-35"/>
+  <rect x="6" y="10" width="1" height="1" class="pf-tex-grass-block-side-37"/>
+  <rect x="7" y="10" width="1" height="1" class="pf-tex-grass-block-side-36"/>
+  <rect x="8" y="10" width="1" height="1" class="pf-tex-grass-block-side-18"/>
+  <rect x="9" y="10" width="2" height="1" class="pf-tex-grass-block-side-37"/>
+  <rect x="11" y="10" width="1" height="1" class="pf-tex-grass-block-side-18"/>
+  <rect x="12" y="10" width="2" height="1" class="pf-tex-grass-block-side-36"/>
+  <rect x="14" y="10" width="1" height="1" class="pf-tex-grass-block-side-38"/>
+  <rect x="15" y="10" width="1" height="1" class="pf-tex-grass-block-side-35"/>
+  <rect x="0" y="11" width="1" height="1" class="pf-tex-grass-block-side-36"/>
+  <rect x="1" y="11" width="2" height="1" class="pf-tex-grass-block-side-35"/>
+  <rect x="3" y="11" width="2" height="1" class="pf-tex-grass-block-side-36"/>
+  <rect x="5" y="11" width="1" height="1" class="pf-tex-grass-block-side-37"/>
+  <rect x="6" y="11" width="1" height="1" class="pf-tex-grass-block-side-35"/>
+  <rect x="7" y="11" width="1" height="1" class="pf-tex-grass-block-side-36"/>
+  <rect x="8" y="11" width="1" height="1" class="pf-tex-grass-block-side-33"/>
+  <rect x="9" y="11" width="2" height="1" class="pf-tex-grass-block-side-36"/>
+  <rect x="11" y="11" width="1" height="1" class="pf-tex-grass-block-side-35"/>
+  <rect x="12" y="11" width="1" height="1" class="pf-tex-grass-block-side-18"/>
+  <rect x="13" y="11" width="1" height="1" class="pf-tex-grass-block-side-36"/>
+  <rect x="14" y="11" width="1" height="1" class="pf-tex-grass-block-side-35"/>
+  <rect x="15" y="11" width="1" height="1" class="pf-tex-grass-block-side-18"/>
+  <rect x="0" y="12" width="1" height="1" class="pf-tex-grass-block-side-35"/>
+  <rect x="1" y="12" width="1" height="1" class="pf-tex-grass-block-side-18"/>
+  <rect x="2" y="12" width="1" height="1" class="pf-tex-grass-block-side-36"/>
+  <rect x="3" y="12" width="1" height="1" class="pf-tex-grass-block-side-35"/>
+  <rect x="4" y="12" width="2" height="1" class="pf-tex-grass-block-side-36"/>
+  <rect x="6" y="12" width="1" height="1" class="pf-tex-grass-block-side-37"/>
+  <rect x="7" y="12" width="7" height="1" class="pf-tex-grass-block-side-35"/>
+  <rect x="14" y="12" width="2" height="1" class="pf-tex-grass-block-side-37"/>
+  <rect x="0" y="13" width="1" height="1" class="pf-tex-grass-block-side-35"/>
+  <rect x="1" y="13" width="1" height="1" class="pf-tex-grass-block-side-36"/>
+  <rect x="2" y="13" width="2" height="1" class="pf-tex-grass-block-side-35"/>
+  <rect x="4" y="13" width="1" height="1" class="pf-tex-grass-block-side-39"/>
+  <rect x="5" y="13" width="1" height="1" class="pf-tex-grass-block-side-35"/>
+  <rect x="6" y="13" width="2" height="1" class="pf-tex-grass-block-side-36"/>
+  <rect x="8" y="13" width="1" height="1" class="pf-tex-grass-block-side-35"/>
+  <rect x="9" y="13" width="1" height="1" class="pf-tex-grass-block-side-18"/>
+  <rect x="10" y="13" width="1" height="1" class="pf-tex-grass-block-side-37"/>
+  <rect x="11" y="13" width="1" height="1" class="pf-tex-grass-block-side-18"/>
+  <rect x="12" y="13" width="1" height="1" class="pf-tex-grass-block-side-35"/>
+  <rect x="13" y="13" width="1" height="1" class="pf-tex-grass-block-side-37"/>
+  <rect x="14" y="13" width="2" height="1" class="pf-tex-grass-block-side-36"/>
+  <rect x="0" y="14" width="1" height="1" class="pf-tex-grass-block-side-36"/>
+  <rect x="1" y="14" width="1" height="1" class="pf-tex-grass-block-side-35"/>
+  <rect x="2" y="14" width="1" height="1" class="pf-tex-grass-block-side-18"/>
+  <rect x="3" y="14" width="1" height="1" class="pf-tex-grass-block-side-37"/>
+  <rect x="4" y="14" width="1" height="1" class="pf-tex-grass-block-side-35"/>
+  <rect x="5" y="14" width="1" height="1" class="pf-tex-grass-block-side-18"/>
+  <rect x="6" y="14" width="1" height="1" class="pf-tex-grass-block-side-35"/>
+  <rect x="7" y="14" width="1" height="1" class="pf-tex-grass-block-side-18"/>
+  <rect x="8" y="14" width="2" height="1" class="pf-tex-grass-block-side-37"/>
+  <rect x="10" y="14" width="1" height="1" class="pf-tex-grass-block-side-35"/>
+  <rect x="11" y="14" width="1" height="1" class="pf-tex-grass-block-side-36"/>
+  <rect x="12" y="14" width="2" height="1" class="pf-tex-grass-block-side-35"/>
+  <rect x="14" y="14" width="2" height="1" class="pf-tex-grass-block-side-36"/>
+  <rect x="0" y="15" width="1" height="1" class="pf-tex-grass-block-side-36"/>
+  <rect x="1" y="15" width="1" height="1" class="pf-tex-grass-block-side-35"/>
+  <rect x="2" y="15" width="1" height="1" class="pf-tex-grass-block-side-37"/>
+  <rect x="3" y="15" width="2" height="1" class="pf-tex-grass-block-side-36"/>
+  <rect x="5" y="15" width="1" height="1" class="pf-tex-grass-block-side-35"/>
+  <rect x="6" y="15" width="1" height="1" class="pf-tex-grass-block-side-38"/>
+  <rect x="7" y="15" width="1" height="1" class="pf-tex-grass-block-side-35"/>
+  <rect x="8" y="15" width="2" height="1" class="pf-tex-grass-block-side-36"/>
+  <rect x="10" y="15" width="2" height="1" class="pf-tex-grass-block-side-35"/>
+  <rect x="12" y="15" width="2" height="1" class="pf-tex-grass-block-side-36"/>
+  <rect x="14" y="15" width="1" height="1" class="pf-tex-grass-block-side-35"/>
+  <rect x="15" y="15" width="1" height="1" class="pf-tex-grass-block-side-18"/>
+</svg>

@@ -9,7 +9,7 @@
 ## Local Contracts
 - Runs hourly (`cron "0 * * * *"`) and on `workflow_dispatch`, on the default branch.
 - Needs `contents: write`; commits `assets/**` + `tools/*_cache.json` only when they change.
-- Uses stdlib Python only (`convert.py`/Pillow is not used here).
+- Uses stdlib Python only (`convert.py` and `textures.py`, the Pillow-based scripts, are not run here).
 - The commit is what triggers the Vercel Git integration to redeploy.
 
 ## Work Guidance

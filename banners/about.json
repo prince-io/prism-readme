@@ -3,7 +3,7 @@
   "output": "assets/about",
   "variants": [
     "light", "solarized-light", "paper", "mint", "lavender", "rose",
-    "dracula", "nord", "tokyo-night", "neon", "forest", "volcano"
+    "dracula", "nord", "tokyo-night", "neon", "forest", "volcano", "minecraft"
   ],
   "heading": "A BIT ABOUT ME",
   "heading_x": 100,

@@ -11,8 +11,8 @@
 - Theme presets live in `../themes/`; repo-wide contracts in `../AGENTS.md` and the child docs.
 
 ## Local Contracts
-- Generated files are build output: edit the source (`../tools/*.py`, `../banners/*.json`, `../themes/*.json`), never the SVG.
-- One file, everything inline: no external assets, `<script>`, `<foreignObject>`, `@font-face`, or `@import`.
+- Generated files are build output: edit the source (`../tools/*.py`, `../banners/*.json`, `../themes/*.json`, `../textures/svg/`), never the SVG.
+- One file, everything inline: no external assets, `<script>`, `<foreignObject>`, `@font-face`, or `@import`. `minecraft` block textures are inlined as `<pattern>` fills (tiles from `../textures/svg/`).
 - Colors go through `--pf-*` token classes; no raw `#hex` outside token/style blocks.
 - `id` values unique; glyphs 5×7 (20×28px), advance 24px, corners chamfered one cell.
 - Filenames contain no spaces.

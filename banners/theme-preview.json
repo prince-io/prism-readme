@@ -3,7 +3,7 @@
   "output": "assets/theme-preview",
   "variants": [
     "light", "solarized-light", "paper", "mint", "lavender", "rose",
-    "dracula", "nord", "tokyo-night", "neon", "forest", "volcano"
+    "dracula", "nord", "tokyo-night", "neon", "forest", "volcano", "minecraft"
   ],
   "heading": "THEME",
   "margin": 18,

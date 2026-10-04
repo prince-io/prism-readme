@@ -2,9 +2,10 @@
 """Generate preview.html for quick local lookup.
 
 Blocks:
-  1. every theme sample banner (`assets/theme-preview-*.svg`)
-  2. the section banners (`banners/*.json`) rendered in one fixed theme
-  3. header and skyline rendered per theme
+  1. README layout: one of each section banner stacked in profile order
+  2. every theme sample banner (`assets/theme-preview-*.svg`)
+  3. the section banners (`banners/*.json`) rendered in one fixed theme
+  4. header and skyline rendered per theme
 
 Section banners are rendered here (and embedded as data URIs) so the page is
 self-contained and every section uses the same theme.
@@ -52,18 +53,31 @@ def main():
     ]
     order = [n for n in SECTION_ORDER if n in names]
 
-    section_cards = []
+    rendered = {}
     for name in order:
         config = banner.load_config(ROOT / "banners" / f"{name}.json")
         svg = banner.render(config, theme)
-        src = "data:image/svg+xml;base64," + base64.b64encode(
+        rendered[name] = "data:image/svg+xml;base64," + base64.b64encode(
             svg.encode("utf-8")
         ).decode("ascii")
-        section_cards.append(
-            f'<figure><img src="{src}" alt="{name}">'
-            f"<figcaption>{name} &mdash; theme: {FIXED_THEME}</figcaption>"
-            "</figure>"
-        )
+    section_cards = [
+        f'<figure><img src="{rendered[name]}" alt="{name}">'
+        f"<figcaption>{name} &mdash; theme: {FIXED_THEME}</figcaption>"
+        "</figure>"
+        for name in order
+    ]
+
+    # README layout: one of each banner, stacked in profile order.
+    readme_parts = []
+    for name in order:
+        readme_parts.append(f'<img src="{rendered[name]}" alt="{name}">')
+        if name == "about":
+            gif_rel = f"gifs/{FIXED_THEME}.gif"
+            if (ROOT / gif_rel).exists():
+                readme_parts.append(
+                    f'<img class="gif" src="{gif_rel}" alt="theme gif">'
+                )
+    readme_stack = "\n".join(readme_parts)
 
     theme_names = banner.load_config(
         ROOT / "banners" / "theme-preview.json"
@@ -104,9 +118,19 @@ def main():
         background:
           repeating-conic-gradient(#dcdcdc 0% 25%, #cfcfcf 0% 50%) 50% / 20px 20px; }}
   figcaption {{ color:#333; padding:4px 0; }}
+  .readme {{ width:800px; max-width:100%; margin:0 auto 12px;
+             background:#fff; padding:16px 0; box-shadow:0 0 0 1px #999; }}
+  .readme img {{ width:100%; display:block; image-rendering:pixelated;
+                 margin:0 0 16px; }}
+  .readme img:last-child {{ margin-bottom:0; }}
+  .readme img.gif {{ margin:4px 0 16px; }}
 </style></head>
 <body>
 <h1>banner preview</h1>
+<h2>readme layout &mdash; one of each (theme: {FIXED_THEME})</h2>
+<div class="readme">
+{readme_stack}
+</div>
 <h2>theme samples &mdash; {len(theme_svgs)}</h2>
 {theme_cards}
 <h2>section banners &mdash; {len(section_cards)} (theme: {FIXED_THEME})</h2>

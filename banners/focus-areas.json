@@ -3,7 +3,7 @@
   "output": "assets/focus-areas",
   "variants": [
     "light", "solarized-light", "paper", "mint", "lavender", "rose",
-    "dracula", "nord", "tokyo-night", "neon", "forest", "volcano"
+    "dracula", "nord", "tokyo-night", "neon", "forest", "volcano", "minecraft"
   ],
   "heading": "MY FOCUS AREA",
   "heading_x": 88,

@@ -3,7 +3,7 @@
   "output": "assets/tech-stack",
   "variants": [
     "light", "solarized-light", "paper", "mint", "lavender", "rose",
-    "dracula", "nord", "tokyo-night", "neon", "forest", "volcano"
+    "dracula", "nord", "tokyo-night", "neon", "forest", "volcano", "minecraft"
   ],
   "heading": "TECH I USE",
   "heading_x": 94,

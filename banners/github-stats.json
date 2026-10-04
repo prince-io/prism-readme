@@ -3,7 +3,7 @@
   "output": "assets/github-stats",
   "variants": [
     "light", "solarized-light", "paper", "mint", "lavender", "rose",
-    "dracula", "nord", "tokyo-night", "neon", "forest", "volcano"
+    "dracula", "nord", "tokyo-night", "neon", "forest", "volcano", "minecraft"
   ],
   "heading": "GITHUB IN NUMBERS",
   "heading_x": 88,

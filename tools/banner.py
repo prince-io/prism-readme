@@ -12,6 +12,7 @@ See banners/AGENTS.md for the config schema.
 """
 
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -72,7 +73,10 @@ def expand_theme(raw):
     "tokens" is passed through unchanged.
     """
     if "tokens" in raw:
-        return {"name": raw.get("name"), "tokens": raw["tokens"]}
+        out = {"name": raw.get("name"), "tokens": raw["tokens"]}
+        if "by_banner" in raw:
+            out["by_banner"] = raw["by_banner"]
+        return out
     light = raw.get("mode", "light") != "dark"
     p, s, t = (raw[k] for k in ("primary", "secondary", "tertiary"))
     panel = "light" if light else "dark"
@@ -121,7 +125,7 @@ def expand_theme(raw):
         "--pf-steel-hi": s["light"],
         "--pf-cloud": s["light"],
     }
-    return {"name": raw.get("name"), "tokens": tokens}
+    return {"name": raw.get("name"), "tokens": tokens, **({"by_banner": raw["by_banner"]} if "by_banner" in raw else {})}
 
 
 def load_theme(name):
@@ -214,6 +218,8 @@ def _layout_skyline(cfg, tokens, width, height):
     empty = cfg.get("empty", "pf-frame-inner")
 
     def hexof(cls):
+        if isinstance(cls, str) and cls.startswith("#"):
+            return cls
         return tokens.get("--" + cls, "#888888")
 
     level_cols = [hexof(c) for c in levels]
@@ -282,15 +288,17 @@ def _layout_skyline(cfg, tokens, width, height):
 
 
 def _box(x, y, w, h, face="pf-tile-face", face_cls="", border=4, cell=4,
-         chase=False, border_color="pf-secondary"):
+         chase=False, border_color="pf-secondary", face_fill=None):
     """Box: a single thick border around a face fill. With chase=on the border
     is drawn as cell-sized segments whose opacity phase runs around the
-    perimeter (marching / alternating on-off); the face stays static."""
+    perimeter (marching / alternating on-off); the face stays static. A
+    `face_fill` (e.g. url(#pf-tex-...)) overrides the face class."""
     face_class = f"{face} {face_cls}".strip()
+    face_attr = f'fill="{face_fill}"' if face_fill else f'class="{face_class}"'
     if border <= 0:
-        return f'    <rect class="{face_class}" x="{x}" y="{y}" width="{w}" height="{h}"/>'
+        return f'    <rect {face_attr} x="{x}" y="{y}" width="{w}" height="{h}"/>'
     face_rect = (
-        f'    <rect class="{face_class}" x="{x + border}" y="{y + border}" '
+        f'    <rect {face_attr} x="{x + border}" y="{y + border}" '
         f'width="{w - 2 * border}" height="{h - 2 * border}"/>'
     )
     if not chase:
@@ -402,14 +410,21 @@ def _layout_panels(cfg, width, start_y):
             sec, items = m["sec"], m["items"]
             cx0, cx1 = x0 + pad, x1 - pad
             bg = sec.get("bg")
-            if bg:
+            bg_texture = sec.get("bg_texture")
+            bg_fill = f"url(#pf-tex-{bg_texture})" if bg_texture else None
+            if bg or bg_fill:
                 if sec.get("card_anim") == "chase":
                     parts.append(_box(
-                        x0, y, w, row_block_h, bg,
+                        x0, y, w, row_block_h, bg or "pf-panel-2",
                         border=sec.get("border_w", 4),
                         border_color=sec.get("border", "pf-secondary"),
-                        cell=2, chase=True,
+                        cell=2, chase=True, face_fill=bg_fill,
                     ))
+                elif bg_fill:
+                    parts.append(
+                        f'    <rect fill="{bg_fill}" x="{x0}" y="{y}" '
+                        f'width="{w}" height="{row_block_h}" rx="{radius}"/>'
+                    )
                 else:
                     parts.append(
                         f'    <rect class="{bg}" x="{x0}" y="{y}" '
@@ -436,10 +451,13 @@ def _layout_panels(cfg, width, start_y):
                 if m["boxed"]:
                     iy = cy + r * (m["box_h"] + box_gap)
                     face = item.get("face", sec.get("face", "pf-tertiary"))
+                    box_tex = item.get("face_texture") or sec.get("box_texture")
+                    box_fill = f"url(#pf-tex-{box_tex})" if box_tex else None
                     parts.append(_box(
                         ix, iy, colw, m["box_h"], face, "",
                         border=sec.get("box_border_w", 0),
                         cell=2, chase=sec.get("box_anim") == "chase",
+                        face_fill=box_fill,
                     ))
                     cxm = ix + colw / 2
                     ly = iy + pad + item_size
@@ -467,6 +485,8 @@ def _layout_badges(cfg, cache, width, start_y):
     row_gap = cfg.get("row_gap", 10)
     section_gap = cfg.get("section_gap", 18)
     label_size = cfg.get("label_size", 13)
+    label_weight = cfg.get("label_weight", 700)
+    label_color = cfg.get("label_color", "pf-ink")
     right = width - bx
     parts = []
     y = start_y
@@ -479,8 +499,9 @@ def _layout_badges(cfg, cache, width, start_y):
                     "x": bx,
                     "y": y + label_size,
                     "size": label_size,
-                    "weight": 700,
+                    "weight": label_weight,
                     "letter_spacing": 1,
+                    "color": label_color,
                     "text": sec["label"],
                 }
             )
@@ -596,6 +617,87 @@ def _icon_width(icon_id, scale):
     return len(icon["rows"][0]) * icon["cell"] * scale
 
 
+TEXTURE_DIR = ROOT / "textures" / "svg"
+_TEXTURE_CACHE = {}
+
+
+def _load_texture(name):
+    """Parse textures/svg/<name>.svg into [(x, y, w, h, "#hex"), ...]."""
+    if name not in _TEXTURE_CACHE:
+        src = (TEXTURE_DIR / f"{name}.svg").read_text()
+        palette = {
+            int(k): hexv
+            for k, hexv in re.findall(
+                r"--pf-tex-[\w-]+-(\d+):\s*(#[0-9a-fA-F]{6})", src
+            )
+        }
+        rects = [
+            (int(x), int(y), int(w), int(h), palette[int(k)])
+            for x, y, w, h, k in re.findall(
+                r'<rect x="(\d+)" y="(\d+)" width="(\d+)" height="(\d+)" '
+                r'class="pf-tex-[\w-]+-(\d+)"/>',
+                src,
+            )
+        ]
+        _TEXTURE_CACHE[name] = rects
+    return _TEXTURE_CACHE[name]
+
+
+def _texture_background(cfg, width, height):
+    """Full-canvas tiled block textures from a banner's `textures` block."""
+    tile = cfg.get("tile", 32)
+    used = []
+    for n in (
+        [cfg.get("base")]
+        + list(cfg.get("patterns", []))
+        + [r["texture"] for r in cfg.get("regions", [])]
+    ):
+        if n and n not in used:
+            used.append(n)
+
+    defs = []
+    for name in used:
+        rects = "\n".join(
+            f'      <rect x="{x}" y="{y}" width="{w}" height="{h}" fill="{hexv}"/>'
+            for x, y, w, h, hexv in _load_texture(name)
+        )
+        defs.append(
+            f'    <pattern id="pf-tex-{name}" patternUnits="userSpaceOnUse" '
+            f'width="{tile}" height="{tile}" viewBox="0 0 16 16">\n'
+            f"{rects}\n    </pattern>"
+        )
+
+    rects = []
+    if cfg.get("base"):
+        rects.append(
+            f'    <rect x="0" y="0" width="{width}" height="{height}" '
+            f'fill="url(#pf-tex-{cfg["base"]})"/>'
+        )
+    for pl in cfg.get("placements", []):
+        doc = (ROOT / pl["src"]).read_text()
+        m = re.search(r"<svg\b([^>]*)>(.*)</svg>", doc, re.S)
+        attrs, inner = (m.group(1), m.group(2).strip()) if m else ("", doc)
+        vb = re.search(r'viewBox="([^"]+)"', attrs)
+        wm = re.search(r'width="([\d.]+)"', attrs)
+        hm = re.search(r'height="([\d.]+)"', attrs)
+        x, y = pl.get("x", 0), pl.get("y", 0)
+        w = pl.get("width") or (float(wm.group(1)) if wm else 0)
+        h = pl.get("height") or (float(hm.group(1)) if hm else 0)
+        w = int(w) if float(w).is_integer() else w
+        h = int(h) if float(h).is_integer() else h
+        vbattr = f' viewBox="{vb.group(1)}"' if vb else ""
+        rects.append(
+            f'    <svg x="{x}" y="{y}" width="{w}" height="{h}"{vbattr}>\n'
+            f"{inner}\n    </svg>"
+        )
+    for r in cfg.get("regions", []):
+        rects.append(
+            f'    <rect x="{r["x"]}" y="{r["y"]}" width="{r["w"]}" '
+            f'height="{r["h"]}" fill="url(#pf-tex-{r["texture"]})"/>'
+        )
+    return "  <defs>\n" + "\n".join(defs) + "\n  </defs>", "\n".join(rects)
+
+
 def _frame(width, height):
     return (
         f'    <rect class="pf-frame-outer" x="0" y="0" '
@@ -630,6 +732,7 @@ def _text(t):
     x, y = t["x"], t.get("y", 0)
     size = t.get("size", 14)
     color = t.get("color", "pf-ink")
+    color_attr = f'fill="{color}"' if str(color).startswith("#") else f'class="{color}"'
     anchor = t.get("anchor", "start")
     weight = t.get("weight", 500)
     style = t.get("style", "normal")
@@ -641,7 +744,7 @@ def _text(t):
         .replace(">", "&gt;")
     )
     return (
-        f'    <text class="{color}" x="{x}" y="{y}" '
+        f'    <text {color_attr} x="{x}" y="{y}" '
         f'text-anchor="{anchor}" font-family="ui-monospace, monospace" '
         f'font-size="{size}" font-weight="{weight}" font-style="{style}" '
         f'letter-spacing="{letter}">{text}</text>'
@@ -885,7 +988,16 @@ def _style_block(tokens, underline_x, heading="", anim=None, n_lines=0,
 
 
 def render(config, theme):
-    tokens = theme["tokens"]
+    override = theme.get("by_banner", {}).get(config.get("name"))
+    if override:
+        config = _merge(config, override)
+    tokens = dict(theme["tokens"])
+    if config.get("ink"):
+        tokens["--pf-ink"] = config["ink"]
+    if config.get("ink_muted"):
+        tokens["--pf-ink-muted"] = config["ink_muted"]
+    if config.get("box_ink"):
+        tokens["--pf-box-ink"] = config["box_ink"]
     anim = config.get("animation", {})
     if isinstance(anim, str):
         anim = {"mode": anim}
@@ -1067,6 +1179,11 @@ def render(config, theme):
 
     # --- assemble ---
     parts = []
+    tex_cfg = config.get("textures")
+    if tex_cfg:
+        tex_defs, tex_rects = _texture_background(tex_cfg, width, height)
+        parts.append(tex_defs)
+        parts.append(tex_rects)
     if stripes_cfg:
         stripe_defs, stripe_group, stripes_css = _stripes(
             stripes_cfg, width, height, config.get("frame", True)
@@ -1077,11 +1194,13 @@ def render(config, theme):
     if stripes_cfg:
         parts.append(stripe_group)
     for bi, b in enumerate(boxes_cfg):
+        box_fill = f'url(#pf-tex-{b["texture"]})' if b.get("texture") else None
         parts.append(_box(
             b["x"], b["y"], b["width"], b["height"],
             box_faces.get(bi, b.get("face", "pf-tile-face")),
             border=b.get("border_w", 4),
             border_color=b.get("border", "pf-secondary"),
+            face_fill=box_fill,
         ))
     parts.extend(textbox_parts)
 
@@ -1188,6 +1307,8 @@ def render(config, theme):
         markers.append("badges")
     if skyline_cfg:
         markers.append("skyline")
+    if tex_cfg:
+        markers.append("textures")
     marker = f' data-allow-raw-hex="{" ".join(markers)}"' if markers else ""
     return (
         f'<svg xmlns="http://www.w3.org/2000/svg" '

@@ -1,0 +1,232 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 16 16" shape-rendering="crispEdges">
+  <style>
+    :root {
+      --pf-tex-lapis-ore-0: #8f8f8f;
+      --pf-tex-lapis-ore-1: #7f7f7f;
+      --pf-tex-lapis-ore-2: #747474;
+      --pf-tex-lapis-ore-3: #686868;
+      --pf-tex-lapis-ore-4: #5c5c5c;
+      --pf-tex-lapis-ore-5: #1855bd;
+      --pf-tex-lapis-ore-6: #20598b;
+      --pf-tex-lapis-ore-7: #16448d;
+      --pf-tex-lapis-ore-8: #1034bd;
+      --pf-tex-lapis-ore-9: #a2a2a2;
+      --pf-tex-lapis-ore-10: #1044ac;
+      --pf-tex-lapis-ore-11: #446fdc;
+      --pf-tex-lapis-ore-12: #6995f4;
+      --pf-tex-lapis-ore-13: #10349c;
+    }
+      .pf-tex-lapis-ore-0 { fill: var(--pf-tex-lapis-ore-0); }
+      .pf-tex-lapis-ore-1 { fill: var(--pf-tex-lapis-ore-1); }
+      .pf-tex-lapis-ore-2 { fill: var(--pf-tex-lapis-ore-2); }
+      .pf-tex-lapis-ore-3 { fill: var(--pf-tex-lapis-ore-3); }
+      .pf-tex-lapis-ore-4 { fill: var(--pf-tex-lapis-ore-4); }
+      .pf-tex-lapis-ore-5 { fill: var(--pf-tex-lapis-ore-5); }
+      .pf-tex-lapis-ore-6 { fill: var(--pf-tex-lapis-ore-6); }
+      .pf-tex-lapis-ore-7 { fill: var(--pf-tex-lapis-ore-7); }
+      .pf-tex-lapis-ore-8 { fill: var(--pf-tex-lapis-ore-8); }
+      .pf-tex-lapis-ore-9 { fill: var(--pf-tex-lapis-ore-9); }
+      .pf-tex-lapis-ore-10 { fill: var(--pf-tex-lapis-ore-10); }
+      .pf-tex-lapis-ore-11 { fill: var(--pf-tex-lapis-ore-11); }
+      .pf-tex-lapis-ore-12 { fill: var(--pf-tex-lapis-ore-12); }
+      .pf-tex-lapis-ore-13 { fill: var(--pf-tex-lapis-ore-13); }
+  </style>
+  <rect x="0" y="0" width="1" height="1" class="pf-tex-lapis-ore-0"/>
+  <rect x="1" y="0" width="2" height="1" class="pf-tex-lapis-ore-1"/>
+  <rect x="3" y="0" width="1" height="1" class="pf-tex-lapis-ore-0"/>
+  <rect x="4" y="0" width="1" height="1" class="pf-tex-lapis-ore-1"/>
+  <rect x="5" y="0" width="2" height="1" class="pf-tex-lapis-ore-2"/>
+  <rect x="7" y="0" width="1" height="1" class="pf-tex-lapis-ore-1"/>
+  <rect x="8" y="0" width="1" height="1" class="pf-tex-lapis-ore-2"/>
+  <rect x="9" y="0" width="1" height="1" class="pf-tex-lapis-ore-3"/>
+  <rect x="10" y="0" width="2" height="1" class="pf-tex-lapis-ore-2"/>
+  <rect x="12" y="0" width="1" height="1" class="pf-tex-lapis-ore-1"/>
+  <rect x="13" y="0" width="3" height="1" class="pf-tex-lapis-ore-0"/>
+  <rect x="0" y="1" width="2" height="1" class="pf-tex-lapis-ore-1"/>
+  <rect x="2" y="1" width="1" height="1" class="pf-tex-lapis-ore-3"/>
+  <rect x="3" y="1" width="2" height="1" class="pf-tex-lapis-ore-4"/>
+  <rect x="5" y="1" width="1" height="1" class="pf-tex-lapis-ore-3"/>
+  <rect x="6" y="1" width="1" height="1" class="pf-tex-lapis-ore-2"/>
+  <rect x="7" y="1" width="2" height="1" class="pf-tex-lapis-ore-0"/>
+  <rect x="9" y="1" width="2" height="1" class="pf-tex-lapis-ore-1"/>
+  <rect x="11" y="1" width="1" height="1" class="pf-tex-lapis-ore-3"/>
+  <rect x="12" y="1" width="2" height="1" class="pf-tex-lapis-ore-4"/>
+  <rect x="14" y="1" width="1" height="1" class="pf-tex-lapis-ore-1"/>
+  <rect x="15" y="1" width="1" height="1" class="pf-tex-lapis-ore-2"/>
+  <rect x="0" y="2" width="1" height="1" class="pf-tex-lapis-ore-1"/>
+  <rect x="1" y="2" width="1" height="1" class="pf-tex-lapis-ore-2"/>
+  <rect x="2" y="2" width="1" height="1" class="pf-tex-lapis-ore-5"/>
+  <rect x="3" y="2" width="1" height="1" class="pf-tex-lapis-ore-6"/>
+  <rect x="4" y="2" width="1" height="1" class="pf-tex-lapis-ore-5"/>
+  <rect x="5" y="2" width="1" height="1" class="pf-tex-lapis-ore-7"/>
+  <rect x="6" y="2" width="1" height="1" class="pf-tex-lapis-ore-3"/>
+  <rect x="7" y="2" width="2" height="1" class="pf-tex-lapis-ore-4"/>
+  <rect x="9" y="2" width="2" height="1" class="pf-tex-lapis-ore-2"/>
+  <rect x="11" y="2" width="1" height="1" class="pf-tex-lapis-ore-0"/>
+  <rect x="12" y="2" width="1" height="1" class="pf-tex-lapis-ore-8"/>
+  <rect x="13" y="2" width="1" height="1" class="pf-tex-lapis-ore-7"/>
+  <rect x="14" y="2" width="2" height="1" class="pf-tex-lapis-ore-1"/>
+  <rect x="0" y="3" width="1" height="1" class="pf-tex-lapis-ore-0"/>
+  <rect x="1" y="3" width="1" height="1" class="pf-tex-lapis-ore-1"/>
+  <rect x="2" y="3" width="1" height="1" class="pf-tex-lapis-ore-0"/>
+  <rect x="3" y="3" width="1" height="1" class="pf-tex-lapis-ore-9"/>
+  <rect x="4" y="3" width="1" height="1" class="pf-tex-lapis-ore-0"/>
+  <rect x="5" y="3" width="1" height="1" class="pf-tex-lapis-ore-10"/>
+  <rect x="6" y="3" width="1" height="1" class="pf-tex-lapis-ore-2"/>
+  <rect x="7" y="3" width="1" height="1" class="pf-tex-lapis-ore-7"/>
+  <rect x="8" y="3" width="1" height="1" class="pf-tex-lapis-ore-11"/>
+  <rect x="9" y="3" width="1" height="1" class="pf-tex-lapis-ore-0"/>
+  <rect x="10" y="3" width="2" height="1" class="pf-tex-lapis-ore-1"/>
+  <rect x="12" y="3" width="1" height="1" class="pf-tex-lapis-ore-9"/>
+  <rect x="13" y="3" width="1" height="1" class="pf-tex-lapis-ore-0"/>
+  <rect x="14" y="3" width="2" height="1" class="pf-tex-lapis-ore-2"/>
+  <rect x="0" y="4" width="1" height="1" class="pf-tex-lapis-ore-2"/>
+  <rect x="1" y="4" width="2" height="1" class="pf-tex-lapis-ore-1"/>
+  <rect x="3" y="4" width="2" height="1" class="pf-tex-lapis-ore-2"/>
+  <rect x="5" y="4" width="2" height="1" class="pf-tex-lapis-ore-4"/>
+  <rect x="7" y="4" width="1" height="1" class="pf-tex-lapis-ore-2"/>
+  <rect x="8" y="4" width="1" height="1" class="pf-tex-lapis-ore-0"/>
+  <rect x="9" y="4" width="1" height="1" class="pf-tex-lapis-ore-1"/>
+  <rect x="10" y="4" width="2" height="1" class="pf-tex-lapis-ore-4"/>
+  <rect x="12" y="4" width="1" height="1" class="pf-tex-lapis-ore-0"/>
+  <rect x="13" y="4" width="1" height="1" class="pf-tex-lapis-ore-2"/>
+  <rect x="14" y="4" width="2" height="1" class="pf-tex-lapis-ore-1"/>
+  <rect x="0" y="5" width="1" height="1" class="pf-tex-lapis-ore-1"/>
+  <rect x="1" y="5" width="1" height="1" class="pf-tex-lapis-ore-0"/>
+  <rect x="2" y="5" width="1" height="1" class="pf-tex-lapis-ore-1"/>
+  <rect x="3" y="5" width="1" height="1" class="pf-tex-lapis-ore-3"/>
+  <rect x="4" y="5" width="1" height="1" class="pf-tex-lapis-ore-4"/>
+  <rect x="5" y="5" width="1" height="1" class="pf-tex-lapis-ore-5"/>
+  <rect x="6" y="5" width="1" height="1" class="pf-tex-lapis-ore-10"/>
+  <rect x="7" y="5" width="2" height="1" class="pf-tex-lapis-ore-1"/>
+  <rect x="9" y="5" width="1" height="1" class="pf-tex-lapis-ore-3"/>
+  <rect x="10" y="5" width="1" height="1" class="pf-tex-lapis-ore-6"/>
+  <rect x="11" y="5" width="1" height="1" class="pf-tex-lapis-ore-8"/>
+  <rect x="12" y="5" width="1" height="1" class="pf-tex-lapis-ore-2"/>
+  <rect x="13" y="5" width="1" height="1" class="pf-tex-lapis-ore-3"/>
+  <rect x="14" y="5" width="1" height="1" class="pf-tex-lapis-ore-2"/>
+  <rect x="15" y="5" width="1" height="1" class="pf-tex-lapis-ore-0"/>
+  <rect x="0" y="6" width="1" height="1" class="pf-tex-lapis-ore-2"/>
+  <rect x="1" y="6" width="1" height="1" class="pf-tex-lapis-ore-1"/>
+  <rect x="2" y="6" width="1" height="1" class="pf-tex-lapis-ore-4"/>
+  <rect x="3" y="6" width="1" height="1" class="pf-tex-lapis-ore-8"/>
+  <rect x="4" y="6" width="1" height="1" class="pf-tex-lapis-ore-11"/>
+  <rect x="5" y="6" width="1" height="1" class="pf-tex-lapis-ore-12"/>
+  <rect x="6" y="6" width="1" height="1" class="pf-tex-lapis-ore-11"/>
+  <rect x="7" y="6" width="1" height="1" class="pf-tex-lapis-ore-7"/>
+  <rect x="8" y="6" width="1" height="1" class="pf-tex-lapis-ore-0"/>
+  <rect x="9" y="6" width="1" height="1" class="pf-tex-lapis-ore-1"/>
+  <rect x="10" y="6" width="1" height="1" class="pf-tex-lapis-ore-11"/>
+  <rect x="11" y="6" width="1" height="1" class="pf-tex-lapis-ore-12"/>
+  <rect x="12" y="6" width="2" height="1" class="pf-tex-lapis-ore-0"/>
+  <rect x="14" y="6" width="2" height="1" class="pf-tex-lapis-ore-1"/>
+  <rect x="0" y="7" width="1" height="1" class="pf-tex-lapis-ore-2"/>
+  <rect x="1" y="7" width="1" height="1" class="pf-tex-lapis-ore-10"/>
+  <rect x="2" y="7" width="1" height="1" class="pf-tex-lapis-ore-11"/>
+  <rect x="3" y="7" width="3" height="1" class="pf-tex-lapis-ore-9"/>
+  <rect x="6" y="7" width="1" height="1" class="pf-tex-lapis-ore-0"/>
+  <rect x="7" y="7" width="1" height="1" class="pf-tex-lapis-ore-4"/>
+  <rect x="8" y="7" width="2" height="1" class="pf-tex-lapis-ore-3"/>
+  <rect x="10" y="7" width="1" height="1" class="pf-tex-lapis-ore-1"/>
+  <rect x="11" y="7" width="1" height="1" class="pf-tex-lapis-ore-9"/>
+  <rect x="12" y="7" width="1" height="1" class="pf-tex-lapis-ore-2"/>
+  <rect x="13" y="7" width="2" height="1" class="pf-tex-lapis-ore-0"/>
+  <rect x="15" y="7" width="1" height="1" class="pf-tex-lapis-ore-1"/>
+  <rect x="0" y="8" width="1" height="1" class="pf-tex-lapis-ore-0"/>
+  <rect x="1" y="8" width="1" height="1" class="pf-tex-lapis-ore-11"/>
+  <rect x="2" y="8" width="1" height="1" class="pf-tex-lapis-ore-12"/>
+  <rect x="3" y="8" width="1" height="1" class="pf-tex-lapis-ore-9"/>
+  <rect x="4" y="8" width="1" height="1" class="pf-tex-lapis-ore-0"/>
+  <rect x="5" y="8" width="1" height="1" class="pf-tex-lapis-ore-1"/>
+  <rect x="6" y="8" width="1" height="1" class="pf-tex-lapis-ore-3"/>
+  <rect x="7" y="8" width="1" height="1" class="pf-tex-lapis-ore-10"/>
+  <rect x="8" y="8" width="1" height="1" class="pf-tex-lapis-ore-4"/>
+  <rect x="9" y="8" width="1" height="1" class="pf-tex-lapis-ore-5"/>
+  <rect x="10" y="8" width="2" height="1" class="pf-tex-lapis-ore-7"/>
+  <rect x="12" y="8" width="1" height="1" class="pf-tex-lapis-ore-1"/>
+  <rect x="13" y="8" width="2" height="1" class="pf-tex-lapis-ore-4"/>
+  <rect x="15" y="8" width="1" height="1" class="pf-tex-lapis-ore-2"/>
+  <rect x="0" y="9" width="1" height="1" class="pf-tex-lapis-ore-1"/>
+  <rect x="1" y="9" width="2" height="1" class="pf-tex-lapis-ore-9"/>
+  <rect x="3" y="9" width="1" height="1" class="pf-tex-lapis-ore-1"/>
+  <rect x="4" y="9" width="1" height="1" class="pf-tex-lapis-ore-3"/>
+  <rect x="5" y="9" width="1" height="1" class="pf-tex-lapis-ore-1"/>
+  <rect x="6" y="9" width="1" height="1" class="pf-tex-lapis-ore-3"/>
+  <rect x="7" y="9" width="1" height="1" class="pf-tex-lapis-ore-10"/>
+  <rect x="8" y="9" width="1" height="1" class="pf-tex-lapis-ore-5"/>
+  <rect x="9" y="9" width="2" height="1" class="pf-tex-lapis-ore-11"/>
+  <rect x="11" y="9" width="1" height="1" class="pf-tex-lapis-ore-7"/>
+  <rect x="12" y="9" width="1" height="1" class="pf-tex-lapis-ore-3"/>
+  <rect x="13" y="9" width="1" height="1" class="pf-tex-lapis-ore-10"/>
+  <rect x="14" y="9" width="2" height="1" class="pf-tex-lapis-ore-3"/>
+  <rect x="0" y="10" width="1" height="1" class="pf-tex-lapis-ore-3"/>
+  <rect x="1" y="10" width="1" height="1" class="pf-tex-lapis-ore-1"/>
+  <rect x="2" y="10" width="2" height="1" class="pf-tex-lapis-ore-3"/>
+  <rect x="4" y="10" width="1" height="1" class="pf-tex-lapis-ore-10"/>
+  <rect x="5" y="10" width="2" height="1" class="pf-tex-lapis-ore-2"/>
+  <rect x="7" y="10" width="1" height="1" class="pf-tex-lapis-ore-3"/>
+  <rect x="8" y="10" width="1" height="1" class="pf-tex-lapis-ore-8"/>
+  <rect x="9" y="10" width="1" height="1" class="pf-tex-lapis-ore-11"/>
+  <rect x="10" y="10" width="1" height="1" class="pf-tex-lapis-ore-12"/>
+  <rect x="11" y="10" width="1" height="1" class="pf-tex-lapis-ore-0"/>
+  <rect x="12" y="10" width="1" height="1" class="pf-tex-lapis-ore-2"/>
+  <rect x="13" y="10" width="1" height="1" class="pf-tex-lapis-ore-11"/>
+  <rect x="14" y="10" width="1" height="1" class="pf-tex-lapis-ore-6"/>
+  <rect x="15" y="10" width="1" height="1" class="pf-tex-lapis-ore-1"/>
+  <rect x="0" y="11" width="2" height="1" class="pf-tex-lapis-ore-1"/>
+  <rect x="2" y="11" width="1" height="1" class="pf-tex-lapis-ore-7"/>
+  <rect x="3" y="11" width="2" height="1" class="pf-tex-lapis-ore-13"/>
+  <rect x="5" y="11" width="2" height="1" class="pf-tex-lapis-ore-1"/>
+  <rect x="7" y="11" width="1" height="1" class="pf-tex-lapis-ore-0"/>
+  <rect x="8" y="11" width="2" height="1" class="pf-tex-lapis-ore-9"/>
+  <rect x="10" y="11" width="1" height="1" class="pf-tex-lapis-ore-0"/>
+  <rect x="11" y="11" width="1" height="1" class="pf-tex-lapis-ore-1"/>
+  <rect x="12" y="11" width="1" height="1" class="pf-tex-lapis-ore-0"/>
+  <rect x="13" y="11" width="1" height="1" class="pf-tex-lapis-ore-12"/>
+  <rect x="14" y="11" width="1" height="1" class="pf-tex-lapis-ore-11"/>
+  <rect x="15" y="11" width="1" height="1" class="pf-tex-lapis-ore-1"/>
+  <rect x="0" y="12" width="1" height="1" class="pf-tex-lapis-ore-1"/>
+  <rect x="1" y="12" width="1" height="1" class="pf-tex-lapis-ore-2"/>
+  <rect x="2" y="12" width="2" height="1" class="pf-tex-lapis-ore-9"/>
+  <rect x="4" y="12" width="1" height="1" class="pf-tex-lapis-ore-0"/>
+  <rect x="5" y="12" width="1" height="1" class="pf-tex-lapis-ore-13"/>
+  <rect x="6" y="12" width="2" height="1" class="pf-tex-lapis-ore-3"/>
+  <rect x="8" y="12" width="1" height="1" class="pf-tex-lapis-ore-7"/>
+  <rect x="9" y="12" width="2" height="1" class="pf-tex-lapis-ore-11"/>
+  <rect x="11" y="12" width="1" height="1" class="pf-tex-lapis-ore-3"/>
+  <rect x="12" y="12" width="1" height="1" class="pf-tex-lapis-ore-9"/>
+  <rect x="13" y="12" width="1" height="1" class="pf-tex-lapis-ore-8"/>
+  <rect x="14" y="12" width="1" height="1" class="pf-tex-lapis-ore-11"/>
+  <rect x="15" y="12" width="1" height="1" class="pf-tex-lapis-ore-0"/>
+  <rect x="0" y="13" width="2" height="1" class="pf-tex-lapis-ore-0"/>
+  <rect x="2" y="13" width="1" height="1" class="pf-tex-lapis-ore-1"/>
+  <rect x="3" y="13" width="1" height="1" class="pf-tex-lapis-ore-2"/>
+  <rect x="4" y="13" width="1" height="1" class="pf-tex-lapis-ore-11"/>
+  <rect x="5" y="13" width="1" height="1" class="pf-tex-lapis-ore-12"/>
+  <rect x="6" y="13" width="1" height="1" class="pf-tex-lapis-ore-5"/>
+  <rect x="7" y="13" width="1" height="1" class="pf-tex-lapis-ore-1"/>
+  <rect x="8" y="13" width="1" height="1" class="pf-tex-lapis-ore-11"/>
+  <rect x="9" y="13" width="1" height="1" class="pf-tex-lapis-ore-12"/>
+  <rect x="10" y="13" width="1" height="1" class="pf-tex-lapis-ore-8"/>
+  <rect x="11" y="13" width="1" height="1" class="pf-tex-lapis-ore-9"/>
+  <rect x="12" y="13" width="1" height="1" class="pf-tex-lapis-ore-2"/>
+  <rect x="13" y="13" width="2" height="1" class="pf-tex-lapis-ore-9"/>
+  <rect x="15" y="13" width="1" height="1" class="pf-tex-lapis-ore-1"/>
+  <rect x="0" y="14" width="1" height="1" class="pf-tex-lapis-ore-1"/>
+  <rect x="1" y="14" width="2" height="1" class="pf-tex-lapis-ore-2"/>
+  <rect x="3" y="14" width="1" height="1" class="pf-tex-lapis-ore-1"/>
+  <rect x="4" y="14" width="1" height="1" class="pf-tex-lapis-ore-5"/>
+  <rect x="5" y="14" width="1" height="1" class="pf-tex-lapis-ore-11"/>
+  <rect x="6" y="14" width="1" height="1" class="pf-tex-lapis-ore-7"/>
+  <rect x="7" y="14" width="1" height="1" class="pf-tex-lapis-ore-9"/>
+  <rect x="8" y="14" width="1" height="1" class="pf-tex-lapis-ore-1"/>
+  <rect x="9" y="14" width="2" height="1" class="pf-tex-lapis-ore-9"/>
+  <rect x="11" y="14" width="1" height="1" class="pf-tex-lapis-ore-1"/>
+  <rect x="12" y="14" width="3" height="1" class="pf-tex-lapis-ore-2"/>
+  <rect x="15" y="14" width="1" height="1" class="pf-tex-lapis-ore-1"/>
+  <rect x="0" y="15" width="4" height="1" class="pf-tex-lapis-ore-1"/>
+  <rect x="4" y="15" width="1" height="1" class="pf-tex-lapis-ore-0"/>
+  <rect x="5" y="15" width="2" height="1" class="pf-tex-lapis-ore-9"/>
+  <rect x="7" y="15" width="7" height="1" class="pf-tex-lapis-ore-1"/>
+  <rect x="14" y="15" width="2" height="1" class="pf-tex-lapis-ore-0"/>
+</svg>

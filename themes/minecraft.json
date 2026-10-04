@@ -1,0 +1,204 @@
+{
+  "name": "minecraft",
+  "mode": "light",
+  "primary":   { "light": "#DCFCE7", "main": "#5E9C3F", "dark": "#2F5E1E" },
+  "secondary": { "light": "#F5E6C8", "main": "#8B5A2B", "dark": "#4A2C13" },
+  "tertiary":  { "light": "#CFFAFE", "main": "#2DD4BF", "dark": "#0F766E" },
+  "by_banner": {
+    "header": {
+      "frame": false,
+      "width": 768,
+      "height": 256,
+      "ink": "#1A1A1A",
+      "underline": true,
+      "stripes": null,
+      "heading": "PRINCE-IO",
+      "heading_scale": 1.3,
+      "heading_x": 244,
+      "heading_y": 57,
+      "heading_color": "pf-ink",
+      "boxes": [
+        { "x": 202, "y": 41, "width": 364, "height": 78, "face": "pf-primary", "border_w": 0, "texture": "quartz-block-bottom" }
+      ],
+      "textures": {
+        "base": "sky",
+        "tile": 64,
+        "patterns": ["quartz-block-bottom"],
+        "placements": [
+          { "src": "textures/images/clouds.svg", "x": 0, "y": 0, "width": 768, "height": 256 }
+        ],
+        "regions": [
+          { "texture": "grass-block-side", "x": 0, "y": 192, "w": 768, "h": 64 }
+        ]
+      },
+      "icons": [
+        { "id": "dandelion", "center_x": 32, "y": 165, "scale": 1 },
+        { "id": "poppy", "center_x": 96, "y": 159, "scale": 1 },
+        { "id": "oxeye-daisy", "center_x": 160, "y": 150, "scale": 1 },
+        { "id": "allium", "center_x": 224, "y": 150, "scale": 1 },
+        { "id": "cornflower", "center_x": 288, "y": 156, "scale": 1 },
+        { "id": "azure-bluet", "center_x": 352, "y": 162, "scale": 1 },
+        { "id": "blue-orchid", "center_x": 416, "y": 156, "scale": 1 },
+        { "id": "lily-of-the-valley", "center_x": 480, "y": 156, "scale": 1 },
+        { "id": "white-tulip", "center_x": 544, "y": 153, "scale": 1 },
+        { "id": "red-tulip", "center_x": 608, "y": 153, "scale": 1 },
+        { "id": "orange-tulip", "center_x": 672, "y": 153, "scale": 1 },
+        { "id": "pink-tulip", "center_x": 736, "y": 153, "scale": 1 }
+      ]
+    },
+    "about": {
+      "frame": false,
+      "width": 832,
+      "height": 320,
+      "ink": "#1A1A1A",
+      "ink_muted": "#1A1A1A",
+      "heading_x": 156,
+      "line_step": 30,
+      "textures": {
+        "base": "oak-planks",
+        "tile": 64,
+        "regions": [
+          { "texture": "oak-log", "x": 0, "y": 0, "w": 64, "h": 320 },
+          { "texture": "oak-log", "x": 768, "y": 0, "w": 64, "h": 320 }
+        ]
+      },
+      "icons": [
+        { "id": "enchanted-book", "x": 92, "y": 25, "scale": 1 }
+      ],
+      "lines": [
+        { "x": 88, "size": 16, "weight": 700, "text": "Hey, I'm Prince! I build full-stack apps and explore the future of AI." },
+        { "x": 88, "size": 16, "weight": 700, "text": "I love building things end-to-end - from the first line of code to a" },
+        { "x": 88, "size": 16, "weight": 700, "text": "working product people actually use. Lately my curiosity is pointed at" },
+        { "x": 88, "size": 16, "weight": 700, "text": "the AI space, taking these tools beyond flashy demos into things that" },
+        { "x": 88, "size": 16, "weight": 700, "text": "genuinely work. I learn best by building - if I'm curious, I've probably" },
+        { "x": 88, "size": 16, "weight": 700, "text": "already started coding it. Check out my focus areas below." }
+      ]
+    },
+    "focus-areas": {
+      "frame": false,
+      "width": 832,
+      "height": 384,
+      "ink": "#1A1A1A",
+      "ink_muted": "#1A1A1A",
+      "heading_x": 156,
+      "line_step": 54,
+      "textures": {
+        "base": "stone",
+        "tile": 64,
+        "regions": [
+          { "texture": "lapis-ore", "x": 0, "y": 0, "w": 64, "h": 64 },
+          { "texture": "coal-ore", "x": 512, "y": 0, "w": 64, "h": 64 },
+          { "texture": "iron-ore", "x": 704, "y": 64, "w": 64, "h": 64 },
+          { "texture": "iron-ore", "x": 704, "y": 128, "w": 64, "h": 64 },
+          { "texture": "iron-ore", "x": 0, "y": 192, "w": 64, "h": 64 },
+          { "texture": "gold-ore", "x": 384, "y": 192, "w": 64, "h": 64 },
+          { "texture": "gold-ore", "x": 448, "y": 192, "w": 64, "h": 64 },
+          { "texture": "lapis-ore", "x": 128, "y": 320, "w": 64, "h": 64 },
+          { "texture": "coal-ore", "x": 768, "y": 320, "w": 64, "h": 64 }
+        ]
+      },
+      "icons": [
+        { "id": "diamond-pickaxe", "x": 92, "y": 26, "scale": 1 }
+      ],
+      "lines": [
+        { "x": 88, "size": 16, "weight": 700, "text": "Full-Stack Development - React, Next.js, Node.js, Express", "bullet": { "id": "diamond", "scale": 1 } },
+        { "x": 88, "size": 16, "weight": 700, "text": "System Design - scalable backends for real-world apps", "bullet": { "id": "netherite-ingot", "scale": 1 } },
+        { "x": 88, "size": 16, "weight": 700, "text": "RAG Architectures - connecting LLMs to real, useful data", "bullet": { "id": "gold-ingot", "scale": 1 } },
+        { "x": 88, "size": 16, "weight": 700, "text": "AI Agents - designing autonomous, task-driven workflows", "bullet": { "id": "iron-ingot", "scale": 1 } },
+        { "x": 88, "size": 16, "weight": 700, "text": "LLM Orchestration - LangChain and agentic pipelines", "bullet": { "id": "emerald", "scale": 1 } }
+      ]
+    },
+    "tech-stack": {
+      "frame": false,
+      "width": 832,
+      "height": 832,
+      "ink": "#FFFFFF",
+      "ink_muted": "#D8D8D8",
+      "textures": {
+        "base": "deepslate",
+        "tile": 64,
+        "regions": [
+          { "texture": "deepslate-redstone-ore", "x": 512, "y": 0, "w": 64, "h": 64 },
+          { "texture": "deepslate-redstone-ore", "x": 576, "y": 0, "w": 64, "h": 64 },
+          { "texture": "deepslate-lapis-ore", "x": 384, "y": 192, "w": 64, "h": 64 },
+          { "texture": "deepslate-diamond-ore", "x": 640, "y": 192, "w": 64, "h": 64 },
+          { "texture": "deepslate-diamond-ore", "x": 704, "y": 192, "w": 64, "h": 64 },
+          { "texture": "deepslate-lapis-ore", "x": 384, "y": 256, "w": 64, "h": 64 },
+          { "texture": "deepslate-diamond-ore", "x": 704, "y": 256, "w": 64, "h": 64 },
+          { "texture": "deepslate-diamond-ore", "x": 384, "y": 640, "w": 64, "h": 64 },
+          { "texture": "deepslate-gold-ore", "x": 640, "y": 640, "w": 64, "h": 64 },
+          { "texture": "deepslate-gold-ore", "x": 704, "y": 704, "w": 64, "h": 64 },
+          { "texture": "deepslate-redstone-ore", "x": 64, "y": 704, "w": 64, "h": 64 }
+        ]
+      },
+      "badges": {
+        "row_gap": 20,
+        "section_gap": 30,
+        "label_size": 16,
+        "label_weight": 800
+      }
+    },
+    "github-stats": {
+      "frame": false,
+      "width": 832,
+      "height": 512,
+      "ink": "#FFFFFF",
+      "ink_muted": "#E4D2CA",
+      "box_ink": "#FFFFFF",
+      "textures": {
+        "base": "netherrack",
+        "tile": 64,
+        "patterns": ["nether-bricks", "crimson-planks"],
+        "regions": [
+          { "texture": "nether-gold-ore", "x": 128, "y": 0, "w": 64, "h": 64 },
+          { "texture": "nether-quartz-ore", "x": 448, "y": 0, "w": 64, "h": 64 },
+          { "texture": "nether-gold-ore", "x": 640, "y": 64, "w": 64, "h": 64 },
+          { "texture": "nether-quartz-ore", "x": 128, "y": 256, "w": 64, "h": 64 },
+          { "texture": "nether-quartz-ore", "x": 768, "y": 256, "w": 64, "h": 64 },
+          { "texture": "nether-quartz-ore", "x": 384, "y": 384, "w": 64, "h": 64 },
+          { "texture": "nether-gold-ore", "x": 64, "y": 448, "w": 64, "h": 64 },
+          { "texture": "nether-gold-ore", "x": 0, "y": 384, "w": 64, "h": 64 },
+          { "texture": "nether-quartz-ore", "x": 384, "y": 448, "w": 64, "h": 64 },
+          { "texture": "ancient-debris-side", "x": 640, "y": 448, "w": 64, "h": 64 },
+          { "texture": "ancient-debris-side", "x": 704, "y": 448, "w": 64, "h": 64 }
+        ]
+      },
+      "panels": {
+        "sections": [
+          { "title": "OVERALL", "span": 0.42, "columns": 1, "source": "overall", "bg": "pf-panel-2", "bg_texture": "nether-bricks", "card_anim": "none" },
+          { "title": "LANGUAGES", "span": 0.58, "columns": 2, "source": "languages", "bg": "pf-panel-2", "bg_texture": "nether-bricks", "card_anim": "none" },
+          { "title": "STREAKS", "span": 1.0, "columns": 3, "source": "streaks", "bg": "pf-panel-2", "bg_texture": "nether-bricks", "box": true, "box_texture": "crimson-planks", "card_anim": "none" }
+        ]
+      }
+    },
+    "skyline": {
+      "width": 832,
+      "height": 448,
+      "frame": false,
+      "textures": {
+        "base": "end-stone",
+        "tile": 64
+      },
+      "skyline": {
+        "levels": ["#271E3D", "#3B2754", "#552A9E", "#7A3BD6"],
+        "empty": "#B9B075"
+      }
+    },
+    "thanks": {
+      "frame": false,
+      "width": 768,
+      "height": 96,
+      "ink": "#FFFFFF",
+      "heading_scale": 0.8,
+      "heading_x": 25,
+      "heading_y": 37,
+      "textures": {
+        "base": "dirt",
+        "tile": 64
+      },
+      "icons": [
+        { "id": "cookie", "x": 701, "y": 30, "scale": 1 }
+      ]
+    }
+  }
+}
