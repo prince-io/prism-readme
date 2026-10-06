@@ -3,34 +3,34 @@
  "streaks": [
   {
    "label": "Total Contributions",
-   "value": "398",
+   "value": "400",
    "sub": "Feb 7 - Present"
   },
   {
    "label": "Current Streak",
-   "value": "12",
-   "sub": "Sep 24 - Oct 5",
+   "value": "13",
+   "sub": "Sep 24 - Oct 6",
    "unit": "days"
   },
   {
    "label": "Longest Streak",
-   "value": "12",
-   "sub": "Sep 24 - Oct 5",
+   "value": "13",
+   "sub": "Sep 24 - Oct 6",
    "unit": "days"
   }
  ],
  "languages": [
   {
    "label": "Python",
-   "value": "58.67%"
+   "value": "58.64%"
   },
   {
    "label": "JavaScript",
-   "value": "27.11%"
+   "value": "27.10%"
   },
   {
    "label": "Java",
-   "value": "9.73%"
+   "value": "9.77%"
   },
   {
    "label": "TeX",
@@ -42,7 +42,7 @@
   },
   {
    "label": "Shell",
-   "value": "0.45%"
+   "value": "0.44%"
   }
  ]
 }
