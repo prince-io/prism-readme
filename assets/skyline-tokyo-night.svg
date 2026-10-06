@@ -2187,9 +2187,9 @@
     </g>
 
     <g class="pf-bar" style="transform-origin:758.5px 396.9px;animation-delay:1.040s">
-        <polygon points="746.98,396.92 758.51,403.36 758.51,382.90 746.98,376.46" fill="#bcc2d6"/>
-        <polygon points="770.03,396.92 758.51,403.36 758.51,382.90 770.03,376.46" fill="#989dad"/>
-        <polygon points="758.51,370.02 770.03,376.46 758.51,382.90 746.98,376.46" fill="#E0E7FF"/>
+        <polygon points="746.98,396.92 758.51,403.36 758.51,367.66 746.98,361.21" fill="#0599b2"/>
+        <polygon points="770.03,396.92 758.51,403.36 758.51,367.66 770.03,361.21" fill="#047c90"/>
+        <polygon points="758.51,354.77 770.03,361.21 758.51,367.66 746.98,361.21" fill="#06B6D4"/>
     </g>
 
     <g class="pf-bar" style="transform-origin:656.1px 396.9px;animation-delay:0.960s">
@@ -2208,6 +2208,12 @@
         <polygon points="708.57,404.08 720.10,410.52 720.10,394.28 708.57,387.83" fill="#bcc2d6"/>
         <polygon points="731.62,404.08 720.10,410.52 720.10,394.28 731.62,387.83" fill="#989dad"/>
         <polygon points="720.10,381.39 731.62,387.83 720.10,394.28 708.57,387.83" fill="#E0E7FF"/>
+    </g>
+
+    <g class="pf-bar" style="transform-origin:745.7px 404.1px;animation-delay:1.040s">
+        <polygon points="734.18,404.08 745.70,410.52 745.70,407.52 734.18,401.07" fill="#124f62"/>
+        <polygon points="757.23,404.08 745.70,410.52 745.70,407.52 757.23,401.07" fill="#0e4050"/>
+        <polygon points="745.70,394.63 757.23,401.07 745.70,407.52 734.18,401.07" fill="#155E75"/>
     </g>
 
     <g class="pf-bar" style="transform-origin:643.3px 404.1px;animation-delay:0.960s">
