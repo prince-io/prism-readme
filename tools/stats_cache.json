@@ -1,5 +1,26 @@
 {
- "overall": [],
+ "overall": [
+  {
+   "label": "Total Stars Earned",
+   "value": "0"
+  },
+  {
+   "label": "Total Commits",
+   "value": "561"
+  },
+  {
+   "label": "Total PRs",
+   "value": "0"
+  },
+  {
+   "label": "Total Issues",
+   "value": "0"
+  },
+  {
+   "label": "Contributed to (last year)",
+   "value": "0"
+  }
+ ],
  "streaks": [
   {
    "label": "Total Contributions",
