@@ -2586,7 +2586,7 @@
 
     <text class="pf-box-ink" x="400.00000000000006" y="364" text-anchor="middle" font-family="ui-monospace, monospace" font-size="13" font-weight="500" font-style="normal" letter-spacing="0.5">Current Streak</text>
 
-    <text class="pf-box-ink" x="400.00000000000006" y="388" text-anchor="middle" font-family="ui-monospace, monospace" font-size="20" font-weight="700" font-style="normal" letter-spacing="0.5">13 days</text>
+    <text class="pf-box-ink" x="400.00000000000006" y="388" text-anchor="middle" font-family="ui-monospace, monospace" font-size="20" font-weight="700" font-style="normal" letter-spacing="0.5">0 days</text>
 
     <text class="pf-box-ink" x="400.00000000000006" y="404" text-anchor="middle" font-family="ui-monospace, monospace" font-size="10" font-weight="500" font-style="normal" letter-spacing="0.5">Sep 24 - Oct 6</text>
 
@@ -2595,6 +2595,4 @@
     <text class="pf-box-ink" x="653.3333333333334" y="364" text-anchor="middle" font-family="ui-monospace, monospace" font-size="13" font-weight="500" font-style="normal" letter-spacing="0.5">Longest Streak</text>
 
     <text class="pf-box-ink" x="653.3333333333334" y="388" text-anchor="middle" font-family="ui-monospace, monospace" font-size="20" font-weight="700" font-style="normal" letter-spacing="0.5">13 days</text>
-
-    <text class="pf-box-ink" x="653.3333333333334" y="404" text-anchor="middle" font-family="ui-monospace, monospace" font-size="10" font-weight="500" font-style="normal" letter-spacing="0.5">Sep 24 - Oct 6</text>
 </svg>

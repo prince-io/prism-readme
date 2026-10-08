@@ -29,14 +29,14 @@
   },
   {
    "label": "Current Streak",
-   "value": "13",
+   "value": "0",
    "sub": "Sep 24 - Oct 6",
    "unit": "days"
   },
   {
    "label": "Longest Streak",
    "value": "13",
-   "sub": "Sep 24 - Oct 6",
+   "sub": "",
    "unit": "days"
   }
  ],
