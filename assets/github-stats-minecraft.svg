@@ -1736,87 +1736,61 @@
       <rect class="pf-ink" x="88" y="68" width="412" height="3"/>
     </g>
 
-    <rect fill="url(#pf-tex-nether-bricks)" x="28" y="89" width="314.15999999999997" height="176" rx="0"/>
+    <rect fill="url(#pf-tex-nether-bricks)" x="28" y="89" width="776.0" height="128" rx="0"/>
 
-    <text class="pf-ink" x="40" y="115" text-anchor="start" font-family="ui-monospace, monospace" font-size="14" font-weight="700" font-style="normal" letter-spacing="1">OVERALL</text>
+    <text class="pf-ink" x="40" y="115" text-anchor="start" font-family="ui-monospace, monospace" font-size="14" font-weight="700" font-style="normal" letter-spacing="1">LANGUAGES</text>
 
-    <rect class="pf-ink" x="40" y="121" width="290.15999999999997" height="1"/>
+    <rect class="pf-ink" x="40" y="121" width="752.0" height="1"/>
 
-    <text class="pf-ink-muted" x="40.0" y="146" text-anchor="start" font-family="ui-monospace, monospace" font-size="13" font-weight="500" font-style="normal" letter-spacing="0.5">Total Stars Earned</text>
+    <text class="pf-ink-muted" x="40.0" y="146" text-anchor="start" font-family="ui-monospace, monospace" font-size="13" font-weight="500" font-style="normal" letter-spacing="0.5">Python</text>
 
-    <text class="pf-ink" x="330.15999999999997" y="146" text-anchor="end" font-family="ui-monospace, monospace" font-size="13" font-weight="700" font-style="normal" letter-spacing="0.5">0</text>
+    <text class="pf-ink" x="396.0" y="146" text-anchor="end" font-family="ui-monospace, monospace" font-size="13" font-weight="700" font-style="normal" letter-spacing="0.5">58.64%</text>
 
-    <text class="pf-ink-muted" x="40.0" y="170" text-anchor="start" font-family="ui-monospace, monospace" font-size="13" font-weight="500" font-style="normal" letter-spacing="0.5">Total Commits</text>
+    <text class="pf-ink-muted" x="40.0" y="170" text-anchor="start" font-family="ui-monospace, monospace" font-size="13" font-weight="500" font-style="normal" letter-spacing="0.5">JavaScript</text>
 
-    <text class="pf-ink" x="330.15999999999997" y="170" text-anchor="end" font-family="ui-monospace, monospace" font-size="13" font-weight="700" font-style="normal" letter-spacing="0.5">561</text>
+    <text class="pf-ink" x="396.0" y="170" text-anchor="end" font-family="ui-monospace, monospace" font-size="13" font-weight="700" font-style="normal" letter-spacing="0.5">27.10%</text>
 
-    <text class="pf-ink-muted" x="40.0" y="194" text-anchor="start" font-family="ui-monospace, monospace" font-size="13" font-weight="500" font-style="normal" letter-spacing="0.5">Total PRs</text>
+    <text class="pf-ink-muted" x="40.0" y="194" text-anchor="start" font-family="ui-monospace, monospace" font-size="13" font-weight="500" font-style="normal" letter-spacing="0.5">Java</text>
 
-    <text class="pf-ink" x="330.15999999999997" y="194" text-anchor="end" font-family="ui-monospace, monospace" font-size="13" font-weight="700" font-style="normal" letter-spacing="0.5">0</text>
+    <text class="pf-ink" x="396.0" y="194" text-anchor="end" font-family="ui-monospace, monospace" font-size="13" font-weight="700" font-style="normal" letter-spacing="0.5">9.77%</text>
 
-    <text class="pf-ink-muted" x="40.0" y="218" text-anchor="start" font-family="ui-monospace, monospace" font-size="13" font-weight="500" font-style="normal" letter-spacing="0.5">Total Issues</text>
-
-    <text class="pf-ink" x="330.15999999999997" y="218" text-anchor="end" font-family="ui-monospace, monospace" font-size="13" font-weight="700" font-style="normal" letter-spacing="0.5">0</text>
-
-    <text class="pf-ink-muted" x="40.0" y="242" text-anchor="start" font-family="ui-monospace, monospace" font-size="13" font-weight="500" font-style="normal" letter-spacing="0.5">Contributed to (last year)</text>
-
-    <text class="pf-ink" x="330.15999999999997" y="242" text-anchor="end" font-family="ui-monospace, monospace" font-size="13" font-weight="700" font-style="normal" letter-spacing="0.5">0</text>
-
-    <rect fill="url(#pf-tex-nether-bricks)" x="370.15999999999997" y="89" width="433.84" height="176" rx="0"/>
-
-    <text class="pf-ink" x="382.15999999999997" y="115" text-anchor="start" font-family="ui-monospace, monospace" font-size="14" font-weight="700" font-style="normal" letter-spacing="1">LANGUAGES</text>
-
-    <rect class="pf-ink" x="382.15999999999997" y="121" width="409.84000000000003" height="1"/>
-
-    <text class="pf-ink-muted" x="382.15999999999997" y="146" text-anchor="start" font-family="ui-monospace, monospace" font-size="13" font-weight="500" font-style="normal" letter-spacing="0.5">Python</text>
-
-    <text class="pf-ink" x="567.0799999999999" y="146" text-anchor="end" font-family="ui-monospace, monospace" font-size="13" font-weight="700" font-style="normal" letter-spacing="0.5">58.64%</text>
-
-    <text class="pf-ink-muted" x="382.15999999999997" y="170" text-anchor="start" font-family="ui-monospace, monospace" font-size="13" font-weight="500" font-style="normal" letter-spacing="0.5">JavaScript</text>
-
-    <text class="pf-ink" x="567.0799999999999" y="170" text-anchor="end" font-family="ui-monospace, monospace" font-size="13" font-weight="700" font-style="normal" letter-spacing="0.5">27.10%</text>
-
-    <text class="pf-ink-muted" x="382.15999999999997" y="194" text-anchor="start" font-family="ui-monospace, monospace" font-size="13" font-weight="500" font-style="normal" letter-spacing="0.5">Java</text>
-
-    <text class="pf-ink" x="567.0799999999999" y="194" text-anchor="end" font-family="ui-monospace, monospace" font-size="13" font-weight="700" font-style="normal" letter-spacing="0.5">9.77%</text>
-
-    <text class="pf-ink-muted" x="607.0799999999999" y="146" text-anchor="start" font-family="ui-monospace, monospace" font-size="13" font-weight="500" font-style="normal" letter-spacing="0.5">TeX</text>
+    <text class="pf-ink-muted" x="436.0" y="146" text-anchor="start" font-family="ui-monospace, monospace" font-size="13" font-weight="500" font-style="normal" letter-spacing="0.5">TeX</text>
 
     <text class="pf-ink" x="792.0" y="146" text-anchor="end" font-family="ui-monospace, monospace" font-size="13" font-weight="700" font-style="normal" letter-spacing="0.5">2.08%</text>
 
-    <text class="pf-ink-muted" x="607.0799999999999" y="170" text-anchor="start" font-family="ui-monospace, monospace" font-size="13" font-weight="500" font-style="normal" letter-spacing="0.5">CSS</text>
+    <text class="pf-ink-muted" x="436.0" y="170" text-anchor="start" font-family="ui-monospace, monospace" font-size="13" font-weight="500" font-style="normal" letter-spacing="0.5">CSS</text>
 
     <text class="pf-ink" x="792.0" y="170" text-anchor="end" font-family="ui-monospace, monospace" font-size="13" font-weight="700" font-style="normal" letter-spacing="0.5">1.96%</text>
 
-    <text class="pf-ink-muted" x="607.0799999999999" y="194" text-anchor="start" font-family="ui-monospace, monospace" font-size="13" font-weight="500" font-style="normal" letter-spacing="0.5">Shell</text>
+    <text class="pf-ink-muted" x="436.0" y="194" text-anchor="start" font-family="ui-monospace, monospace" font-size="13" font-weight="500" font-style="normal" letter-spacing="0.5">Shell</text>
 
     <text class="pf-ink" x="792.0" y="194" text-anchor="end" font-family="ui-monospace, monospace" font-size="13" font-weight="700" font-style="normal" letter-spacing="0.5">0.44%</text>
 
-    <rect fill="url(#pf-tex-nether-bricks)" x="28" y="295" width="776.0" height="133" rx="0"/>
+    <rect fill="url(#pf-tex-nether-bricks)" x="28" y="247" width="776.0" height="133" rx="0"/>
 
-    <text class="pf-ink" x="40" y="321" text-anchor="start" font-family="ui-monospace, monospace" font-size="14" font-weight="700" font-style="normal" letter-spacing="1">STREAKS</text>
+    <text class="pf-ink" x="40" y="273" text-anchor="start" font-family="ui-monospace, monospace" font-size="14" font-weight="700" font-style="normal" letter-spacing="1">STREAKS</text>
 
-    <rect class="pf-ink" x="40" y="327" width="752.0" height="1"/>
+    <rect class="pf-ink" x="40" y="279" width="752.0" height="1"/>
 
-    <rect fill="url(#pf-tex-crimson-planks)" x="40.0" y="339" width="224.0" height="77"/>
+    <rect fill="url(#pf-tex-crimson-planks)" x="40.0" y="291" width="224.0" height="77"/>
 
-    <text class="pf-box-ink" x="152.0" y="364" text-anchor="middle" font-family="ui-monospace, monospace" font-size="13" font-weight="500" font-style="normal" letter-spacing="0.5">Total Contributions</text>
+    <text class="pf-box-ink" x="152.0" y="316" text-anchor="middle" font-family="ui-monospace, monospace" font-size="13" font-weight="500" font-style="normal" letter-spacing="0.5">Total Contributions</text>
 
-    <text class="pf-box-ink" x="152.0" y="388" text-anchor="middle" font-family="ui-monospace, monospace" font-size="20" font-weight="700" font-style="normal" letter-spacing="0.5">400</text>
+    <text class="pf-box-ink" x="152.0" y="340" text-anchor="middle" font-family="ui-monospace, monospace" font-size="20" font-weight="700" font-style="normal" letter-spacing="0.5">400</text>
 
-    <text class="pf-box-ink" x="152.0" y="404" text-anchor="middle" font-family="ui-monospace, monospace" font-size="10" font-weight="500" font-style="normal" letter-spacing="0.5">Feb 7 - Present</text>
+    <text class="pf-box-ink" x="152.0" y="356" text-anchor="middle" font-family="ui-monospace, monospace" font-size="10" font-weight="500" font-style="normal" letter-spacing="0.5">Feb 7 - Present</text>
 
-    <rect fill="url(#pf-tex-crimson-planks)" x="304.0" y="339" width="224.0" height="77"/>
+    <rect fill="url(#pf-tex-crimson-planks)" x="304.0" y="291" width="224.0" height="77"/>
 
-    <text class="pf-box-ink" x="416.0" y="364" text-anchor="middle" font-family="ui-monospace, monospace" font-size="13" font-weight="500" font-style="normal" letter-spacing="0.5">Current Streak</text>
+    <text class="pf-box-ink" x="416.0" y="316" text-anchor="middle" font-family="ui-monospace, monospace" font-size="13" font-weight="500" font-style="normal" letter-spacing="0.5">Current Streak</text>
 
-    <text class="pf-box-ink" x="416.0" y="388" text-anchor="middle" font-family="ui-monospace, monospace" font-size="20" font-weight="700" font-style="normal" letter-spacing="0.5">0 days</text>
+    <text class="pf-box-ink" x="416.0" y="340" text-anchor="middle" font-family="ui-monospace, monospace" font-size="20" font-weight="700" font-style="normal" letter-spacing="0.5">0 days</text>
 
-    <text class="pf-box-ink" x="416.0" y="404" text-anchor="middle" font-family="ui-monospace, monospace" font-size="10" font-weight="500" font-style="normal" letter-spacing="0.5">Sep 24 - Oct 6</text>
+    <text class="pf-box-ink" x="416.0" y="356" text-anchor="middle" font-family="ui-monospace, monospace" font-size="10" font-weight="500" font-style="normal" letter-spacing="0.5">Sep 24 - Oct 6</text>
 
-    <rect fill="url(#pf-tex-crimson-planks)" x="568.0" y="339" width="224.0" height="77"/>
+    <rect fill="url(#pf-tex-crimson-planks)" x="568.0" y="291" width="224.0" height="77"/>
 
-    <text class="pf-box-ink" x="680.0" y="364" text-anchor="middle" font-family="ui-monospace, monospace" font-size="13" font-weight="500" font-style="normal" letter-spacing="0.5">Longest Streak</text>
+    <text class="pf-box-ink" x="680.0" y="316" text-anchor="middle" font-family="ui-monospace, monospace" font-size="13" font-weight="500" font-style="normal" letter-spacing="0.5">Longest Streak</text>
 
-    <text class="pf-box-ink" x="680.0" y="388" text-anchor="middle" font-family="ui-monospace, monospace" font-size="20" font-weight="700" font-style="normal" letter-spacing="0.5">13 days</text>
+    <text class="pf-box-ink" x="680.0" y="340" text-anchor="middle" font-family="ui-monospace, monospace" font-size="20" font-weight="700" font-style="normal" letter-spacing="0.5">13 days</text>
 </svg>
