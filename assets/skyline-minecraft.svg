@@ -2430,6 +2430,12 @@
         <polygon points="742.14,401.93 753.88,408.49 742.14,415.06 730.40,408.49" fill="#B9B075"/>
     </g>
 
+    <g class="pf-bar" style="transform-origin:768.2px 411.5px;animation-delay:1.040s">
+        <polygon points="756.49,411.55 768.23,418.12 768.23,415.06 756.49,408.49" fill="#9b9462"/>
+        <polygon points="779.97,411.55 768.23,418.12 768.23,415.06 779.97,408.49" fill="#7e7850"/>
+        <polygon points="768.23,401.93 779.97,408.49 768.23,415.06 756.49,408.49" fill="#B9B075"/>
+    </g>
+
     <g class="pf-bar" style="transform-origin:663.9px 411.5px;animation-delay:0.960s">
         <polygon points="652.12,411.55 663.86,418.12 663.86,397.27 652.12,390.71" fill="#211933"/>
         <polygon points="675.60,411.55 663.86,418.12 663.86,397.27 675.60,390.71" fill="#1b1429"/>
