@@ -2210,6 +2210,12 @@
         <polygon points="720.10,394.63 731.62,401.07 720.10,407.52 708.57,401.07" fill="#854D0E"/>
     </g>
 
+    <g class="pf-bar" style="transform-origin:745.7px 404.1px;animation-delay:1.040s">
+        <polygon points="734.18,404.08 745.70,410.52 745.70,407.52 734.18,401.07" fill="#70410c"/>
+        <polygon points="757.23,404.08 745.70,410.52 745.70,407.52 757.23,401.07" fill="#5a340a"/>
+        <polygon points="745.70,394.63 757.23,401.07 745.70,407.52 734.18,401.07" fill="#854D0E"/>
+    </g>
+
     <g class="pf-bar" style="transform-origin:643.3px 404.1px;animation-delay:0.960s">
         <polygon points="631.75,404.08 643.27,410.52 643.27,386.06 631.75,379.62" fill="#d2c3d6"/>
         <polygon points="654.80,404.08 643.27,410.52 643.27,386.06 654.80,379.62" fill="#aa9ead"/>
